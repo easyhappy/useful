@@ -1,0 +1,27 @@
+动态生成函数的方法
+groups.each do |group|
+    self.class_eval <<-METHOD
+      def #{group}
+        group_name = :#{group}
+        render_index(group_name)
+      end                                   
+    METHOD
+end
+
+groups.each do |group|
+    define_method(group)do
+      render_index(group)
+    end
+end
+
+def render_index
+    caller[0] =~ /`(.*?)'/
+    group_name = $1.to_sym
+    @bills = self.current_models.send(group_name)
+    render 'bills_groups/index'
+end
+
+groups.each do |group|
+ define_method(group, instance_method(:render_index)
+end
+
