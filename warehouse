@@ -1,0 +1,52 @@
+（一）第一次提交 增加导航条
+
+(1)修改view的导航
+   companies/show.rb 里面增加导航栏 仓库
+
+(2)修改view的工具栏
+   添加 products/warehouses/functions.erb
+
+(3)修改route
+   新建warehouse.rb
+
+(二) 第二次提交 修改controller 名字
+(1) Products::WarehousesController 改成 WarehousesController 以及 重定义 model_type
+
+(2) 修改functional
+
+
+修改controller
+  Products::WarehousesController 改成 WarehousesController
+	将products/warehouses_controller.rb里面的内容放到 app/controller/warehouses_controller.rb
+
+(4)修改view
+	将products/warehouses/的内容 移到 app/warehouses下
+	companies/show.rb 里面增加导航栏 仓库
+
+(9)修改functional
+	将products/warehouses_controller_test.rb 移到 warehouses_controller_test.rb
+
+(1)修改数据库
+	products_warehouses 改为warehouses
+
+(3)修改model
+	bill.rb中 belongs_to :warehouse, :class_name => 'ProductsWarehouse'        去掉          :class_name => 'ProductsWarehouse'
+        
+  	company.rb中has_many :products_warehouses,            :dependent => :destroy  去掉 warehouses
+
+	products.rb中 has_many :warehouses , :class_name => 'ProductsWarehouse', :through => :inventories  去掉  :class_name => 'ProductsWarehouse'
+
+	products_warehouses.rb 改为 warhouses.rb
+
+	
+(5)修改config/locales
+	将products/warehouses的内容移到cn/warehouses/里面
+
+(7)在lib/awebook/models/inventory_counting中修改将对应的 products_warehosues 修改为warehouse
+
+
+(8)修改fixtures
+	products_warehosue.yml 修改为warehouse.yml
+
+(10)修改unit
+	将products_warehouse 改为 warehouse
