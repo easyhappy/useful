@@ -1,5 +1,10 @@
-(1)initialChooseButton
-var onSelected = function(productRow, lineitemRow){
+App.Bill.LineItems.initialRow()--->>>
+initialChooseButton(row)--->>>
+App.LineItems.initialChooseProductButton(row, onSelected)--->>>
+App.LineItems.initialChooseProductDialog(onSelected)
+
+(1)initialChooseButton: function(row){
+        var onSelected = function(productRow, lineitemRow){
             var number = productRow.find('.product_number_data')[0].innerHTML;
             var name = productRow.find('.product_name_data')[0].innerHTML;
             var price = productRow.find('.product_price_data').attr('value');
@@ -8,6 +13,9 @@ var onSelected = function(productRow, lineitemRow){
             lineitemRow.find('.bill_line_item_price_data input').flickervalue(price);
             App.Bill.LineItems.calculateLineItemTotal(lineitemRow);
         };
+            
+        App.LineItems.initialChooseProductButton(row, onSelected);
+    },
 目的是将双击的商品信息 填入到 line_item 里面
 
 
@@ -35,3 +43,8 @@ var onSelected = function(productRow, lineitemRow){
             })
         });
     },
+
+
+问题 colorbox 在哪定义的？
+
+
