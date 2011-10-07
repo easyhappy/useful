@@ -1,0 +1,14 @@
+(1)在search_key的 里面建立assignee_id 和 department_id
+(2)现在的逻辑： 如果部门 没有选定的话： 在模块记录权限就没有 “可以访问部门记录”
+(3)product,contact, 没有assignee
+   bill, inventory_checking有assignee
+(4) 如果当前employee的 权限为： 只访问自己负责的记录的话
+where(:assigee_id =[current_user.id, ''])
+验证在 product存储的时候， assignee_id  = '' 现在 输入 1  就应该显示 相应的 product
+
+(5)如果 权限为： 只能访问部门所在的记录的话
+where(:department_id = [current_user.department.id, ''])
+
+
+(6)如果权限为： 可以访问所有的记录
+where(:all)
