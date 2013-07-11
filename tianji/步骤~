@@ -1,0 +1,75 @@
+1: 目前为止 bundle install 全部跑通
+2: rake db:migrate运行 报错 参见
+3：安装mysql
+sudo apt-get install mysql-server
+sudo apt-get install mysql-client-core-5.5
+
+已root方式登录
+mysql -uroot -p你的root密码
+创建用户: tianji
+insert into mysql.user(Host, User, Password) values("localhost", 'tianji', password('tianji'));
+//刷新系统权限表
+flush privileges;
+create database tianji
+grant all privileges on tianji.* to tianji@localhost identified by 'tianji';
+flush privileges;
+exit， 然后采用 mysql -utianji -ptianji登录
+
+参考文章
+http://database.51cto.com/art/201010/229841.htm
+http://www.howtogeek.com/howto/ubuntu/install-mysql-server-5-on-ubuntu/
+
+
+4: 运行 ./bin/db_rebuild.sh
+  with invalid byte sequence in US-ASCII
+
+  修改方法
+  vim ~/.bashrc
+  添加 一行 export RUBYOPT="-U -Ku -E utf-8:utf-8"
+
+
+5: ./bin/db_rebuild.sh
+出现如下错误
+An error has occurred, all later migrations canceled:
+
+translation missing: zh-CN.activerecord.errors.messages.record_invalid/home/andy/.rvm/gems/ruby-1.9.3-p448@rails3.2.12/gems/activerecord-3.2.13/lib/active_record/validations.rb:56:in `save!'
+/home/andy/.rvm/gems/ruby-1.9.3-p448@rails3.2.12/gems/activerecord-3.2.13/lib/active_record/attribute_methods/dirty.rb:33:in `save!'
+/home/andy/.rvm/gems/ruby-1.9.3-p448@rails3.2.12/gems/activerecord-3.2.13/lib/active_record/transactions.rb:264:in `block in save!'
+/home/andy/.rvm/gems/ruby-1.9.3-p448@rails3.2.12/gems/activerecord-3.2.13/lib/active_record/transactions.rb:313:in `block in with_transaction_returning_status'
+/home/andy/.rvm/gems/ruby-1.9.3-p448@rails3.2.12/gems/activerecord-3.2.13/lib/active_record/connection_adapters/abstract/database_statements.rb:192:in `transaction'
+/home/andy/.rvm/gems/ruby-1.9.3-p448@rails3.2.12/gems/activerecord-3.2.13/lib/active_record/transactions.rb:208:in `transaction'
+/home/andy/.rvm/gems/ruby-1.9.3-p448@rails3.2.12/gems/activerecord-3.2.13/lib/active_record/transactions.rb:311:in `with_transaction_returning_status'
+/home/andy/.rvm/gems/ruby-1.9.3-p448@rails3.2.12/gems/activerecord-3.2.13/lib/active_record/transactions.rb:264:in `save!'
+/home/andy/.rvm/gems/ruby-1.9.3-p448@rails3.2.12/gems/activerecord-3.2.13/lib/active_record/validations.rb:41:in `create!'
+/home/andy/Documents/tianjicom/db/migrate/20130602035189_create_normandy_prizes.rb:19:in `change'
+/home/andy/.rvm/gems/ruby-1.9.3-p448@rails3.2.12/gems/activerecord-3.2.13/lib/active_record/migration.rb:407:in `block (2 levels) in migrate'
+/home/andy/.rvm/gems/ruby-1.9.3-p448@rails3.2.12/gems/activerecord-3.2.13/lib/active_record/migration.rb:407:in `block in migrate'
+/home/andy/.rvm/gems/ruby-1.9.3-p448@rails3.2.12/gems/activerecord-3.2.13/lib/active_record/connection_adapters/abstract/connection_pool.rb:129:in `with_connection'
+/home/andy/.rvm/gems/ruby-1.9.3-p448@rails3.2.12/gems/activerecord-3.2.13/lib/active_record/migration.rb:389:in `migrate'
+/home/andy/.rvm/gems/ruby-1.9.3-p448@rails3.2.12/gems/activerecord-3.2.13/lib/active_record/migration.rb:528:in `migrate'
+/home/andy/.rvm/gems/ruby-1.9.3-p448@rails3.2.12/gems/activerecord-3.2.13/lib/active_record/migration.rb:720:in `block (2 levels) in migrate'
+/home/andy/.rvm/gems/ruby-1.9.3-p448@rails3.2.12/gems/activerecord-3.2.13/lib/active_record/migration.rb:777:in `call'
+/home/andy/.rvm/gems/ruby-1.9.3-p448@rails3.2.12/gems/activerecord-3.2.13/lib/active_record/migration.rb:777:in `ddl_transaction'
+/home/andy/.rvm/gems/ruby-1.9.3-p448@rails3.2.12/gems/activerecord-3.2.13/lib/active_record/migration.rb:719:in `block in migrate'
+/home/andy/.rvm/gems/ruby-1.9.3-p448@rails3.2.12/gems/activerecord-3.2.13/lib/active_record/migration.rb:700:in `each'
+/home/andy/.rvm/gems/ruby-1.9.3-p448@rails3.2.12/gems/activerecord-3.2.13/lib/active_record/migration.rb:700:in `migrate'
+/home/andy/.rvm/gems/ruby-1.9.3-p448@rails3.2.12/gems/activerecord-3.2.13/lib/active_record/migration.rb:570:in `up'
+/home/andy/.rvm/gems/ruby-1.9.3-p448@rails3.2.12/gems/activerecord-3.2.13/lib/active_record/migration.rb:551:in `migrate'
+/home/andy/.rvm/gems/ruby-1.9.3-p448@rails3.2.12/gems/activerecord-3.2.13/lib/active_record/railties/databases.rake:193:in `block (2 levels) in <top (required)>'
+/home/andy/.rvm/gems/ruby-1.9.3-p448@rails3.2.12/bin/ruby_noexec_wrapper:14:in `eval'
+/home/andy/.rvm/gems/ruby-1.9.3-p448@rails3.2.12/bin/ruby_noexec_wrapper:14:in `<main>'
+Tasks: TOP => db:migrate
+(See full trace by running task with --trace)
+
+
+
+修改方式： 
+db/migrate/20130602035189_create_normandy_prizes.rb
+注释掉19行-21行
+原因是 这个migration 依赖seed数据， 但是这个时候 还有seed数据
+
+
+7: rails s 启动发现 css 加载不成功
+   原因是一些静态资源放到 静态服务器上了
+   echo "http://static.tianji.com" > tmp/static_host
+

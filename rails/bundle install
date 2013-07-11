@@ -1,0 +1,9 @@
+bundle install 时遇到的问题:
+fatal: ambiguous argument 'mongoid-3.0': unknown revision or path not in the working tree.
+Use '--' to separate paths from revisions
+Git error: command `git rev-parse mongoid-3.0` in directory
+/home/andy/.rvm/gems/ruby-1.9.3-p448@rails3.2.12/cache/bundler/git/carrierwave-mongoid-0cff309ebc906f5b1ad69d819edba8e37dcad1fd
+has failed.
+If this error persists you could try removing the cache directory
+'/home/andy/.rvm/gems/ruby-1.9.3-p448@rails3.2.12/cache/bundler/git/carrierwave-mongoid-0cff309ebc906f5b1ad69d819edba8e37dcad1fd'
+

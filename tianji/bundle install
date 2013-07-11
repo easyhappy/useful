@@ -1,0 +1,15 @@
+bundle install 遇到的问题
+
+Fetching git://github.com/jnicklas/carrierwave-mongoid.git
+remote: Counting objects: 661, done.
+remote: Compressing objects: 100% (349/349), done.
+remote: Total 661 (delta 277), reused 590 (delta 218)
+Receiving objects: 100% (661/661), 128.57 KiB | 26 KiB/s, done.
+Resolving deltas: 100% (277/277), done.
+fatal: ambiguous argument 'mongoid-3.0': unknown revision or path not in the working tree.
+Use '--' to separate paths from revisions
+Git error: command `git rev-parse mongoid-3.0` in directory
+/home/andy/.rvm/gems/ruby-1.9.3-p448@rails3.2.12/cache/bundler/git/carrierwave-mongoid-0cff309ebc906f5b1ad69d819edba8e37dcad1fd has failed.
+If this error persists you could try removing the cache directory
+'/home/andy/.rvm/gems/ruby-1.9.3-p448@rails3.2.12/cache/bundler/git/carrierwave-mongoid-0cff309ebc906f5b1ad69d819edba8e37dcad1fd'
+

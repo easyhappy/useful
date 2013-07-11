@@ -1,0 +1,34 @@
+报错如下: 
+rake db:migrate
+rake aborted!
+Could not find a JavaScript runtime. See https://github.com/sstephenson/execjs for a list of available runtimes.
+/home/andy/.rvm/gems/ruby-1.9.3-p448@rails3.2.12/gems/execjs-1.4.0/lib/execjs/runtimes.rb:51:in `autodetect'
+/home/andy/.rvm/gems/ruby-1.9.3-p448@rails3.2.12/gems/execjs-1.4.0/lib/execjs.rb:5:in `<module:ExecJS>'
+/home/andy/.rvm/gems/ruby-1.9.3-p448@rails3.2.12/gems/execjs-1.4.0/lib/execjs.rb:4:in `<top (required)>'
+/home/andy/.rvm/gems/ruby-1.9.3-p448@rails3.2.12/gems/coffee-script-2.2.0/lib/coffee_script.rb:1:in `require'
+/home/andy/.rvm/gems/ruby-1.9.3-p448@rails3.2.12/gems/coffee-script-2.2.0/lib/coffee_script.rb:1:in `<top (required)>'
+/home/andy/.rvm/gems/ruby-1.9.3-p448@rails3.2.12/gems/coffee-script-2.2.0/lib/coffee-script.rb:1:in `require'
+/home/andy/.rvm/gems/ruby-1.9.3-p448@rails3.2.12/gems/coffee-script-2.2.0/lib/coffee-script.rb:1:in `<top (required)>'
+/home/andy/.rvm/gems/ruby-1.9.3-p448@rails3.2.12/gems/coffee-rails-3.2.2/lib/coffee-rails.rb:1:in `require'
+/home/andy/.rvm/gems/ruby-1.9.3-p448@rails3.2.12/gems/coffee-rails-3.2.2/lib/coffee-rails.rb:1:in `<top (required)>'
+/home/andy/.rvm/gems/ruby-1.9.3-p448@rails3.2.12/gems/bundler-1.3.5/lib/bundler/runtime.rb:72:in `require'
+/home/andy/.rvm/gems/ruby-1.9.3-p448@rails3.2.12/gems/bundler-1.3.5/lib/bundler/runtime.rb:72:in `block (2 levels) in require'
+/home/andy/.rvm/gems/ruby-1.9.3-p448@rails3.2.12/gems/bundler-1.3.5/lib/bundler/runtime.rb:70:in `each'
+/home/andy/.rvm/gems/ruby-1.9.3-p448@rails3.2.12/gems/bundler-1.3.5/lib/bundler/runtime.rb:70:in `block in require'
+/home/andy/.rvm/gems/ruby-1.9.3-p448@rails3.2.12/gems/bundler-1.3.5/lib/bundler/runtime.rb:59:in `each'
+/home/andy/.rvm/gems/ruby-1.9.3-p448@rails3.2.12/gems/bundler-1.3.5/lib/bundler/runtime.rb:59:in `require'
+/home/andy/.rvm/gems/ruby-1.9.3-p448@rails3.2.12/gems/bundler-1.3.5/lib/bundler.rb:132:in `require'
+/home/andy/Documents/tianjicom/config/application.rb:13:in `<top (required)>'
+/home/andy/Documents/tianjicom/Rakefile:5:in `require'
+/home/andy/Documents/tianjicom/Rakefile:5:in `<top (required)>'
+/home/andy/.rvm/gems/ruby-1.9.3-p448@rails3.2.12/bin/ruby_noexec_wrapper:14:in `eval'
+/home/andy/.rvm/gems/ruby-1.9.3-p448@rails3.2.12/bin/ruby_noexec_wrapper:14:in `<main>'
+(See full trace by running task with --trace)
+
+解决方案:
+http://stackoverflow.com/questions/6282307/execjs-and-could-not-find-a-javascript-runtime
+
+rake db:migrate
+You're running a version of ruby with no Readline support
+Please `gem install rb-readline` or recompile ruby --with-readline.
+

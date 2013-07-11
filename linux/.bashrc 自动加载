@@ -1,0 +1,6 @@
+vim ~/.bash_profile
+添加以下几行
+
+if [ -f ~/.bashrc ]; then 
+. ~/.bashrc 
+fi 

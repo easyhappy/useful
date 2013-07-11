@@ -1,0 +1,15 @@
+ sudo apt-get install vsftpd
+ 
+ sudo vim /etc/vsftd.conf
+ 
+
+配置说明
+http://blog.renhao.org/2010/07/use-vsftpd-to-build-ftp-server-on-ubuntu/
+http://forum.ubuntu.org.cn/viewtopic.php?t=104785
+
+http://www.07net01.com/storage_networking/ubuntupeizhiftp_server_44819_1356455323.html
+
+
+编码 修改为
+tools--> 编码 改为自动识别
+

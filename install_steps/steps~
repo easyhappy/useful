@@ -1,0 +1,42 @@
+1: install ibus
+
+source url: http://code.google.com/p/ibus/wiki/Ubuntu
+command:
+	sudo apt-get install ibus ibus-clutter ibus-gtk ibus-gtk3 ibus-qt4
+	sudo apt-get install ibus-pinyin # or other engine(s) you want
+	im-switch -s ibus
+	# logout and re-login
+	ibus-setup # add input methods you want
+
+2: install chrome
+source url: 
+http://www.cyberciti.biz/faq/how-to-install-google-chrome-in-ubuntu-linux-12-xx-13-xx/
+http://www.krizna.com/ubuntu/install-google-chrome-ubuntu-12-04/
+
+command:
+	cd ~/Downloads/
+	wget http://www.liberiangeek.net/2012/10/heres-how-to-install-google-chrome-in-ubuntu-12-10-quantal-quetzal/
+	
+	sudo dpkg -i google*
+	sudo apt-get -f install
+	
+问题： 
+貌似这样 安装 不好使， 最后是通过software center进行安装的
+
+
+3: 安装rails 环境
+   source url: 
+   http://ruby-china.org/wiki/install_ruby_guide
+
+遇到问题：
+a) 将镜像改为淘宝的镜像
+sed -i .bak 's!ftp.ruby-lang.org/pub/ruby!ruby.taobao.org/mirrors/ruby!' $rvm_path/config/db
+修改为:
+sed -i -e 's/ftp\.ruby-lang\.org\/pub\/ruby/ruby\.taobao\.org\/mirrors\/ruby/g' ~/.rvm/config/db
+
+b) readline的作用是使得可以在命令行回滚历史命令
+
+
+4: 安装sublime text 
+   安装包 http://www.sublimetext.com/2
+   安装过程 http://www.technoreply.com/how-to-install-sublime-text-2-on-ubuntu-12-04-unity/

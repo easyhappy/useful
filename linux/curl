@@ -1,0 +1,2 @@
+curl -o local_name url
+curl -O url 将remote name 作为 local name

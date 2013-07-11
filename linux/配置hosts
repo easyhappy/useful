@@ -1,0 +1,5 @@
+sudo vim /etc/hosts
+sudo /etc/init.d/networking restart
+
+原始地址: 
+http://l.14551.org/2009/12/2166

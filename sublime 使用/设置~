@@ -1,0 +1,10 @@
+0、http://www.daqianduan.com/sublime-text/
+
+1、设置自定义快捷键
+   开关 侧栏的 命令为 ctr+k+b
+   使用起来 很不方便
+   添加自定义快捷键方式： ctr+b， 步骤
+   Preferences-> Key Bindings User 添加以下一行
+   { "keys": ["ctrl+b"], "command": "toggle_side_bar" }
+
+2、

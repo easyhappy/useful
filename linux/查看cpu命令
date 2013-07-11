@@ -1,0 +1,3 @@
+Cpu: cat /proc/cpuinfo
+Mem: cat /proc/meminfo
+lshw -C CPU

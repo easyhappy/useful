@@ -1,0 +1,4 @@
+查看
+show VARIABLES LIKE 'character_set_%'
+
+ alter database name character set utf8;
