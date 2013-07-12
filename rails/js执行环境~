@@ -1,0 +1,27 @@
+https://github.com/sstephenson/execjs for a list of available runtimes. (ExecJS::RuntimeUnavailable)
+	from /home/andy/.rvm/gems/ruby-1.9.3-p448@rails3.2.12/gems/execjs-1.4.0/lib/execjs.rb:5:in `<module:ExecJS>'
+	from /home/andy/.rvm/gems/ruby-1.9.3-p448@rails3.2.12/gems/execjs-1.4.0/lib/execjs.rb:4:in `<top (required)>'
+	from /home/andy/.rvm/gems/ruby-1.9.3-p448@rails3.2.12/gems/coffee-script-2.2.0/lib/coffee_script.rb:1:in `require'
+	from /home/andy/.rvm/gems/ruby-1.9.3-p448@rails3.2.12/gems/coffee-script-2.2.0/lib/coffee_script.rb:1:in `<top (required)>'
+	from /home/andy/.rvm/gems/ruby-1.9.3-p448@rails3.2.12/gems/coffee-script-2.2.0/lib/coffee-script.rb:1:in `require'
+	from /home/andy/.rvm/gems/ruby-1.9.3-p448@rails3.2.12/gems/coffee-script-2.2.0/lib/coffee-script.rb:1:in `<top (required)>'
+	from /home/andy/.rvm/gems/ruby-1.9.3-p448@rails3.2.12/gems/coffee-rails-3.2.2/lib/coffee-rails.rb:1:in `require'
+	from /home/andy/.rvm/gems/ruby-1.9.3-p448@rails3.2.12/gems/coffee-rails-3.2.2/lib/coffee-rails.rb:1:in `<top (required)>'
+	from /home/andy/.rvm/gems/ruby-1.9.3-p448@rails3.2.12/gems/bundler-1.3.5/lib/bundler/runtime.rb:72:in `require'
+	from /home/andy/.rvm/gems/ruby-1.9.3-p448@rails3.2.12/gems/bundler-1.3.5/lib/bundler/runtime.rb:72:in `block (2 levels) in require'
+	from /home/andy/.rvm/gems/ruby-1.9.3-p448@rails3.2.12/gems/bundler-1.3.5/lib/bundler/runtime.rb:70:in `each'
+	from /home/andy/.rvm/gems/ruby-1.9.3-p448@rails3.2.12/gems/bundler-1.3.5/lib/bundler/runtime.rb:70:in `block in require'
+	from /home/andy/.rvm/gems/ruby-1.9.3-p448@rails3.2.12/gems/bundler-1.3.5/lib/bundler/runtime.rb:59:in `each'
+	from /home/andy/.rvm/gems/ruby-1.9.3-p448@rails3.2.12/gems/bundler-1.3.5/lib/bundler/runtime.rb:59:in `require'
+	from /home/andy/.rvm/gems/ruby-1.9.3-p448@rails3.2.12/gems/bundler-1.3.5/lib/bundler.rb:132:in `require'
+	from /home/andy/Documents/tianjicom/config/application.rb:13:in `<top (required)>'
+	from /home/andy/.rvm/gems/ruby-1.9.3-p448@rails3.2.12/gems/railties-3.2.13/lib/rails/commands.rb:53:in `require'
+	from /home/andy/.rvm/gems/ruby-1.9.3-p448@rails3.2.12/gems/railties-3.2.13/lib/rails/commands.rb:53:in `block in <top (required)>'
+	from /home/andy/.rvm/gems/ruby-1.9.3-p448@rails3.2.12/gems/railties-3.2.13/lib/rails/commands.rb:50:in `tap'
+	from /home/andy/.rvm/gems/ruby-1.9.3-p448@rails3.2.12/gems/railties-3.2.13/lib/rails/commands.rb:50:in `<top (required)>'
+	from script/rails:6:in `require'
+	from script/rails:6:in `<main>'
+
+解决方法
+
+sudo apt-get install nodejs
