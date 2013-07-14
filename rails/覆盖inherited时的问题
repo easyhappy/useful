@@ -1,0 +1,12 @@
+DEPRECATION WARNING: It looks like something (probably a gem/plugin) is overriding the ActiveRecord::Base.inherited method. It is important that this hook executes so that your models are set up correctly. A workaround has been added to stop this causing an error in 3.2, but future versions will simply not work if the hook is overridden. If you are using Kaminari, please upgrade as it is known to have had this problem.
+
+
+
+解决方法
+http://stackoverflow.com/questions/10728301/deprecation-warning-with-sti-model-name-workaround
+http://yehudakatz.com/2009/03/06/alias_method_chain-in-models/
+http://stackoverflow.com/questions/7093992/how-to-have-an-inherited-callback-in-ruby-that-is-triggered-after-the-child-clas
+http://stackoverflow.com/questions/790626/ruby-can-i-have-something-like-classinherited-thats-triggered-only-after-the
+http://snails.github.io/2012/07/04/Reflection-And-MetaPrograming/
+
+https://gist.github.com/benfyvie/1019294
