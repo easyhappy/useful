@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Ruby on Rails Screencasts - RailsCasts</title>
+    <meta name="description" content="Short Ruby on Rails screencasts containing tips, tricks and tutorials. Great for both novice and experienced web developers." />
+    <meta name="keywords" content="rails, ruby on rails, screencasts, railscast, railscasts, tips, tricks, tutorials, training, podcasts, programming" />
+    <link rel="alternate" type="application/rss+xml" title="Episodes RSS" href="http://feeds.feedburner.com/railscasts" />
+    <link href="/assets/application-f33052609391fcb2333fb8c560544e00.css" media="screen" rel="stylesheet" type="text/css" />
+    <script src="http://cdn.sublimevideo.net/js/3s7oes9q.js" type="text/javascript"></script>
+    <script src="/assets/application-fe460ed6c034ee8c95a2a78f52d7a5d9.js" type="text/javascript"></script>
+    <meta content="authenticity_token" name="csrf-param" />
+<meta content="HPI3fZtGiQUD3nGx82Usq6xQhn0Hs+qs6jpQ69xo3lY=" name="csrf-token" />
+    
+  </head>
+  <body>
+    <div id="top">
+      <div class="logo"><a href="/"><img alt="RailsCasts - Ruby on Rails Screencasts" height="56" src="/assets/railscasts_logo-7101a7cd0a48292a0c07276981855edb.png" width="423" /></a></div>
+      <div class="user_nav">
+          <a href="/login?return_to=http%3A%2F%2Frailscasts.com%2F%3Fpage%3D32">Sign in through GitHub</a>
+      </div>
+      <ul class="subscribe horizontal">
+        <li>
+          <a href="http://phobos.apple.com/WebObjects/MZStore.woa/wa/viewPodcast?id=218282043"><img alt="Itunes" height="34" src="/assets/icons/itunes-ea9253b9b183d9788bef2cdfe326f38e.png" width="34" /></a>
+          <span class="name">watch on iTunes</span>
+        </li>
+        <li>
+          <a href="http://twitter.com/railscasts"><img alt="Twitter" height="34" src="/assets/icons/twitter-f0259ab802804e09139fb29f47678b2c.png" width="34" /></a>
+          <span class="name">follow on Twitter</span>
+        </li>
+        <li>
+          <a href="http://www.facebook.com/pages/railscasts/197415140659"><img alt="Facebook" height="34" src="/assets/icons/facebook-0ab869e74b54d9c58f33c1c75264d869.png" width="34" /></a>
+          <span class="name">follow on Facebook</span>
+        </li>
+        <li>
+          <a href="http://feeds.feedburner.com/railscasts"><img alt="Rss" height="34" src="/assets/icons/rss-04cb962054caa957a6fa3924c48594d8.png" width="34" /></a>
+          <span class="name">subscribe to RSS feed</span>
+        </li>
+      </ul>
+    </div>
+
+    <div id="nav_bar">
+      <ul class="nav horizontal">
+        <li>Browse Episodes</li>
+        <li><a href="/pro">RailsCasts Pro</a></li>
+        <li><a href="/notifications">Notifications</a></li>
+        <li><a href="/about">About</a></li>
+        <li><a href="/feedback">Feedback</a></li>
+      </ul>
+      <form accept-charset="UTF-8" action="http://railscasts.com/episodes" method="get"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /></div>
+        <input id="search" name="search" size="35" type="text" />
+        <input type="submit" value="Search Episodes" />
+</form>    </div>
+
+    <div id="announcement_banner">
+  <p>Please read this announcement on the status of RailsCasts:</p>
+
+  <p><a href="/announcements/11">Learn more</a> or <a href="/announcements/11/hide" data-remote="true">hide this</a></p>
+</div>
+
+
+
+    <div id="main">
+
+      
+<div class="content">
+  <div class="side">
+    <div class="episode_views">
+      View: <span class="view"><img alt="Full" height="10" src="/assets/views/full-0788b5fc76d8a1d653004ad44fbf31e5.png" width="15" /></span><span class="view"><a href="/?view=list" title="List View"><img alt="List" height="10" src="/assets/views/list-f3b69d30cdb1ef80b12126c5dbd3fc7a.png" width="14" /></a></span><span class="view"><a href="/?view=grid" title="Grid View"><img alt="Grid" height="10" src="/assets/views/grid-119e56c5d75467c317c16c5c6fef94da.png" width="11" /></a></span>
+    </div>
+    <div class="search_option">
+      <h2>Types</h2>
+      <ul><li><a href="/?type=free">Free Episodes</a></li><li><a href="/?type=pro">Pro Episodes</a></li><li><a href="/?type=revised">Revised Episodes</a></li></ul>
+    </div>
+    <div class="search_option">
+      <h2>Categories</h2>
+      <ul><li><a href="/?tag_id=2">Active Record</a></li><li><a href="/?tag_id=19">Active Resource</a></li><li><a href="/?tag_id=3">Active Support</a></li><li><a href="/?tag_id=9">Administration</a></li><li><a href="/?tag_id=11">Ajax</a></li><li><a href="/?tag_id=37">APIs</a></li><li><a href="/?tag_id=25">Authentication</a></li><li><a href="/?tag_id=26">Authorization</a></li><li><a href="/?tag_id=32">Background Jobs</a></li><li><a href="/?tag_id=18">Caching</a></li><li><a href="/?tag_id=39">Code Walkthrough</a></li><li><a href="/?tag_id=8">Controllers</a></li><li><a href="/?tag_id=10">Debugging</a></li><li><a href="/?tag_id=21">Deployment</a></li><li><a href="/?tag_id=23">eCommerce</a></li><li><a href="/?tag_id=15">Forms</a></li><li><a href="/?tag_id=28">Mailing</a></li><li><a href="/?tag_id=16">Models</a></li><li><a href="/?tag_id=1">Performance</a></li><li><a href="/?tag_id=13">Plugins</a></li><li><a href="/?tag_id=33">Production</a></li><li><a href="/?tag_id=35">Rack</a></li><li><a href="/?tag_id=17">Rails 2.0</a></li><li><a href="/?tag_id=20">Rails 2.1</a></li><li><a href="/?tag_id=22">Rails 2.2</a></li><li><a href="/?tag_id=24">Rails 2.3</a></li><li><a href="/?tag_id=27">Rails 3.0</a></li><li><a href="/?tag_id=31">Rails 3.1</a></li><li><a href="/?tag_id=34">Rails 3.2</a></li><li><a href="/?tag_id=38">Rails 4.0</a></li><li><a href="/?tag_id=6">Refactoring</a></li><li><a href="/?tag_id=14">Routing</a></li><li><a href="/?tag_id=30">Search</a></li><li><a href="/?tag_id=5">Security</a></li><li><a href="/?tag_id=7">Testing</a></li><li><a href="/?tag_id=12">Tools</a></li><li><a href="/?tag_id=4">Views</a></li></ul>
+    </div>
+    <div class="banner">
+      <a href="https://www.digitalocean.com/?utm_source=railscasts.com"><img alt="Digital Ocean" src="/static/sponsors/digitalocean.png" /></a>
+    </div>
+  </div>
+
+  <div class="episodes">
+      <div class="full"><div class="episode" id="episode_165">
+  <div class="screenshot"><a href="/episodes/165-edit-multiple"><img alt="Edit Multiple" height="125" src="/static/episodes/stills/165-edit-multiple.png" width="200" /></a></div>
+  <div class="main">
+    <div class="info">
+      <span class="number">Episode #165</span> &ndash;
+      <span class="published_at">Jun 08, 2009</span> &ndash;
+      <span class="comments"><a href="/episodes/165-edit-multiple?view=comments">28 comments</a></span>
+    </div>
+    <h2>
+      <a href="/episodes/165-edit-multiple">Edit Multiple</a>
+      
+    </h2>
+    <div class="description">
+      Use checkboxes to select multiple records and edit them all in one form as shown in this episode. With virtual attributes you can even edit values relatively!
+      <span class="stats">(14 minutes)</span>
+    </div>
+    <div class="watch">
+        <a href="/episodes/165-edit-multiple?autoplay=true" class="pretty_button">Watch Episode</a>
+        <a href="/episodes/165-edit-multiple?view=asciicast" class="pretty_button read_button">Read Episode</a>
+    </div>
+  </div>
+  <div class="clear"></div>
+</div><div class="episode" id="episode_164">
+  <div class="screenshot"><a href="/episodes/164-cron-in-ruby"><img alt="Cron in Ruby" height="125" src="/static/episodes/stills/164-cron-in-ruby.png" width="200" /></a></div>
+  <div class="main">
+    <div class="info">
+      <span class="number">Episode #164</span> &ndash;
+      <span class="published_at">Jun 01, 2009</span> &ndash;
+      <span class="comments"><a href="/episodes/164-cron-in-ruby?view=comments">49 comments</a></span>
+    </div>
+    <h2>
+      <a href="/episodes/164-cron-in-ruby">Cron in Ruby</a>
+      
+    </h2>
+    <div class="description">
+      Cron is great for handling recurring tasks, but it is an external dependency with a crazy syntax. In this episode I show you how to use Whenever to create cron jobs with Ruby.
+      <span class="stats">(8 minutes)</span>
+    </div>
+    <div class="watch">
+        <a href="/episodes/164-cron-in-ruby?autoplay=true" class="pretty_button">Watch Episode</a>
+        <a href="/episodes/164-cron-in-ruby?view=asciicast" class="pretty_button read_button">Read Episode</a>
+    </div>
+  </div>
+  <div class="clear"></div>
+</div><div class="episode" id="episode_163">
+  <div class="screenshot"><a href="/episodes/163-self-referential-association"><img alt="Self-Referential Association" height="125" src="/static/episodes/stills/163-self-referential-association.png" width="200" /></a></div>
+  <div class="main">
+    <div class="info">
+      <span class="number">Episode #163</span> &ndash;
+      <span class="published_at">May 25, 2009</span> &ndash;
+      <span class="comments"><a href="/episodes/163-self-referential-association?view=comments">52 comments</a></span>
+    </div>
+    <h2>
+      <a href="/episodes/163-self-referential-association">Self-Referential Association</a>
+      
+    </h2>
+    <div class="description">
+      Creating a social networking site often requires a self-referential association on the User model to define friends/followers. In this episode I show how to do exactly that.
+      <span class="stats">(14 minutes)</span>
+    </div>
+    <div class="watch">
+        <a href="/episodes/163-self-referential-association?autoplay=true" class="pretty_button">Watch Episode</a>
+        <a href="/episodes/163-self-referential-association?view=asciicast" class="pretty_button read_button">Read Episode</a>
+    </div>
+  </div>
+  <div class="clear"></div>
+</div><div class="episode" id="episode_162">
+  <div class="screenshot"><a href="/episodes/162-tree-based-navigation"><img alt="Tree Based Navigation" height="125" src="/static/episodes/stills/162-tree-based-navigation.png" width="200" /></a></div>
+  <div class="main">
+    <div class="info">
+      <span class="number">Episode #162</span> &ndash;
+      <span class="published_at">May 18, 2009</span> &ndash;
+      <span class="comments"><a href="/episodes/162-tree-based-navigation?view=comments">43 comments</a></span>
+    </div>
+    <h2>
+      <a href="/episodes/162-tree-based-navigation">Tree Based Navigation</a>
+      
+    </h2>
+    <div class="description">
+      The acts_as_tree plugin provides many methods for handling a tree based association. In this episode I show how to build a navigation system with tabs, subpages, and breadcrumbs.
+      <span class="stats">(11 minutes)</span>
+    </div>
+    <div class="watch">
+        <a href="/episodes/162-tree-based-navigation?autoplay=true" class="pretty_button">Watch Episode</a>
+        <a href="/episodes/162-tree-based-navigation?view=asciicast" class="pretty_button read_button">Read Episode</a>
+    </div>
+  </div>
+  <div class="clear"></div>
+</div><div class="episode" id="episode_161">
+  <div class="screenshot"><a href="/episodes/161-three-profiling-tools"><img alt="Three Profiling Tools" height="125" src="/static/episodes/stills/161-three-profiling-tools.png" width="200" /></a></div>
+  <div class="main">
+    <div class="info">
+      <span class="number">Episode #161</span> &ndash;
+      <span class="published_at">May 11, 2009</span> &ndash;
+      <span class="comments"><a href="/episodes/161-three-profiling-tools?view=comments">30 comments</a></span>
+    </div>
+    <h2>
+      <a href="/episodes/161-three-profiling-tools">Three Profiling Tools</a>
+      
+    </h2>
+    <div class="description">
+      Ever want to know what Rails is doing under the hood during a request? In this episode I show three different profiling tools: New Relic RPM, FiveRuns TuneUp, and Rack::Bug.
+      <span class="stats">(7 minutes)</span>
+    </div>
+    <div class="watch">
+        <a href="/episodes/161-three-profiling-tools?autoplay=true" class="pretty_button">Watch Episode</a>
+        <a href="/episodes/161-three-profiling-tools?view=asciicast" class="pretty_button read_button">Read Episode</a>
+    </div>
+  </div>
+  <div class="clear"></div>
+</div><div class="episode" id="episode_160">
+  <div class="screenshot"><a href="/episodes/160-authlogic"><img alt="Authlogic" height="125" src="/static/episodes/stills/160-authlogic.png" width="200" /></a></div>
+  <div class="main">
+    <div class="info">
+      <span class="number">Episode #160</span> &ndash;
+      <span class="published_at">May 04, 2009</span> &ndash;
+      <span class="comments"><a href="/episodes/160-authlogic?view=comments">102 comments</a></span>
+    </div>
+    <h2>
+      <a href="/episodes/160-authlogic">Authlogic</a>
+      
+    </h2>
+    <div class="description">
+      Authentication can get very complex. In this episode I show how Authlogic can handle this complexity while you stay in control of how it is presented to the user.
+      <span class="stats">(14 minutes)</span>
+    </div>
+    <div class="watch">
+        <a href="/episodes/160-authlogic?autoplay=true" class="pretty_button">Watch Episode</a>
+        <a href="/episodes/160-authlogic?view=asciicast" class="pretty_button read_button">Read Episode</a>
+    </div>
+  </div>
+  <div class="clear"></div>
+</div><div class="episode" id="episode_159">
+  <div class="screenshot"><a href="/episodes/159-more-on-cucumber"><img alt="More on Cucumber" height="125" src="/static/episodes/stills/159-more-on-cucumber.png" width="200" /></a></div>
+  <div class="main">
+    <div class="info">
+      <span class="number">Episode #159</span> &ndash;
+      <span class="published_at">Apr 27, 2009</span> &ndash;
+      <span class="comments"><a href="/episodes/159-more-on-cucumber?view=comments">36 comments</a></span>
+    </div>
+    <h2>
+      <a href="/episodes/159-more-on-cucumber">More on Cucumber</a>
+      
+    </h2>
+    <div class="description">
+      There is a lot more to Cucumber than I showed in an earlier episode. See how to refactor complex scenarios in this episode.
+      <span class="stats">(18 minutes)</span>
+    </div>
+    <div class="watch">
+        <a href="/episodes/159-more-on-cucumber?autoplay=true" class="pretty_button">Watch Episode</a>
+        <a href="/episodes/159-more-on-cucumber?view=asciicast" class="pretty_button read_button">Read Episode</a>
+    </div>
+  </div>
+  <div class="clear"></div>
+</div><div class="episode" id="episode_158">
+  <div class="screenshot"><a href="/episodes/158-factories-not-fixtures"><img alt="Factories not Fixtures" height="125" src="/static/episodes/stills/158-factories-not-fixtures.png" width="200" /></a></div>
+  <div class="main">
+    <div class="info">
+      <span class="number">Episode #158</span> &ndash;
+      <span class="published_at">Apr 20, 2009</span> &ndash;
+      <span class="comments"><a href="/episodes/158-factories-not-fixtures?view=comments">28 comments</a></span>
+    </div>
+    <h2>
+      <a href="/episodes/158-factories-not-fixtures">Factories not Fixtures</a>
+      
+    </h2>
+    <div class="description">
+      Fixtures are external dependencies which can make tests brittle and difficult to read. In this episode I show a better alternative using factories to generate the needed records.
+      <span class="stats">(12 minutes)</span>
+    </div>
+    <div class="watch">
+        <a href="/episodes/158-factories-not-fixtures?autoplay=true" class="pretty_button">Watch Episode</a>
+        <a href="/episodes/158-factories-not-fixtures?view=asciicast" class="pretty_button read_button">Read Episode</a>
+    </div>
+  </div>
+  <div class="clear"></div>
+</div><div class="episode" id="episode_157">
+  <div class="screenshot"><a href="/episodes/157-rspec-matchers-macros"><img alt="RSpec Matchers &amp; Macros" height="125" src="/static/episodes/stills/157-rspec-matchers-macros.png" width="200" /></a></div>
+  <div class="main">
+    <div class="info">
+      <span class="number">Episode #157</span> &ndash;
+      <span class="published_at">Apr 13, 2009</span> &ndash;
+      <span class="comments"><a href="/episodes/157-rspec-matchers-macros?view=comments">19 comments</a></span>
+    </div>
+    <h2>
+      <a href="/episodes/157-rspec-matchers-macros">RSpec Matchers &amp; Macros</a>
+      
+    </h2>
+    <div class="description">
+      You can improve the readability and remove duplication in RSpec by adding matchers and macros. Learn how in this episode.
+      <span class="stats">(18 minutes)</span>
+    </div>
+    <div class="watch">
+        <a href="/episodes/157-rspec-matchers-macros?autoplay=true" class="pretty_button">Watch Episode</a>
+        <a href="/episodes/157-rspec-matchers-macros?view=asciicast" class="pretty_button read_button">Read Episode</a>
+    </div>
+  </div>
+  <div class="clear"></div>
+</div><div class="episode" id="episode_156">
+  <div class="screenshot"><a href="/episodes/156-webrat"><img alt="Webrat" height="125" src="/static/episodes/stills/156-webrat.png" width="200" /></a></div>
+  <div class="main">
+    <div class="info">
+      <span class="number">Episode #156</span> &ndash;
+      <span class="published_at">Apr 06, 2009</span> &ndash;
+      <span class="comments"><a href="/episodes/156-webrat?view=comments">33 comments</a></span>
+    </div>
+    <h2>
+      <a href="/episodes/156-webrat">Webrat</a>
+      
+    </h2>
+    <div class="description">
+      If you prefer writing integration tests in ruby instead of Cucumber&#x27;s plain english, consider interacting with Webrat directly as I show in this episode.
+      <span class="stats">(7 minutes)</span>
+    </div>
+    <div class="watch">
+        <a href="/episodes/156-webrat?autoplay=true" class="pretty_button">Watch Episode</a>
+        <a href="/episodes/156-webrat?view=asciicast" class="pretty_button read_button">Read Episode</a>
+    </div>
+  </div>
+  <div class="clear"></div>
+</div></div>
+      <div class="pagination"><a class="previous_page" rel="prev" href="/?page=31">&lt; Previous Page</a> <a rel="start" href="/?page=1">1</a> <a href="/?page=2">2</a> <span class="gap">&hellip;</span> <a href="/?page=28">28</a> <a href="/?page=29">29</a> <a href="/?page=30">30</a> <a rel="prev" href="/?page=31">31</a> <em class="current">32</em> <a rel="next" href="/?page=33">33</a> <a href="/?page=34">34</a> <a href="/?page=35">35</a> <a href="/?page=36">36</a> <span class="gap">&hellip;</span> <a href="/?page=47">47</a> <a href="/?page=48">48</a> <a class="next_page" rel="next" href="/?page=33">Next Page &gt;</a></div>
+  </div>
+</div>
+
+    </div>
+    <div id="footer">
+      <div class="inner">
+        &copy;2013 RailsCasts - <a href="/privacy">Privacy Policy</a> - Hosted by <a href="https://www.digitalocean.com/?utm_source=railscasts.com">Digital Ocean</a>
+      </div>
+    </div>
+
+      <!-- Google Analytics -->
+      <script type="text/javascript">
+        var _gaq = _gaq || [];
+        _gaq.push(['_setAccount', 'UA-7696481-1']);
+        _gaq.push(['_trackPageview']);
+
+        (function() {
+          var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+          ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+          var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+        })();
+      </script>
+  </body>
+</html>

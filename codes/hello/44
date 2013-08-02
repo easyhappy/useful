@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Ruby on Rails Screencasts - RailsCasts</title>
+    <meta name="description" content="Short Ruby on Rails screencasts containing tips, tricks and tutorials. Great for both novice and experienced web developers." />
+    <meta name="keywords" content="rails, ruby on rails, screencasts, railscast, railscasts, tips, tricks, tutorials, training, podcasts, programming" />
+    <link rel="alternate" type="application/rss+xml" title="Episodes RSS" href="http://feeds.feedburner.com/railscasts" />
+    <link href="/assets/application-f33052609391fcb2333fb8c560544e00.css" media="screen" rel="stylesheet" type="text/css" />
+    <script src="http://cdn.sublimevideo.net/js/3s7oes9q.js" type="text/javascript"></script>
+    <script src="/assets/application-fe460ed6c034ee8c95a2a78f52d7a5d9.js" type="text/javascript"></script>
+    <meta content="authenticity_token" name="csrf-param" />
+<meta content="W1cSDVV5aQzYFp8H2zDbm/BEtL7NQo3+AD4FJgmfHyw=" name="csrf-token" />
+    
+  </head>
+  <body>
+    <div id="top">
+      <div class="logo"><a href="/"><img alt="RailsCasts - Ruby on Rails Screencasts" height="56" src="/assets/railscasts_logo-7101a7cd0a48292a0c07276981855edb.png" width="423" /></a></div>
+      <div class="user_nav">
+          <a href="/login?return_to=http%3A%2F%2Frailscasts.com%2F%3Fpage%3D44">Sign in through GitHub</a>
+      </div>
+      <ul class="subscribe horizontal">
+        <li>
+          <a href="http://phobos.apple.com/WebObjects/MZStore.woa/wa/viewPodcast?id=218282043"><img alt="Itunes" height="34" src="/assets/icons/itunes-ea9253b9b183d9788bef2cdfe326f38e.png" width="34" /></a>
+          <span class="name">watch on iTunes</span>
+        </li>
+        <li>
+          <a href="http://twitter.com/railscasts"><img alt="Twitter" height="34" src="/assets/icons/twitter-f0259ab802804e09139fb29f47678b2c.png" width="34" /></a>
+          <span class="name">follow on Twitter</span>
+        </li>
+        <li>
+          <a href="http://www.facebook.com/pages/railscasts/197415140659"><img alt="Facebook" height="34" src="/assets/icons/facebook-0ab869e74b54d9c58f33c1c75264d869.png" width="34" /></a>
+          <span class="name">follow on Facebook</span>
+        </li>
+        <li>
+          <a href="http://feeds.feedburner.com/railscasts"><img alt="Rss" height="34" src="/assets/icons/rss-04cb962054caa957a6fa3924c48594d8.png" width="34" /></a>
+          <span class="name">subscribe to RSS feed</span>
+        </li>
+      </ul>
+    </div>
+
+    <div id="nav_bar">
+      <ul class="nav horizontal">
+        <li>Browse Episodes</li>
+        <li><a href="/pro">RailsCasts Pro</a></li>
+        <li><a href="/notifications">Notifications</a></li>
+        <li><a href="/about">About</a></li>
+        <li><a href="/feedback">Feedback</a></li>
+      </ul>
+      <form accept-charset="UTF-8" action="http://railscasts.com/episodes" method="get"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /></div>
+        <input id="search" name="search" size="35" type="text" />
+        <input type="submit" value="Search Episodes" />
+</form>    </div>
+
+    <div id="announcement_banner">
+  <p>Please read this announcement on the status of RailsCasts:</p>
+
+  <p><a href="/announcements/11">Learn more</a> or <a href="/announcements/11/hide" data-remote="true">hide this</a></p>
+</div>
+
+
+
+    <div id="main">
+
+      
+<div class="content">
+  <div class="side">
+    <div class="episode_views">
+      View: <span class="view"><img alt="Full" height="10" src="/assets/views/full-0788b5fc76d8a1d653004ad44fbf31e5.png" width="15" /></span><span class="view"><a href="/?view=list" title="List View"><img alt="List" height="10" src="/assets/views/list-f3b69d30cdb1ef80b12126c5dbd3fc7a.png" width="14" /></a></span><span class="view"><a href="/?view=grid" title="Grid View"><img alt="Grid" height="10" src="/assets/views/grid-119e56c5d75467c317c16c5c6fef94da.png" width="11" /></a></span>
+    </div>
+    <div class="search_option">
+      <h2>Types</h2>
+      <ul><li><a href="/?type=free">Free Episodes</a></li><li><a href="/?type=pro">Pro Episodes</a></li><li><a href="/?type=revised">Revised Episodes</a></li></ul>
+    </div>
+    <div class="search_option">
+      <h2>Categories</h2>
+      <ul><li><a href="/?tag_id=2">Active Record</a></li><li><a href="/?tag_id=19">Active Resource</a></li><li><a href="/?tag_id=3">Active Support</a></li><li><a href="/?tag_id=9">Administration</a></li><li><a href="/?tag_id=11">Ajax</a></li><li><a href="/?tag_id=37">APIs</a></li><li><a href="/?tag_id=25">Authentication</a></li><li><a href="/?tag_id=26">Authorization</a></li><li><a href="/?tag_id=32">Background Jobs</a></li><li><a href="/?tag_id=18">Caching</a></li><li><a href="/?tag_id=39">Code Walkthrough</a></li><li><a href="/?tag_id=8">Controllers</a></li><li><a href="/?tag_id=10">Debugging</a></li><li><a href="/?tag_id=21">Deployment</a></li><li><a href="/?tag_id=23">eCommerce</a></li><li><a href="/?tag_id=15">Forms</a></li><li><a href="/?tag_id=28">Mailing</a></li><li><a href="/?tag_id=16">Models</a></li><li><a href="/?tag_id=1">Performance</a></li><li><a href="/?tag_id=13">Plugins</a></li><li><a href="/?tag_id=33">Production</a></li><li><a href="/?tag_id=35">Rack</a></li><li><a href="/?tag_id=17">Rails 2.0</a></li><li><a href="/?tag_id=20">Rails 2.1</a></li><li><a href="/?tag_id=22">Rails 2.2</a></li><li><a href="/?tag_id=24">Rails 2.3</a></li><li><a href="/?tag_id=27">Rails 3.0</a></li><li><a href="/?tag_id=31">Rails 3.1</a></li><li><a href="/?tag_id=34">Rails 3.2</a></li><li><a href="/?tag_id=38">Rails 4.0</a></li><li><a href="/?tag_id=6">Refactoring</a></li><li><a href="/?tag_id=14">Routing</a></li><li><a href="/?tag_id=30">Search</a></li><li><a href="/?tag_id=5">Security</a></li><li><a href="/?tag_id=7">Testing</a></li><li><a href="/?tag_id=12">Tools</a></li><li><a href="/?tag_id=4">Views</a></li></ul>
+    </div>
+    <div class="banner">
+      <a href="https://www.digitalocean.com/?utm_source=railscasts.com"><img alt="Digital Ocean" src="/static/sponsors/digitalocean.png" /></a>
+    </div>
+  </div>
+
+  <div class="episodes">
+      <div class="full"><div class="episode" id="episode_45">
+  <div class="screenshot"><a href="/episodes/45-rjs-tips"><img alt="RJS Tips" height="125" src="/static/episodes/stills/045-rjs-tips.png" width="200" /></a></div>
+  <div class="main">
+    <div class="info">
+      <span class="number">Episode #45</span> &ndash;
+      <span class="published_at">Jun 15, 2007</span> &ndash;
+      <span class="comments"><a href="/episodes/45-rjs-tips?view=comments">19 comments</a></span>
+    </div>
+    <h2>
+      <a href="/episodes/45-rjs-tips">RJS Tips</a>
+      
+    </h2>
+    <div class="description">
+      This episode is packed with little RJS goodies. Learn the different ways to access an element, how to add &quot;if&quot; conditions and how to apply an effect to multiple elements.
+      <span class="stats">(7 minutes)</span>
+    </div>
+    <div class="watch">
+        <a href="/episodes/45-rjs-tips?autoplay=true" class="pretty_button">Watch Episode</a>
+        
+    </div>
+  </div>
+  <div class="clear"></div>
+</div><div class="episode" id="episode_44">
+  <div class="screenshot"><a href="/episodes/44-debugging-rjs"><img alt="Debugging RJS" height="125" src="/static/episodes/stills/044-debugging-rjs.png" width="200" /></a></div>
+  <div class="main">
+    <div class="info">
+      <span class="number">Episode #44</span> &ndash;
+      <span class="published_at">Jun 13, 2007</span> &ndash;
+      <span class="comments"><a href="/episodes/44-debugging-rjs?view=comments">10 comments</a></span>
+    </div>
+    <h2>
+      <a href="/episodes/44-debugging-rjs">Debugging RJS</a>
+      
+    </h2>
+    <div class="description">
+      RJS and AJAX can be difficult to debug. Many times you don&#x27;t get any error message in the browser. Learn different techniques for solving these tricky problems in this episode.
+      <span class="stats">(7 minutes)</span>
+    </div>
+    <div class="watch">
+        <a href="/episodes/44-debugging-rjs?autoplay=true" class="pretty_button">Watch Episode</a>
+        <a href="/episodes/44-debugging-rjs?view=asciicast" class="pretty_button read_button">Read Episode</a>
+    </div>
+  </div>
+  <div class="clear"></div>
+</div><div class="episode" id="episode_43">
+  <div class="screenshot"><a href="/episodes/43-ajax-with-rjs"><img alt="AJAX with RJS" height="125" src="/static/episodes/stills/043-ajax-with-rjs.png" width="200" /></a></div>
+  <div class="main">
+    <div class="info">
+      <span class="number">Episode #43</span> &ndash;
+      <span class="published_at">Jun 11, 2007</span> &ndash;
+      <span class="comments"><a href="/episodes/43-ajax-with-rjs?view=comments">76 comments</a></span>
+    </div>
+    <h2>
+      <a href="/episodes/43-ajax-with-rjs">AJAX with RJS</a>
+      
+    </h2>
+    <div class="description">
+      This episode will walk you through adding AJAX functionality to a form using RJS. See how to easily update multiple elements on a page.
+      <span class="stats">(11 minutes)</span>
+    </div>
+    <div class="watch">
+        <a href="/episodes/43-ajax-with-rjs?autoplay=true" class="pretty_button">Watch Episode</a>
+        <a href="/episodes/43-ajax-with-rjs?view=asciicast" class="pretty_button read_button">Read Episode</a>
+    </div>
+  </div>
+  <div class="clear"></div>
+</div><div class="episode" id="episode_42">
+  <div class="screenshot"><a href="/episodes/42-with-options"><img alt="with_options" height="125" src="/static/episodes/stills/042-with-options.png" width="200" /></a></div>
+  <div class="main">
+    <div class="info">
+      <span class="number">Episode #42</span> &ndash;
+      <span class="published_at">Jun 08, 2007</span> &ndash;
+      <span class="comments"><a href="/episodes/42-with-options?view=comments">11 comments</a></span>
+    </div>
+    <h2>
+      <a href="/episodes/42-with-options">with_options</a>
+      
+    </h2>
+    <div class="description">
+      Several methods in rails take a hash of options as the last argument. If you are passing the same options to several methods, you can remove this duplication by using with_options. Learn all about it in this episode.
+      <span class="stats">(3 minutes)</span>
+    </div>
+    <div class="watch">
+        <a href="/episodes/42-with-options?autoplay=true" class="pretty_button">Watch Episode</a>
+        
+    </div>
+  </div>
+  <div class="clear"></div>
+</div><div class="episode" id="episode_41">
+  <div class="screenshot"><a href="/episodes/41-conditional-validations"><img alt="Conditional Validations" height="125" src="/static/episodes/stills/041-conditional-validations.png" width="200" /></a></div>
+  <div class="main">
+    <div class="info">
+      <span class="number">Episode #41</span> &ndash;
+      <span class="published_at">Jun 06, 2007</span> &ndash;
+      <span class="comments"><a href="/episodes/41-conditional-validations?view=comments">32 comments</a></span>
+    </div>
+    <h2>
+      <a href="/episodes/41-conditional-validations">Conditional Validations</a>
+      
+    </h2>
+    <div class="description">
+      By default, validations will take place every time the model is saved. Sometimes you only want a validation to happen when certain conditions are met. See how to do that in this episode.
+      <span class="stats">(4 minutes)</span>
+    </div>
+    <div class="watch">
+        <a href="/episodes/41-conditional-validations?autoplay=true" class="pretty_button">Watch Episode</a>
+        
+    </div>
+  </div>
+  <div class="clear"></div>
+</div><div class="episode" id="episode_40">
+  <div class="screenshot"><a href="/episodes/40-blocks-in-view"><img alt="Blocks in View" height="125" src="/static/episodes/stills/040-blocks-in-view.png" width="200" /></a></div>
+  <div class="main">
+    <div class="info">
+      <span class="number">Episode #40</span> &ndash;
+      <span class="published_at">Jun 04, 2007</span> &ndash;
+      <span class="comments"><a href="/episodes/40-blocks-in-view?view=comments">19 comments</a></span>
+    </div>
+    <h2>
+      <a href="/episodes/40-blocks-in-view">Blocks in View</a>
+      
+    </h2>
+    <div class="description">
+      If you try to create a helper method which accepts a block, you will run into a few gotchas. Learn the secrets of blocks in views in this episode.
+      <span class="stats">(9 minutes)</span>
+    </div>
+    <div class="watch">
+        <a href="/episodes/40-blocks-in-view?autoplay=true" class="pretty_button">Watch Episode</a>
+        
+    </div>
+  </div>
+  <div class="clear"></div>
+</div><div class="episode" id="episode_39">
+  <div class="screenshot"><a href="/episodes/39-customize-field-error"><img alt="Customize Field Error" height="125" src="/static/episodes/stills/039-customize-field-error.png" width="200" /></a></div>
+  <div class="main">
+    <div class="info">
+      <span class="number">Episode #39</span> &ndash;
+      <span class="published_at">Jun 01, 2007</span> &ndash;
+      <span class="comments"><a href="/episodes/39-customize-field-error?view=comments">26 comments</a></span>
+    </div>
+    <h2>
+      <a href="/episodes/39-customize-field-error">Customize Field Error</a>
+      
+    </h2>
+    <div class="description">
+      When a validation error occurs, Rails helpfully wraps the field in a div tag so you can style it. But sometimes you don&#x27;t want this behavior. In this episode you will see how to customize it.
+      <span class="stats">(3 minutes)</span>
+    </div>
+    <div class="watch">
+        <a href="/episodes/39-customize-field-error?autoplay=true" class="pretty_button">Watch Episode</a>
+        
+    </div>
+  </div>
+  <div class="clear"></div>
+</div><div class="episode" id="episode_38">
+  <div class="screenshot"><a href="/episodes/38-multibutton-form"><img alt="Multibutton Form" height="125" src="/static/episodes/stills/038-multibutton-form.png" width="200" /></a></div>
+  <div class="main">
+    <div class="info">
+      <span class="number">Episode #38</span> &ndash;
+      <span class="published_at">May 30, 2007</span> &ndash;
+      <span class="comments"><a href="/episodes/38-multibutton-form?view=comments">10 comments</a></span>
+    </div>
+    <h2>
+      <a href="/episodes/38-multibutton-form">Multibutton Form</a>
+      
+    </h2>
+    <div class="description">
+      If you have a form with multiple buttons, you can detect which button was clicked by checking the passed parameters. Learn how in this episode.
+      <span class="stats">(4 minutes)</span>
+    </div>
+    <div class="watch">
+        <a href="/episodes/38-multibutton-form?autoplay=true" class="pretty_button">Watch Episode</a>
+        
+    </div>
+  </div>
+  <div class="clear"></div>
+</div><div class="episode" id="episode_37">
+  <div class="screenshot"><a href="/episodes/37-simple-search-form"><img alt="Simple Search Form" height="125" src="/static/episodes/stills/037-simple-search-form.png" width="200" /></a></div>
+  <div class="main">
+    <div class="info">
+      <span class="number">Episode #37</span> &ndash;
+      <span class="published_at">May 28, 2007</span> &ndash;
+      <span class="comments"><a href="/episodes/37-simple-search-form?view=comments">91 comments</a></span>
+    </div>
+    <h2>
+      <a href="/episodes/37-simple-search-form">Simple Search Form</a>
+      
+    </h2>
+    <div class="description">
+      A search form is quite different than other forms, this is because it does not deal with model&#x27;s attributes. See a good way to add a simple search form in this episode.
+      <span class="stats">(6 minutes)</span>
+    </div>
+    <div class="watch">
+        <a href="/episodes/37-simple-search-form?autoplay=true" class="pretty_button">Watch Episode</a>
+        
+    </div>
+  </div>
+  <div class="clear"></div>
+</div><div class="episode" id="episode_36">
+  <div class="screenshot"><a href="/episodes/36-subversion-on-rails"><img alt="Subversion on Rails" height="125" src="/static/episodes/stills/036-subversion-on-rails.png" width="200" /></a></div>
+  <div class="main">
+    <div class="info">
+      <span class="number">Episode #36</span> &ndash;
+      <span class="published_at">May 25, 2007</span> &ndash;
+      <span class="comments"><a href="/episodes/36-subversion-on-rails?view=comments">39 comments</a></span>
+    </div>
+    <h2>
+      <a href="/episodes/36-subversion-on-rails">Subversion on Rails</a>
+      
+    </h2>
+    <div class="description">
+      This episode will walk you through setting up a Rails project on subversion. It covers some helpful tips and gotchas you may experience along the way.
+      <span class="stats">(8 minutes)</span>
+    </div>
+    <div class="watch">
+        <a href="/episodes/36-subversion-on-rails?autoplay=true" class="pretty_button">Watch Episode</a>
+        
+    </div>
+  </div>
+  <div class="clear"></div>
+</div></div>
+      <div class="pagination"><a class="previous_page" rel="prev" href="/?page=43">&lt; Previous Page</a> <a rel="start" href="/?page=1">1</a> <a href="/?page=2">2</a> <span class="gap">&hellip;</span> <a href="/?page=40">40</a> <a href="/?page=41">41</a> <a href="/?page=42">42</a> <a rel="prev" href="/?page=43">43</a> <em class="current">44</em> <a rel="next" href="/?page=45">45</a> <a href="/?page=46">46</a> <a href="/?page=47">47</a> <a href="/?page=48">48</a> <a class="next_page" rel="next" href="/?page=45">Next Page &gt;</a></div>
+  </div>
+</div>
+
+    </div>
+    <div id="footer">
+      <div class="inner">
+        &copy;2013 RailsCasts - <a href="/privacy">Privacy Policy</a> - Hosted by <a href="https://www.digitalocean.com/?utm_source=railscasts.com">Digital Ocean</a>
+      </div>
+    </div>
+
+      <!-- Google Analytics -->
+      <script type="text/javascript">
+        var _gaq = _gaq || [];
+        _gaq.push(['_setAccount', 'UA-7696481-1']);
+        _gaq.push(['_trackPageview']);
+
+        (function() {
+          var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+          ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+          var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+        })();
+      </script>
+  </body>
+</html>

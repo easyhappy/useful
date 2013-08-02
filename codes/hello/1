@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Ruby on Rails Screencasts - RailsCasts</title>
+    <meta name="description" content="Short Ruby on Rails screencasts containing tips, tricks and tutorials. Great for both novice and experienced web developers." />
+    <meta name="keywords" content="rails, ruby on rails, screencasts, railscast, railscasts, tips, tricks, tutorials, training, podcasts, programming" />
+    <link rel="alternate" type="application/rss+xml" title="Episodes RSS" href="http://feeds.feedburner.com/railscasts" />
+    <link href="/assets/application-f33052609391fcb2333fb8c560544e00.css" media="screen" rel="stylesheet" type="text/css" />
+    <script src="http://cdn.sublimevideo.net/js/3s7oes9q.js" type="text/javascript"></script>
+    <script src="/assets/application-fe460ed6c034ee8c95a2a78f52d7a5d9.js" type="text/javascript"></script>
+    <meta content="authenticity_token" name="csrf-param" />
+<meta content="Z78basNDJuARHdobYoWCOTXLbRGvazJF9FkkI7rQaWE=" name="csrf-token" />
+    
+  </head>
+  <body>
+    <div id="top">
+      <div class="logo"><a href="/"><img alt="RailsCasts - Ruby on Rails Screencasts" height="56" src="/assets/railscasts_logo-7101a7cd0a48292a0c07276981855edb.png" width="423" /></a></div>
+      <div class="user_nav">
+          <a href="/login?return_to=http%3A%2F%2Frailscasts.com%2F%3Fpage%3D1">Sign in through GitHub</a>
+      </div>
+      <ul class="subscribe horizontal">
+        <li>
+          <a href="http://phobos.apple.com/WebObjects/MZStore.woa/wa/viewPodcast?id=218282043"><img alt="Itunes" height="34" src="/assets/icons/itunes-ea9253b9b183d9788bef2cdfe326f38e.png" width="34" /></a>
+          <span class="name">watch on iTunes</span>
+        </li>
+        <li>
+          <a href="http://twitter.com/railscasts"><img alt="Twitter" height="34" src="/assets/icons/twitter-f0259ab802804e09139fb29f47678b2c.png" width="34" /></a>
+          <span class="name">follow on Twitter</span>
+        </li>
+        <li>
+          <a href="http://www.facebook.com/pages/railscasts/197415140659"><img alt="Facebook" height="34" src="/assets/icons/facebook-0ab869e74b54d9c58f33c1c75264d869.png" width="34" /></a>
+          <span class="name">follow on Facebook</span>
+        </li>
+        <li>
+          <a href="http://feeds.feedburner.com/railscasts"><img alt="Rss" height="34" src="/assets/icons/rss-04cb962054caa957a6fa3924c48594d8.png" width="34" /></a>
+          <span class="name">subscribe to RSS feed</span>
+        </li>
+      </ul>
+    </div>
+
+    <div id="nav_bar">
+      <ul class="nav horizontal">
+        <li>Browse Episodes</li>
+        <li><a href="/pro">RailsCasts Pro</a></li>
+        <li><a href="/notifications">Notifications</a></li>
+        <li><a href="/about">About</a></li>
+        <li><a href="/feedback">Feedback</a></li>
+      </ul>
+      <form accept-charset="UTF-8" action="http://railscasts.com/episodes" method="get"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /></div>
+        <input id="search" name="search" size="35" type="text" />
+        <input type="submit" value="Search Episodes" />
+</form>    </div>
+
+    <div id="announcement_banner">
+  <p>Please read this announcement on the status of RailsCasts:</p>
+
+  <p><a href="/announcements/11">Learn more</a> or <a href="/announcements/11/hide" data-remote="true">hide this</a></p>
+</div>
+
+
+
+    <div id="main">
+
+      
+<div class="content">
+  <div class="side">
+    <div class="episode_views">
+      View: <span class="view"><img alt="Full" height="10" src="/assets/views/full-0788b5fc76d8a1d653004ad44fbf31e5.png" width="15" /></span><span class="view"><a href="/?view=list" title="List View"><img alt="List" height="10" src="/assets/views/list-f3b69d30cdb1ef80b12126c5dbd3fc7a.png" width="14" /></a></span><span class="view"><a href="/?view=grid" title="Grid View"><img alt="Grid" height="10" src="/assets/views/grid-119e56c5d75467c317c16c5c6fef94da.png" width="11" /></a></span>
+    </div>
+    <div class="search_option">
+      <h2>Types</h2>
+      <ul><li><a href="/?type=free">Free Episodes</a></li><li><a href="/?type=pro">Pro Episodes</a></li><li><a href="/?type=revised">Revised Episodes</a></li></ul>
+    </div>
+    <div class="search_option">
+      <h2>Categories</h2>
+      <ul><li><a href="/?tag_id=2">Active Record</a></li><li><a href="/?tag_id=19">Active Resource</a></li><li><a href="/?tag_id=3">Active Support</a></li><li><a href="/?tag_id=9">Administration</a></li><li><a href="/?tag_id=11">Ajax</a></li><li><a href="/?tag_id=37">APIs</a></li><li><a href="/?tag_id=25">Authentication</a></li><li><a href="/?tag_id=26">Authorization</a></li><li><a href="/?tag_id=32">Background Jobs</a></li><li><a href="/?tag_id=18">Caching</a></li><li><a href="/?tag_id=39">Code Walkthrough</a></li><li><a href="/?tag_id=8">Controllers</a></li><li><a href="/?tag_id=10">Debugging</a></li><li><a href="/?tag_id=21">Deployment</a></li><li><a href="/?tag_id=23">eCommerce</a></li><li><a href="/?tag_id=15">Forms</a></li><li><a href="/?tag_id=28">Mailing</a></li><li><a href="/?tag_id=16">Models</a></li><li><a href="/?tag_id=1">Performance</a></li><li><a href="/?tag_id=13">Plugins</a></li><li><a href="/?tag_id=33">Production</a></li><li><a href="/?tag_id=35">Rack</a></li><li><a href="/?tag_id=17">Rails 2.0</a></li><li><a href="/?tag_id=20">Rails 2.1</a></li><li><a href="/?tag_id=22">Rails 2.2</a></li><li><a href="/?tag_id=24">Rails 2.3</a></li><li><a href="/?tag_id=27">Rails 3.0</a></li><li><a href="/?tag_id=31">Rails 3.1</a></li><li><a href="/?tag_id=34">Rails 3.2</a></li><li><a href="/?tag_id=38">Rails 4.0</a></li><li><a href="/?tag_id=6">Refactoring</a></li><li><a href="/?tag_id=14">Routing</a></li><li><a href="/?tag_id=30">Search</a></li><li><a href="/?tag_id=5">Security</a></li><li><a href="/?tag_id=7">Testing</a></li><li><a href="/?tag_id=12">Tools</a></li><li><a href="/?tag_id=4">Views</a></li></ul>
+    </div>
+    <div class="banner">
+      <a href="https://www.digitalocean.com/?utm_source=railscasts.com"><img alt="Digital Ocean" src="/static/sponsors/digitalocean.png" /></a>
+    </div>
+  </div>
+
+  <div class="episodes">
+      <div class="full"><div class="episode" id="episode_476">
+  <div class="screenshot"><a href="/episodes/417-foundation"><img alt="Foundation" height="125" src="/static/episodes/stills/417-foundation.png" width="200" /></a></div>
+  <div class="main">
+    <div class="info">
+      <span class="number">Episode #417</span> &ndash;
+      <span class="published_at">Jun 16, 2013</span> &ndash;
+      <span class="comments"><a href="/episodes/417-foundation?view=comments">50 comments</a></span>
+    </div>
+    <h2>
+      <a href="/episodes/417-foundation">Foundation</a>
+      
+    </h2>
+    <div class="description">
+      ZURB&#x27;s Foundation is a front-end for quickly building applications and prototypes. It is similar to Twitter Bootstrap but uses Sass instead of LESS. Here you will learn the basics of the grid system, navigation, tooltips and more.
+      <span class="stats">(11 minutes)</span>
+    </div>
+    <div class="watch">
+        <a href="/episodes/417-foundation?autoplay=true" class="pretty_button">Watch Episode</a>
+        <a href="/episodes/417-foundation?view=asciicast" class="pretty_button read_button">Read Episode</a>
+    </div>
+  </div>
+  <div class="clear"></div>
+</div><div class="episode" id="episode_475">
+  <div class="screenshot"><a href="/episodes/416-form-objects"><img alt="Form Objects" height="125" src="/static/episodes/stills/416-form-objects.png" width="200" /></a></div>
+  <div class="main">
+    <div class="info">
+      <span class="number">Episode #416</span> &ndash;
+      <span class="published_at">Jun 03, 2013</span> &ndash;
+      <span class="comments"><a href="/episodes/416-form-objects?view=comments">33 comments</a></span>
+    </div>
+    <h2>
+      <a href="/episodes/416-form-objects">Form Objects</a>
+      
+    </h2>
+    <div class="description">
+      Models have a tendency to become a complex mess as an application grows. In this episode you will learn a couple of techniques to extract form-behavior out into its own class.
+      <span class="stats">(18 minutes)</span>
+    </div>
+    <div class="watch">
+        <a href="/pro" class="pretty_button">Subscribe to Watch Episode</a>
+    </div>
+  </div>
+  <div class="clear"></div>
+</div><div class="episode" id="episode_474">
+  <div class="screenshot"><a href="/episodes/115-model-caching-revised"><img alt="Model Caching (revised)" height="125" src="/static/episodes/stills/115-model-caching-revised.png" width="200" /></a></div>
+  <div class="main">
+    <div class="info">
+      <span class="number">Episode #115</span> &ndash;
+      <span class="published_at">May 13, 2013</span> &ndash;
+      <span class="comments"><a href="/episodes/115-model-caching-revised?view=comments">30 comments</a></span>
+    </div>
+    <h2>
+      <a href="/episodes/115-model-caching-revised">Model Caching (revised)</a>
+      
+    </h2>
+    <div class="description">
+      Caching at a low level is a great option when the view is too dynamic to cache and you need something flexible that can work anywhere in the application. Here I show a variety of ways to use Rails.cache with Active Record.
+      <span class="stats">(12 minutes)</span>
+    </div>
+    <div class="watch">
+        <a href="/pro" class="pretty_button">Subscribe to Watch Episode</a>
+    </div>
+  </div>
+  <div class="clear"></div>
+</div><div class="episode" id="episode_473">
+  <div class="screenshot"><a href="/episodes/415-upgrading-to-rails-4"><img alt="Upgrading to Rails 4" height="125" src="/static/episodes/stills/415-upgrading-to-rails-4.png" width="200" /></a></div>
+  <div class="main">
+    <div class="info">
+      <span class="number">Episode #415</span> &ndash;
+      <span class="published_at">May 06, 2013</span> &ndash;
+      <span class="comments"><a href="/episodes/415-upgrading-to-rails-4?view=comments">26 comments</a></span>
+    </div>
+    <h2>
+      <a href="/episodes/415-upgrading-to-rails-4">Upgrading to Rails 4</a>
+      
+    </h2>
+    <div class="description">
+      With the release of Rails 4.0.0.rc1 it&#x27;s time to try it out and report any bugs. Here I walk you through the steps to upgrade a Rails 3.2 application to Rails 4.
+      <span class="stats">(12 minutes)</span>
+    </div>
+    <div class="watch">
+        <a href="/episodes/415-upgrading-to-rails-4?autoplay=true" class="pretty_button">Watch Episode</a>
+        <a href="/episodes/415-upgrading-to-rails-4?view=asciicast" class="pretty_button read_button">Read Episode</a>
+    </div>
+  </div>
+  <div class="clear"></div>
+</div><div class="episode" id="episode_472">
+  <div class="screenshot"><a href="/episodes/414-batch-api-requests"><img alt="Batch API Requests" height="125" src="/static/episodes/stills/414-batch-api-requests.png" width="200" /></a></div>
+  <div class="main">
+    <div class="info">
+      <span class="number">Episode #414</span> &ndash;
+      <span class="published_at">Apr 27, 2013</span> &ndash;
+      <span class="comments"><a href="/episodes/414-batch-api-requests?view=comments">18 comments</a></span>
+    </div>
+    <h2>
+      <a href="/episodes/414-batch-api-requests">Batch API Requests</a>
+      
+    </h2>
+    <div class="description">
+      Here I demonstrate how to perform bulk API operations though a single request using Rack middleware. This is great if you need to trigger multiple actions at once such as if the user goes offline.
+      <span class="stats">(18 minutes)</span>
+    </div>
+    <div class="watch">
+        <a href="/pro" class="pretty_button">Subscribe to Watch Episode</a>
+    </div>
+  </div>
+  <div class="clear"></div>
+</div><div class="episode" id="episode_471">
+  <div class="screenshot"><a href="/episodes/53-handling-exceptions-revised"><img alt="Handling Exceptions (revised)" height="125" src="/static/episodes/stills/053-handling-exceptions-revised.png" width="200" /></a></div>
+  <div class="main">
+    <div class="info">
+      <span class="number">Episode #53</span> &ndash;
+      <span class="published_at">Apr 20, 2013</span> &ndash;
+      <span class="comments"><a href="/episodes/53-handling-exceptions-revised?view=comments">17 comments</a></span>
+    </div>
+    <h2>
+      <a href="/episodes/53-handling-exceptions-revised">Handling Exceptions (revised)</a>
+      
+    </h2>
+    <div class="description">
+      By default, Rails will render a static error file when an exception occurs in production. Here you will learn how to fully customize this behavior and render dynamic error pages.
+      <span class="stats">(11 minutes)</span>
+    </div>
+    <div class="watch">
+        <a href="/pro" class="pretty_button">Subscribe to Watch Episode</a>
+    </div>
+  </div>
+  <div class="clear"></div>
+</div><div class="episode" id="episode_470">
+  <div class="screenshot"><a href="/episodes/413-fast-tests"><img alt="Fast Tests" height="125" src="/static/episodes/stills/413-fast-tests.png" width="200" /></a></div>
+  <div class="main">
+    <div class="info">
+      <span class="number">Episode #413</span> &ndash;
+      <span class="published_at">Apr 10, 2013</span> &ndash;
+      <span class="comments"><a href="/episodes/413-fast-tests?view=comments">28 comments</a></span>
+    </div>
+    <h2>
+      <a href="/episodes/413-fast-tests">Fast Tests</a>
+      
+    </h2>
+    <div class="description">
+      A slow test suite can put a damper on test-driven development. In this episode I show a variety of ways to optimize specs including: selective testing, preloading Rails, and testing outside of Rails.
+      <span class="stats">(17 minutes)</span>
+    </div>
+    <div class="watch">
+        <a href="/pro" class="pretty_button">Subscribe to Watch Episode</a>
+    </div>
+  </div>
+  <div class="clear"></div>
+</div><div class="episode" id="episode_469">
+  <div class="screenshot"><a href="/episodes/412-fast-rails-commands"><img alt="Fast Rails Commands" height="125" src="/static/episodes/stills/412-fast-rails-commands.png" width="200" /></a></div>
+  <div class="main">
+    <div class="info">
+      <span class="number">Episode #412</span> &ndash;
+      <span class="published_at">Apr 04, 2013</span> &ndash;
+      <span class="comments"><a href="/episodes/412-fast-rails-commands?view=comments">29 comments</a></span>
+    </div>
+    <h2>
+      <a href="/episodes/412-fast-rails-commands">Fast Rails Commands</a>
+      
+    </h2>
+    <div class="description">
+      Rails commands, such as generators, migrations, and tests, have a tendency to be slow because they need to load the Rails app each time. Here I show three tools to make this faster: Zeus, Spring, and Commands.
+      <span class="stats">(8 minutes)</span>
+    </div>
+    <div class="watch">
+        <a href="/episodes/412-fast-rails-commands?autoplay=true" class="pretty_button">Watch Episode</a>
+        <a href="/episodes/412-fast-rails-commands?view=asciicast" class="pretty_button read_button">Read Episode</a>
+    </div>
+  </div>
+  <div class="clear"></div>
+</div><div class="episode" id="episode_468">
+  <div class="screenshot"><a href="/episodes/411-performance-testing"><img alt="Performance Testing" height="125" src="/static/episodes/stills/411-performance-testing.png" width="200" /></a></div>
+  <div class="main">
+    <div class="info">
+      <span class="number">Episode #411</span> &ndash;
+      <span class="published_at">Mar 27, 2013</span> &ndash;
+      <span class="comments"><a href="/episodes/411-performance-testing?view=comments">19 comments</a></span>
+    </div>
+    <h2>
+      <a href="/episodes/411-performance-testing">Performance Testing</a>
+      
+    </h2>
+    <div class="description">
+      Learn how to add performance tests that automate benchmark and profile reports. Here I show how to find the bottlenecks to optimize a page. I also show how to compile Ruby with gcdata to get information about memory usage.
+      <span class="stats">(16 minutes)</span>
+    </div>
+    <div class="watch">
+        <a href="/pro" class="pretty_button">Subscribe to Watch Episode</a>
+    </div>
+  </div>
+  <div class="clear"></div>
+</div><div class="episode" id="episode_467">
+  <div class="screenshot"><a href="/episodes/22-eager-loading-revised"><img alt="Eager Loading (revised)" height="125" src="/static/episodes/stills/022-eager-loading-revised.png" width="200" /></a></div>
+  <div class="main">
+    <div class="info">
+      <span class="number">Episode #22</span> &ndash;
+      <span class="published_at">Mar 20, 2013</span> &ndash;
+      <span class="comments"><a href="/episodes/22-eager-loading-revised?view=comments">17 comments</a></span>
+    </div>
+    <h2>
+      <a href="/episodes/22-eager-loading-revised">Eager Loading (revised)</a>
+      
+    </h2>
+    <div class="description">
+      One way to improve performance is to reduce the number of database queries through eager loading. Here I demonstrate this and compare the difference between the &quot;includes&quot; and &quot;joins&quot; methods.
+      <span class="stats">(7 minutes)</span>
+    </div>
+    <div class="watch">
+        <a href="/pro" class="pretty_button">Subscribe to Watch Episode</a>
+    </div>
+  </div>
+  <div class="clear"></div>
+</div></div>
+      <div class="pagination"><span class="previous_page disabled">&lt; Previous Page</span> <em class="current">1</em> <a rel="next" href="/?page=2">2</a> <a href="/?page=3">3</a> <a href="/?page=4">4</a> <a href="/?page=5">5</a> <a href="/?page=6">6</a> <a href="/?page=7">7</a> <a href="/?page=8">8</a> <a href="/?page=9">9</a> <span class="gap">&hellip;</span> <a href="/?page=47">47</a> <a href="/?page=48">48</a> <a class="next_page" rel="next" href="/?page=2">Next Page &gt;</a></div>
+  </div>
+</div>
+
+    </div>
+    <div id="footer">
+      <div class="inner">
+        &copy;2013 RailsCasts - <a href="/privacy">Privacy Policy</a> - Hosted by <a href="https://www.digitalocean.com/?utm_source=railscasts.com">Digital Ocean</a>
+      </div>
+    </div>
+
+      <!-- Google Analytics -->
+      <script type="text/javascript">
+        var _gaq = _gaq || [];
+        _gaq.push(['_setAccount', 'UA-7696481-1']);
+        _gaq.push(['_trackPageview']);
+
+        (function() {
+          var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+          ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+          var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+        })();
+      </script>
+  </body>
+</html>

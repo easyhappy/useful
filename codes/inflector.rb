@@ -17,3 +17,5 @@ puts 'ox'.pluralize
 puts 'octopi'.singularize
 puts 'octopus'.pluralize
 puts 'equipment'.pluralize
+puts 'people'.pluralize
+puts 'people'.singularize

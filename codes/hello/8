@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Ruby on Rails Screencasts - RailsCasts</title>
+    <meta name="description" content="Short Ruby on Rails screencasts containing tips, tricks and tutorials. Great for both novice and experienced web developers." />
+    <meta name="keywords" content="rails, ruby on rails, screencasts, railscast, railscasts, tips, tricks, tutorials, training, podcasts, programming" />
+    <link rel="alternate" type="application/rss+xml" title="Episodes RSS" href="http://feeds.feedburner.com/railscasts" />
+    <link href="/assets/application-f33052609391fcb2333fb8c560544e00.css" media="screen" rel="stylesheet" type="text/css" />
+    <script src="http://cdn.sublimevideo.net/js/3s7oes9q.js" type="text/javascript"></script>
+    <script src="/assets/application-fe460ed6c034ee8c95a2a78f52d7a5d9.js" type="text/javascript"></script>
+    <meta content="authenticity_token" name="csrf-param" />
+<meta content="CH6JEz9/WrgImHGSv3FiUswbIJDKcx4cj/2pMWfe5ZM=" name="csrf-token" />
+    
+  </head>
+  <body>
+    <div id="top">
+      <div class="logo"><a href="/"><img alt="RailsCasts - Ruby on Rails Screencasts" height="56" src="/assets/railscasts_logo-7101a7cd0a48292a0c07276981855edb.png" width="423" /></a></div>
+      <div class="user_nav">
+          <a href="/login?return_to=http%3A%2F%2Frailscasts.com%2F%3Fpage%3D8">Sign in through GitHub</a>
+      </div>
+      <ul class="subscribe horizontal">
+        <li>
+          <a href="http://phobos.apple.com/WebObjects/MZStore.woa/wa/viewPodcast?id=218282043"><img alt="Itunes" height="34" src="/assets/icons/itunes-ea9253b9b183d9788bef2cdfe326f38e.png" width="34" /></a>
+          <span class="name">watch on iTunes</span>
+        </li>
+        <li>
+          <a href="http://twitter.com/railscasts"><img alt="Twitter" height="34" src="/assets/icons/twitter-f0259ab802804e09139fb29f47678b2c.png" width="34" /></a>
+          <span class="name">follow on Twitter</span>
+        </li>
+        <li>
+          <a href="http://www.facebook.com/pages/railscasts/197415140659"><img alt="Facebook" height="34" src="/assets/icons/facebook-0ab869e74b54d9c58f33c1c75264d869.png" width="34" /></a>
+          <span class="name">follow on Facebook</span>
+        </li>
+        <li>
+          <a href="http://feeds.feedburner.com/railscasts"><img alt="Rss" height="34" src="/assets/icons/rss-04cb962054caa957a6fa3924c48594d8.png" width="34" /></a>
+          <span class="name">subscribe to RSS feed</span>
+        </li>
+      </ul>
+    </div>
+
+    <div id="nav_bar">
+      <ul class="nav horizontal">
+        <li>Browse Episodes</li>
+        <li><a href="/pro">RailsCasts Pro</a></li>
+        <li><a href="/notifications">Notifications</a></li>
+        <li><a href="/about">About</a></li>
+        <li><a href="/feedback">Feedback</a></li>
+      </ul>
+      <form accept-charset="UTF-8" action="http://railscasts.com/episodes" method="get"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /></div>
+        <input id="search" name="search" size="35" type="text" />
+        <input type="submit" value="Search Episodes" />
+</form>    </div>
+
+    <div id="announcement_banner">
+  <p>Please read this announcement on the status of RailsCasts:</p>
+
+  <p><a href="/announcements/11">Learn more</a> or <a href="/announcements/11/hide" data-remote="true">hide this</a></p>
+</div>
+
+
+
+    <div id="main">
+
+      
+<div class="content">
+  <div class="side">
+    <div class="episode_views">
+      View: <span class="view"><img alt="Full" height="10" src="/assets/views/full-0788b5fc76d8a1d653004ad44fbf31e5.png" width="15" /></span><span class="view"><a href="/?view=list" title="List View"><img alt="List" height="10" src="/assets/views/list-f3b69d30cdb1ef80b12126c5dbd3fc7a.png" width="14" /></a></span><span class="view"><a href="/?view=grid" title="Grid View"><img alt="Grid" height="10" src="/assets/views/grid-119e56c5d75467c317c16c5c6fef94da.png" width="11" /></a></span>
+    </div>
+    <div class="search_option">
+      <h2>Types</h2>
+      <ul><li><a href="/?type=free">Free Episodes</a></li><li><a href="/?type=pro">Pro Episodes</a></li><li><a href="/?type=revised">Revised Episodes</a></li></ul>
+    </div>
+    <div class="search_option">
+      <h2>Categories</h2>
+      <ul><li><a href="/?tag_id=2">Active Record</a></li><li><a href="/?tag_id=19">Active Resource</a></li><li><a href="/?tag_id=3">Active Support</a></li><li><a href="/?tag_id=9">Administration</a></li><li><a href="/?tag_id=11">Ajax</a></li><li><a href="/?tag_id=37">APIs</a></li><li><a href="/?tag_id=25">Authentication</a></li><li><a href="/?tag_id=26">Authorization</a></li><li><a href="/?tag_id=32">Background Jobs</a></li><li><a href="/?tag_id=18">Caching</a></li><li><a href="/?tag_id=39">Code Walkthrough</a></li><li><a href="/?tag_id=8">Controllers</a></li><li><a href="/?tag_id=10">Debugging</a></li><li><a href="/?tag_id=21">Deployment</a></li><li><a href="/?tag_id=23">eCommerce</a></li><li><a href="/?tag_id=15">Forms</a></li><li><a href="/?tag_id=28">Mailing</a></li><li><a href="/?tag_id=16">Models</a></li><li><a href="/?tag_id=1">Performance</a></li><li><a href="/?tag_id=13">Plugins</a></li><li><a href="/?tag_id=33">Production</a></li><li><a href="/?tag_id=35">Rack</a></li><li><a href="/?tag_id=17">Rails 2.0</a></li><li><a href="/?tag_id=20">Rails 2.1</a></li><li><a href="/?tag_id=22">Rails 2.2</a></li><li><a href="/?tag_id=24">Rails 2.3</a></li><li><a href="/?tag_id=27">Rails 3.0</a></li><li><a href="/?tag_id=31">Rails 3.1</a></li><li><a href="/?tag_id=34">Rails 3.2</a></li><li><a href="/?tag_id=38">Rails 4.0</a></li><li><a href="/?tag_id=6">Refactoring</a></li><li><a href="/?tag_id=14">Routing</a></li><li><a href="/?tag_id=30">Search</a></li><li><a href="/?tag_id=5">Security</a></li><li><a href="/?tag_id=7">Testing</a></li><li><a href="/?tag_id=12">Tools</a></li><li><a href="/?tag_id=4">Views</a></li></ul>
+    </div>
+    <div class="banner">
+      <a href="https://www.digitalocean.com/?utm_source=railscasts.com"><img alt="Digital Ocean" src="/static/sponsors/digitalocean.png" /></a>
+    </div>
+  </div>
+
+  <div class="episodes">
+      <div class="full"><div class="episode" id="episode_405">
+  <div class="screenshot"><a href="/episodes/235-devise-and-omniauth-revised"><img alt="Devise and OmniAuth (revised)" height="125" src="/static/episodes/stills/235-devise-and-omniauth-revised.png" width="200" /></a></div>
+  <div class="main">
+    <div class="info">
+      <span class="number">Episode #235</span> &ndash;
+      <span class="published_at">Jul 13, 2012</span> &ndash;
+      <span class="comments"><a href="/episodes/235-devise-and-omniauth-revised?view=comments">73 comments</a></span>
+    </div>
+    <h2>
+      <a href="/episodes/235-devise-and-omniauth-revised">Devise and OmniAuth (revised)</a>
+      
+    </h2>
+    <div class="description">
+      In this episode I build upon a standard Devise setup and show how to add 3rd party authentication using OmniAuth. This includes support for user validations and is compatible with normal password authentication.
+      <span class="stats">(10 minutes)</span>
+    </div>
+    <div class="watch">
+        <a href="/pro" class="pretty_button">Subscribe to Watch Episode</a>
+    </div>
+  </div>
+  <div class="clear"></div>
+</div><div class="episode" id="episode_404">
+  <div class="screenshot"><a href="/episodes/365-thread-safety"><img alt="Thread-Safety" height="125" src="/static/episodes/stills/365-thread-safety.png" width="200" /></a></div>
+  <div class="main">
+    <div class="info">
+      <span class="number">Episode #365</span> &ndash;
+      <span class="published_at">Jul 09, 2012</span> &ndash;
+      <span class="comments"><a href="/episodes/365-thread-safety?view=comments">32 comments</a></span>
+    </div>
+    <h2>
+      <a href="/episodes/365-thread-safety">Thread-Safety</a>
+      
+    </h2>
+    <div class="description">
+      The config.threadsafe! option will likely be enabled by default in Rails 4.0. Here you will learn what this option does, how it affects production, and some tips on thread safety.
+      <span class="stats">(10 minutes)</span>
+    </div>
+    <div class="watch">
+        <a href="/pro" class="pretty_button">Subscribe to Watch Episode</a>
+    </div>
+  </div>
+  <div class="clear"></div>
+</div><div class="episode" id="episode_403">
+  <div class="screenshot"><a href="/episodes/364-active-record-reputation-system"><img alt="Active Record Reputation System" height="125" src="/static/episodes/stills/364-active-record-reputation-system.png" width="200" /></a></div>
+  <div class="main">
+    <div class="info">
+      <span class="number">Episode #364</span> &ndash;
+      <span class="published_at">Jul 09, 2012</span> &ndash;
+      <span class="comments"><a href="/episodes/364-active-record-reputation-system?view=comments">58 comments</a></span>
+    </div>
+    <h2>
+      <a href="/episodes/364-active-record-reputation-system">Active Record Reputation System</a>
+      
+    </h2>
+    <div class="description">
+      If you need to calculate an average user&#x27;s rating or sum up a number of votes, consider using the activerecord-reputation-system gem. Here I will cover the basics and also briefly present a from-scratch solution.
+      <span class="stats">(10 minutes)</span>
+    </div>
+    <div class="watch">
+        <a href="/episodes/364-active-record-reputation-system?autoplay=true" class="pretty_button">Watch Episode</a>
+        <a href="/episodes/364-active-record-reputation-system?view=asciicast" class="pretty_button read_button">Read Episode</a>
+    </div>
+  </div>
+  <div class="clear"></div>
+</div><div class="episode" id="episode_402">
+  <div class="screenshot"><a href="/episodes/209-devise-revised"><img alt="Devise (revised)" height="125" src="/static/episodes/stills/209-devise-revised.png" width="200" /></a></div>
+  <div class="main">
+    <div class="info">
+      <span class="number">Episode #209</span> &ndash;
+      <span class="published_at">Jul 06, 2012</span> &ndash;
+      <span class="comments"><a href="/episodes/209-devise-revised?view=comments">31 comments</a></span>
+    </div>
+    <h2>
+      <a href="/episodes/209-devise-revised">Devise (revised)</a>
+      
+    </h2>
+    <div class="description">
+      Devise is one of the most popular authentication plugins for Rails. Here I show how to set it up with a User model and configure the modules, views, routes, and more.
+      <span class="stats">(8 minutes)</span>
+    </div>
+    <div class="watch">
+        <a href="/pro" class="pretty_button">Subscribe to Watch Episode</a>
+    </div>
+  </div>
+  <div class="clear"></div>
+</div><div class="episode" id="episode_401">
+  <div class="screenshot"><a href="/episodes/363-facebook-open-graph"><img alt="Facebook Open Graph" height="125" src="/static/episodes/stills/363-facebook-open-graph.png" width="200" /></a></div>
+  <div class="main">
+    <div class="info">
+      <span class="number">Episode #363</span> &ndash;
+      <span class="published_at">Jul 02, 2012</span> &ndash;
+      <span class="comments"><a href="/episodes/363-facebook-open-graph?view=comments">16 comments</a></span>
+    </div>
+    <h2>
+      <a href="/episodes/363-facebook-open-graph">Facebook Open Graph</a>
+      
+    </h2>
+    <div class="description">
+      This episode builds on last week&#x27;s episodes and shows how to integrate Facebook further through the Open Graph protocol. You will also learn how to tunnel your local server and move Facebook communication into a background process.
+      <span class="stats">(11 minutes)</span>
+    </div>
+    <div class="watch">
+        <a href="/pro" class="pretty_button">Subscribe to Watch Episode</a>
+    </div>
+  </div>
+  <div class="clear"></div>
+</div><div class="episode" id="episode_400">
+  <div class="screenshot"><a href="/episodes/362-exporting-csv-and-excel"><img alt="Exporting CSV and Excel" height="125" src="/static/episodes/stills/362-exporting-csv-and-excel.png" width="200" /></a></div>
+  <div class="main">
+    <div class="info">
+      <span class="number">Episode #362</span> &ndash;
+      <span class="published_at">Jul 02, 2012</span> &ndash;
+      <span class="comments"><a href="/episodes/362-exporting-csv-and-excel?view=comments">95 comments</a></span>
+    </div>
+    <h2>
+      <a href="/episodes/362-exporting-csv-and-excel">Exporting CSV and Excel</a>
+      
+    </h2>
+    <div class="description">
+      As you will see it is easy to add a CSV export option to Rails. Here I also show how to export for Excel in a variety of formats.
+      <span class="stats">(6 minutes)</span>
+    </div>
+    <div class="watch">
+        <a href="/episodes/362-exporting-csv-and-excel?autoplay=true" class="pretty_button">Watch Episode</a>
+        <a href="/episodes/362-exporting-csv-and-excel?view=asciicast" class="pretty_button read_button">Read Episode</a>
+    </div>
+  </div>
+  <div class="clear"></div>
+</div><div class="episode" id="episode_399">
+  <div class="screenshot"><a href="/episodes/261-testing-javascript-with-jasmine-revised"><img alt="Testing JavaScript with Jasmine (revised)" height="125" src="/static/episodes/stills/261-testing-javascript-with-jasmine-revised.png" width="200" /></a></div>
+  <div class="main">
+    <div class="info">
+      <span class="number">Episode #261</span> &ndash;
+      <span class="published_at">Jun 28, 2012</span> &ndash;
+      <span class="comments"><a href="/episodes/261-testing-javascript-with-jasmine-revised?view=comments">19 comments</a></span>
+    </div>
+    <h2>
+      <a href="/episodes/261-testing-javascript-with-jasmine-revised">Testing JavaScript with Jasmine (revised)</a>
+      
+    </h2>
+    <div class="description">
+      The jasminerice gem makes it easy to test your JavaScript with Jasmine in a Rails application. Here I also cover jasmine-jquery and guard-jasmine.
+      <span class="stats">(11 minutes)</span>
+    </div>
+    <div class="watch">
+        <a href="/pro" class="pretty_button">Subscribe to Watch Episode</a>
+    </div>
+  </div>
+  <div class="clear"></div>
+</div><div class="episode" id="episode_398">
+  <div class="screenshot"><a href="/episodes/361-facebook-graph-api"><img alt="Facebook Graph API" height="125" src="/static/episodes/stills/361-facebook-graph-api.png" width="200" /></a></div>
+  <div class="main">
+    <div class="info">
+      <span class="number">Episode #361</span> &ndash;
+      <span class="published_at">Jun 25, 2012</span> &ndash;
+      <span class="comments"><a href="/episodes/361-facebook-graph-api?view=comments">16 comments</a></span>
+    </div>
+    <h2>
+      <a href="/episodes/361-facebook-graph-api">Facebook Graph API</a>
+      
+    </h2>
+    <div class="description">
+      Learn how to use the Facebook Graph API with the Koala gem to fetch data from Facebook and post content through a user. Here I delve into permissions, error handling, and more.
+      <span class="stats">(14 minutes)</span>
+    </div>
+    <div class="watch">
+        <a href="/pro" class="pretty_button">Subscribe to Watch Episode</a>
+    </div>
+  </div>
+  <div class="clear"></div>
+</div><div class="episode" id="episode_397">
+  <div class="screenshot"><a href="/episodes/360-facebook-authentication"><img alt="Facebook Authentication" height="125" src="/static/episodes/stills/360-facebook-authentication.png" width="200" /></a></div>
+  <div class="main">
+    <div class="info">
+      <span class="number">Episode #360</span> &ndash;
+      <span class="published_at">Jun 25, 2012</span> &ndash;
+      <span class="comments"><a href="/episodes/360-facebook-authentication?view=comments">96 comments</a></span>
+    </div>
+    <h2>
+      <a href="/episodes/360-facebook-authentication">Facebook Authentication</a>
+      
+    </h2>
+    <div class="description">
+      This will show how to create a new facebook application and configure it. Then add some authentication with the omniauth-facebook gem and top it off with a client-side authentication using the JavaScript SDK.
+      <span class="stats">(12 minutes)</span>
+    </div>
+    <div class="watch">
+        <a href="/episodes/360-facebook-authentication?autoplay=true" class="pretty_button">Watch Episode</a>
+        <a href="/episodes/360-facebook-authentication?view=asciicast" class="pretty_button read_button">Read Episode</a>
+    </div>
+  </div>
+  <div class="clear"></div>
+</div><div class="episode" id="episode_396">
+  <div class="screenshot"><a href="/episodes/77-destroy-without-javascript-revised"><img alt="Destroy without JavaScript (revised)" height="125" src="/static/episodes/stills/077-destroy-without-javascript-revised.png" width="200" /></a></div>
+  <div class="main">
+    <div class="info">
+      <span class="number">Episode #77</span> &ndash;
+      <span class="published_at">Jun 16, 2012</span> &ndash;
+      <span class="comments"><a href="/episodes/77-destroy-without-javascript-revised?view=comments">12 comments</a></span>
+    </div>
+    <h2>
+      <a href="/episodes/77-destroy-without-javascript-revised">Destroy without JavaScript (revised)</a>
+      
+    </h2>
+    <div class="description">
+      A destroy link in Rails does not work without JavaScript. In this episode I show two techniques for gracefully degrading destroy links: button_to and a delete action.
+      <span class="stats">(8 minutes)</span>
+    </div>
+    <div class="watch">
+        <a href="/pro" class="pretty_button">Subscribe to Watch Episode</a>
+    </div>
+  </div>
+  <div class="clear"></div>
+</div></div>
+      <div class="pagination"><a class="previous_page" rel="prev" href="/?page=7">&lt; Previous Page</a> <a rel="start" href="/?page=1">1</a> <a href="/?page=2">2</a> <a href="/?page=3">3</a> <a href="/?page=4">4</a> <a href="/?page=5">5</a> <a href="/?page=6">6</a> <a rel="prev" href="/?page=7">7</a> <em class="current">8</em> <a rel="next" href="/?page=9">9</a> <a href="/?page=10">10</a> <a href="/?page=11">11</a> <a href="/?page=12">12</a> <span class="gap">&hellip;</span> <a href="/?page=47">47</a> <a href="/?page=48">48</a> <a class="next_page" rel="next" href="/?page=9">Next Page &gt;</a></div>
+  </div>
+</div>
+
+    </div>
+    <div id="footer">
+      <div class="inner">
+        &copy;2013 RailsCasts - <a href="/privacy">Privacy Policy</a> - Hosted by <a href="https://www.digitalocean.com/?utm_source=railscasts.com">Digital Ocean</a>
+      </div>
+    </div>
+
+      <!-- Google Analytics -->
+      <script type="text/javascript">
+        var _gaq = _gaq || [];
+        _gaq.push(['_setAccount', 'UA-7696481-1']);
+        _gaq.push(['_trackPageview']);
+
+        (function() {
+          var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+          ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+          var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+        })();
+      </script>
+  </body>
+</html>

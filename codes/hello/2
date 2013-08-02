@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Ruby on Rails Screencasts - RailsCasts</title>
+    <meta name="description" content="Short Ruby on Rails screencasts containing tips, tricks and tutorials. Great for both novice and experienced web developers." />
+    <meta name="keywords" content="rails, ruby on rails, screencasts, railscast, railscasts, tips, tricks, tutorials, training, podcasts, programming" />
+    <link rel="alternate" type="application/rss+xml" title="Episodes RSS" href="http://feeds.feedburner.com/railscasts" />
+    <link href="/assets/application-f33052609391fcb2333fb8c560544e00.css" media="screen" rel="stylesheet" type="text/css" />
+    <script src="http://cdn.sublimevideo.net/js/3s7oes9q.js" type="text/javascript"></script>
+    <script src="/assets/application-fe460ed6c034ee8c95a2a78f52d7a5d9.js" type="text/javascript"></script>
+    <meta content="authenticity_token" name="csrf-param" />
+<meta content="TfmRpZK6NdVAe92Epq4Twfdi/C/4InjjsGDP8EwjoEc=" name="csrf-token" />
+    
+  </head>
+  <body>
+    <div id="top">
+      <div class="logo"><a href="/"><img alt="RailsCasts - Ruby on Rails Screencasts" height="56" src="/assets/railscasts_logo-7101a7cd0a48292a0c07276981855edb.png" width="423" /></a></div>
+      <div class="user_nav">
+          <a href="/login?return_to=http%3A%2F%2Frailscasts.com%2F%3Fpage%3D2">Sign in through GitHub</a>
+      </div>
+      <ul class="subscribe horizontal">
+        <li>
+          <a href="http://phobos.apple.com/WebObjects/MZStore.woa/wa/viewPodcast?id=218282043"><img alt="Itunes" height="34" src="/assets/icons/itunes-ea9253b9b183d9788bef2cdfe326f38e.png" width="34" /></a>
+          <span class="name">watch on iTunes</span>
+        </li>
+        <li>
+          <a href="http://twitter.com/railscasts"><img alt="Twitter" height="34" src="/assets/icons/twitter-f0259ab802804e09139fb29f47678b2c.png" width="34" /></a>
+          <span class="name">follow on Twitter</span>
+        </li>
+        <li>
+          <a href="http://www.facebook.com/pages/railscasts/197415140659"><img alt="Facebook" height="34" src="/assets/icons/facebook-0ab869e74b54d9c58f33c1c75264d869.png" width="34" /></a>
+          <span class="name">follow on Facebook</span>
+        </li>
+        <li>
+          <a href="http://feeds.feedburner.com/railscasts"><img alt="Rss" height="34" src="/assets/icons/rss-04cb962054caa957a6fa3924c48594d8.png" width="34" /></a>
+          <span class="name">subscribe to RSS feed</span>
+        </li>
+      </ul>
+    </div>
+
+    <div id="nav_bar">
+      <ul class="nav horizontal">
+        <li>Browse Episodes</li>
+        <li><a href="/pro">RailsCasts Pro</a></li>
+        <li><a href="/notifications">Notifications</a></li>
+        <li><a href="/about">About</a></li>
+        <li><a href="/feedback">Feedback</a></li>
+      </ul>
+      <form accept-charset="UTF-8" action="http://railscasts.com/episodes" method="get"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /></div>
+        <input id="search" name="search" size="35" type="text" />
+        <input type="submit" value="Search Episodes" />
+</form>    </div>
+
+    <div id="announcement_banner">
+  <p>Please read this announcement on the status of RailsCasts:</p>
+
+  <p><a href="/announcements/11">Learn more</a> or <a href="/announcements/11/hide" data-remote="true">hide this</a></p>
+</div>
+
+
+
+    <div id="main">
+
+      
+<div class="content">
+  <div class="side">
+    <div class="episode_views">
+      View: <span class="view"><img alt="Full" height="10" src="/assets/views/full-0788b5fc76d8a1d653004ad44fbf31e5.png" width="15" /></span><span class="view"><a href="/?view=list" title="List View"><img alt="List" height="10" src="/assets/views/list-f3b69d30cdb1ef80b12126c5dbd3fc7a.png" width="14" /></a></span><span class="view"><a href="/?view=grid" title="Grid View"><img alt="Grid" height="10" src="/assets/views/grid-119e56c5d75467c317c16c5c6fef94da.png" width="11" /></a></span>
+    </div>
+    <div class="search_option">
+      <h2>Types</h2>
+      <ul><li><a href="/?type=free">Free Episodes</a></li><li><a href="/?type=pro">Pro Episodes</a></li><li><a href="/?type=revised">Revised Episodes</a></li></ul>
+    </div>
+    <div class="search_option">
+      <h2>Categories</h2>
+      <ul><li><a href="/?tag_id=2">Active Record</a></li><li><a href="/?tag_id=19">Active Resource</a></li><li><a href="/?tag_id=3">Active Support</a></li><li><a href="/?tag_id=9">Administration</a></li><li><a href="/?tag_id=11">Ajax</a></li><li><a href="/?tag_id=37">APIs</a></li><li><a href="/?tag_id=25">Authentication</a></li><li><a href="/?tag_id=26">Authorization</a></li><li><a href="/?tag_id=32">Background Jobs</a></li><li><a href="/?tag_id=18">Caching</a></li><li><a href="/?tag_id=39">Code Walkthrough</a></li><li><a href="/?tag_id=8">Controllers</a></li><li><a href="/?tag_id=10">Debugging</a></li><li><a href="/?tag_id=21">Deployment</a></li><li><a href="/?tag_id=23">eCommerce</a></li><li><a href="/?tag_id=15">Forms</a></li><li><a href="/?tag_id=28">Mailing</a></li><li><a href="/?tag_id=16">Models</a></li><li><a href="/?tag_id=1">Performance</a></li><li><a href="/?tag_id=13">Plugins</a></li><li><a href="/?tag_id=33">Production</a></li><li><a href="/?tag_id=35">Rack</a></li><li><a href="/?tag_id=17">Rails 2.0</a></li><li><a href="/?tag_id=20">Rails 2.1</a></li><li><a href="/?tag_id=22">Rails 2.2</a></li><li><a href="/?tag_id=24">Rails 2.3</a></li><li><a href="/?tag_id=27">Rails 3.0</a></li><li><a href="/?tag_id=31">Rails 3.1</a></li><li><a href="/?tag_id=34">Rails 3.2</a></li><li><a href="/?tag_id=38">Rails 4.0</a></li><li><a href="/?tag_id=6">Refactoring</a></li><li><a href="/?tag_id=14">Routing</a></li><li><a href="/?tag_id=30">Search</a></li><li><a href="/?tag_id=5">Security</a></li><li><a href="/?tag_id=7">Testing</a></li><li><a href="/?tag_id=12">Tools</a></li><li><a href="/?tag_id=4">Views</a></li></ul>
+    </div>
+    <div class="banner">
+      <a href="https://www.digitalocean.com/?utm_source=railscasts.com"><img alt="Digital Ocean" src="/static/sponsors/digitalocean.png" /></a>
+    </div>
+  </div>
+
+  <div class="episodes">
+      <div class="full"><div class="episode" id="episode_466">
+  <div class="screenshot"><a href="/episodes/410-ember-part-2"><img alt="Ember Part 2" height="125" src="/static/episodes/stills/410-ember-part-2.png" width="200" /></a></div>
+  <div class="main">
+    <div class="info">
+      <span class="number">Episode #410</span> &ndash;
+      <span class="published_at">Mar 12, 2013</span> &ndash;
+      <span class="comments"><a href="/episodes/410-ember-part-2?view=comments">36 comments</a></span>
+    </div>
+    <h2>
+      <a href="/episodes/410-ember-part-2">Ember Part 2</a>
+      
+    </h2>
+    <div class="description">
+      Here we continue our look into Ember.js. First we add a JSON API to persist the entries through ember-data. Then we finish up the project by adding a computed property and a view object.
+      <span class="stats">(14 minutes)</span>
+    </div>
+    <div class="watch">
+        <a href="/pro" class="pretty_button">Subscribe to Watch Episode</a>
+    </div>
+  </div>
+  <div class="clear"></div>
+</div><div class="episode" id="episode_465">
+  <div class="screenshot"><a href="/episodes/409-active-model-serializers"><img alt="Active Model Serializers" height="125" src="/static/episodes/stills/409-active-model-serializers.png" width="200" /></a></div>
+  <div class="main">
+    <div class="info">
+      <span class="number">Episode #409</span> &ndash;
+      <span class="published_at">Mar 09, 2013</span> &ndash;
+      <span class="comments"><a href="/episodes/409-active-model-serializers?view=comments">42 comments</a></span>
+    </div>
+    <h2>
+      <a href="/episodes/409-active-model-serializers">Active Model Serializers</a>
+      
+    </h2>
+    <div class="description">
+      The ActiveModel::Serializers gem can help you build JSON APIs through serializer objects. This provides a dedicated place to fully customize the JSON output.
+      <span class="stats">(10 minutes)</span>
+    </div>
+    <div class="watch">
+        <a href="/episodes/409-active-model-serializers?autoplay=true" class="pretty_button">Watch Episode</a>
+        <a href="/episodes/409-active-model-serializers?view=asciicast" class="pretty_button read_button">Read Episode</a>
+    </div>
+  </div>
+  <div class="clear"></div>
+</div><div class="episode" id="episode_464">
+  <div class="screenshot"><a href="/episodes/408-ember-part-1"><img alt="Ember Part 1" height="125" src="/static/episodes/stills/408-ember-part-1.png" width="200" /></a></div>
+  <div class="main">
+    <div class="info">
+      <span class="number">Episode #408</span> &ndash;
+      <span class="published_at">Mar 04, 2013</span> &ndash;
+      <span class="comments"><a href="/episodes/408-ember-part-1?view=comments">88 comments</a></span>
+    </div>
+    <h2>
+      <a href="/episodes/408-ember-part-1">Ember Part 1</a>
+      
+    </h2>
+    <div class="description">
+      Ember.js is a javascript framework for making rich client-side applications. In the first part of this two part series I show how to setup templates, controllers, and routes.
+      <span class="stats">(15 minutes)</span>
+    </div>
+    <div class="watch">
+        <a href="/pro" class="pretty_button">Subscribe to Watch Episode</a>
+    </div>
+  </div>
+  <div class="clear"></div>
+</div><div class="episode" id="episode_463">
+  <div class="screenshot"><a href="/episodes/165-edit-multiple-revised"><img alt="Edit Multiple (revised)" height="125" src="/static/episodes/stills/165-edit-multiple-revised.png" width="200" /></a></div>
+  <div class="main">
+    <div class="info">
+      <span class="number">Episode #165</span> &ndash;
+      <span class="published_at">Feb 25, 2013</span> &ndash;
+      <span class="comments"><a href="/episodes/165-edit-multiple-revised?view=comments">18 comments</a></span>
+    </div>
+    <h2>
+      <a href="/episodes/165-edit-multiple-revised">Edit Multiple (revised)</a>
+      
+    </h2>
+    <div class="description">
+      Editing one record at a time can be tedious work. Here you will learn three different ways to edit multiple records at once using checkboxes.
+      <span class="stats">(15 minutes)</span>
+    </div>
+    <div class="watch">
+        <a href="/pro" class="pretty_button">Subscribe to Watch Episode</a>
+    </div>
+  </div>
+  <div class="clear"></div>
+</div><div class="episode" id="episode_462">
+  <div class="screenshot"><a href="/episodes/407-activity-feed-from-scratch"><img alt="Activity Feed from Scratch" height="125" src="/static/episodes/stills/407-activity-feed-from-scratch.png" width="200" /></a></div>
+  <div class="main">
+    <div class="info">
+      <span class="number">Episode #407</span> &ndash;
+      <span class="published_at">Feb 14, 2013</span> &ndash;
+      <span class="comments"><a href="/episodes/407-activity-feed-from-scratch?view=comments">18 comments</a></span>
+    </div>
+    <h2>
+      <a href="/episodes/407-activity-feed-from-scratch">Activity Feed from Scratch</a>
+      
+    </h2>
+    <div class="description">
+      Creating an activity feed presents some interesting challenges. Here I share my thought process behind my implementation including when to use callbacks and a few tricks with partials.
+      <span class="stats">(14 minutes)</span>
+    </div>
+    <div class="watch">
+        <a href="/pro" class="pretty_button">Subscribe to Watch Episode</a>
+    </div>
+  </div>
+  <div class="clear"></div>
+</div><div class="episode" id="episode_461">
+  <div class="screenshot"><a href="/episodes/406-public-activity"><img alt="Public Activity" height="125" src="/static/episodes/stills/406-public-activity.png" width="200" /></a></div>
+  <div class="main">
+    <div class="info">
+      <span class="number">Episode #406</span> &ndash;
+      <span class="published_at">Feb 13, 2013</span> &ndash;
+      <span class="comments"><a href="/episodes/406-public-activity?view=comments">64 comments</a></span>
+    </div>
+    <h2>
+      <a href="/episodes/406-public-activity">Public Activity</a>
+      
+    </h2>
+    <div class="description">
+      Learn how to easily add a user activity feed using the public_activity gem. Here I show both the default setup using model callbacks and a manual way to trigger activities.
+      <span class="stats">(10 minutes)</span>
+    </div>
+    <div class="watch">
+        <a href="/episodes/406-public-activity?autoplay=true" class="pretty_button">Watch Episode</a>
+        <a href="/episodes/406-public-activity?view=asciicast" class="pretty_button read_button">Read Episode</a>
+    </div>
+  </div>
+  <div class="clear"></div>
+</div><div class="episode" id="episode_460">
+  <div class="screenshot"><a href="/episodes/405-angularjs"><img alt="AngularJS" height="125" src="/static/episodes/stills/405-angularjs.png" width="200" /></a></div>
+  <div class="main">
+    <div class="info">
+      <span class="number">Episode #405</span> &ndash;
+      <span class="published_at">Feb 05, 2013</span> &ndash;
+      <span class="comments"><a href="/episodes/405-angularjs?view=comments">130 comments</a></span>
+    </div>
+    <h2>
+      <a href="/episodes/405-angularjs">AngularJS</a>
+      
+    </h2>
+    <div class="description">
+      AngularJS is an awesome framework for easily creating rich, client-side applications. Its powerful bindings allow you to do a lot with very little code. Here I show how to integrate Angular with a Rails app.
+      <span class="stats">(16 minutes)</span>
+    </div>
+    <div class="watch">
+        <a href="/pro" class="pretty_button">Subscribe to Watch Episode</a>
+    </div>
+  </div>
+  <div class="clear"></div>
+</div><div class="episode" id="episode_459">
+  <div class="screenshot"><a href="/episodes/148-custom-app-generators-revised"><img alt="Custom App Generators (revised)" height="125" src="/static/episodes/stills/148-custom-app-generators-revised.png" width="200" /></a></div>
+  <div class="main">
+    <div class="info">
+      <span class="number">Episode #148</span> &ndash;
+      <span class="published_at">Feb 03, 2013</span> &ndash;
+      <span class="comments"><a href="/episodes/148-custom-app-generators-revised?view=comments">13 comments</a></span>
+    </div>
+    <h2>
+      <a href="/episodes/148-custom-app-generators-revised">Custom App Generators (revised)</a>
+      
+    </h2>
+    <div class="description">
+      Learn how to customize the Rails app generator to fit your preference. This episode shows how to do this using .railsrc file, app templates, app builders, RailsWizard, and AppScrolls.
+      <span class="stats">(10 minutes)</span>
+    </div>
+    <div class="watch">
+        <a href="/pro" class="pretty_button">Subscribe to Watch Episode</a>
+    </div>
+  </div>
+  <div class="clear"></div>
+</div><div class="episode" id="episode_458">
+  <div class="screenshot"><a href="/episodes/403-dynamic-forms"><img alt="Dynamic Forms" height="125" src="/static/episodes/stills/403-dynamic-forms.png" width="200" /></a></div>
+  <div class="main">
+    <div class="info">
+      <span class="number">Episode #403</span> &ndash;
+      <span class="published_at">Jan 27, 2013</span> &ndash;
+      <span class="comments"><a href="/episodes/403-dynamic-forms?view=comments">31 comments</a></span>
+    </div>
+    <h2>
+      <a href="/episodes/403-dynamic-forms">Dynamic Forms</a>
+      
+    </h2>
+    <div class="description">
+      Learn how to add fields to a form dynamically using another form, complete with custom field types. It&#x27;s fieldception!
+      <span class="stats">(14 minutes)</span>
+    </div>
+    <div class="watch">
+        <a href="/pro" class="pretty_button">Subscribe to Watch Episode</a>
+    </div>
+  </div>
+  <div class="clear"></div>
+</div><div class="episode" id="episode_457">
+  <div class="screenshot"><a href="/episodes/402-better-errors-railspanel"><img alt="Better Errors &amp; RailsPanel" height="125" src="/static/episodes/stills/402-better-errors-railspanel.png" width="200" /></a></div>
+  <div class="main">
+    <div class="info">
+      <span class="number">Episode #402</span> &ndash;
+      <span class="published_at">Jan 25, 2013</span> &ndash;
+      <span class="comments"><a href="/episodes/402-better-errors-railspanel?view=comments">48 comments</a></span>
+    </div>
+    <h2>
+      <a href="/episodes/402-better-errors-railspanel">Better Errors &amp; RailsPanel</a>
+      
+    </h2>
+    <div class="description">
+      Here we take a look at two tools to aid us in development: Better Errors which makes it easier than ever to debug exceptions, and RailsPanel, a Chrome extension to see Rails requests.
+      <span class="stats">(8 minutes)</span>
+    </div>
+    <div class="watch">
+        <a href="/episodes/402-better-errors-railspanel?autoplay=true" class="pretty_button">Watch Episode</a>
+        <a href="/episodes/402-better-errors-railspanel?view=asciicast" class="pretty_button read_button">Read Episode</a>
+    </div>
+  </div>
+  <div class="clear"></div>
+</div></div>
+      <div class="pagination"><a class="previous_page" rel="prev start" href="/?page=1">&lt; Previous Page</a> <a rel="prev start" href="/?page=1">1</a> <em class="current">2</em> <a rel="next" href="/?page=3">3</a> <a href="/?page=4">4</a> <a href="/?page=5">5</a> <a href="/?page=6">6</a> <a href="/?page=7">7</a> <a href="/?page=8">8</a> <a href="/?page=9">9</a> <span class="gap">&hellip;</span> <a href="/?page=47">47</a> <a href="/?page=48">48</a> <a class="next_page" rel="next" href="/?page=3">Next Page &gt;</a></div>
+  </div>
+</div>
+
+    </div>
+    <div id="footer">
+      <div class="inner">
+        &copy;2013 RailsCasts - <a href="/privacy">Privacy Policy</a> - Hosted by <a href="https://www.digitalocean.com/?utm_source=railscasts.com">Digital Ocean</a>
+      </div>
+    </div>
+
+      <!-- Google Analytics -->
+      <script type="text/javascript">
+        var _gaq = _gaq || [];
+        _gaq.push(['_setAccount', 'UA-7696481-1']);
+        _gaq.push(['_trackPageview']);
+
+        (function() {
+          var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+          ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+          var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+        })();
+      </script>
+  </body>
+</html>

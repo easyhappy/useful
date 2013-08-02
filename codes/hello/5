@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Ruby on Rails Screencasts - RailsCasts</title>
+    <meta name="description" content="Short Ruby on Rails screencasts containing tips, tricks and tutorials. Great for both novice and experienced web developers." />
+    <meta name="keywords" content="rails, ruby on rails, screencasts, railscast, railscasts, tips, tricks, tutorials, training, podcasts, programming" />
+    <link rel="alternate" type="application/rss+xml" title="Episodes RSS" href="http://feeds.feedburner.com/railscasts" />
+    <link href="/assets/application-f33052609391fcb2333fb8c560544e00.css" media="screen" rel="stylesheet" type="text/css" />
+    <script src="http://cdn.sublimevideo.net/js/3s7oes9q.js" type="text/javascript"></script>
+    <script src="/assets/application-fe460ed6c034ee8c95a2a78f52d7a5d9.js" type="text/javascript"></script>
+    <meta content="authenticity_token" name="csrf-param" />
+<meta content="YElxTFze2SVA3urSQFVA5YqseOeUP/1dhCuo9cxy/S8=" name="csrf-token" />
+    
+  </head>
+  <body>
+    <div id="top">
+      <div class="logo"><a href="/"><img alt="RailsCasts - Ruby on Rails Screencasts" height="56" src="/assets/railscasts_logo-7101a7cd0a48292a0c07276981855edb.png" width="423" /></a></div>
+      <div class="user_nav">
+          <a href="/login?return_to=http%3A%2F%2Frailscasts.com%2F%3Fpage%3D5">Sign in through GitHub</a>
+      </div>
+      <ul class="subscribe horizontal">
+        <li>
+          <a href="http://phobos.apple.com/WebObjects/MZStore.woa/wa/viewPodcast?id=218282043"><img alt="Itunes" height="34" src="/assets/icons/itunes-ea9253b9b183d9788bef2cdfe326f38e.png" width="34" /></a>
+          <span class="name">watch on iTunes</span>
+        </li>
+        <li>
+          <a href="http://twitter.com/railscasts"><img alt="Twitter" height="34" src="/assets/icons/twitter-f0259ab802804e09139fb29f47678b2c.png" width="34" /></a>
+          <span class="name">follow on Twitter</span>
+        </li>
+        <li>
+          <a href="http://www.facebook.com/pages/railscasts/197415140659"><img alt="Facebook" height="34" src="/assets/icons/facebook-0ab869e74b54d9c58f33c1c75264d869.png" width="34" /></a>
+          <span class="name">follow on Facebook</span>
+        </li>
+        <li>
+          <a href="http://feeds.feedburner.com/railscasts"><img alt="Rss" height="34" src="/assets/icons/rss-04cb962054caa957a6fa3924c48594d8.png" width="34" /></a>
+          <span class="name">subscribe to RSS feed</span>
+        </li>
+      </ul>
+    </div>
+
+    <div id="nav_bar">
+      <ul class="nav horizontal">
+        <li>Browse Episodes</li>
+        <li><a href="/pro">RailsCasts Pro</a></li>
+        <li><a href="/notifications">Notifications</a></li>
+        <li><a href="/about">About</a></li>
+        <li><a href="/feedback">Feedback</a></li>
+      </ul>
+      <form accept-charset="UTF-8" action="http://railscasts.com/episodes" method="get"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /></div>
+        <input id="search" name="search" size="35" type="text" />
+        <input type="submit" value="Search Episodes" />
+</form>    </div>
+
+    <div id="announcement_banner">
+  <p>Please read this announcement on the status of RailsCasts:</p>
+
+  <p><a href="/announcements/11">Learn more</a> or <a href="/announcements/11/hide" data-remote="true">hide this</a></p>
+</div>
+
+
+
+    <div id="main">
+
+      
+<div class="content">
+  <div class="side">
+    <div class="episode_views">
+      View: <span class="view"><img alt="Full" height="10" src="/assets/views/full-0788b5fc76d8a1d653004ad44fbf31e5.png" width="15" /></span><span class="view"><a href="/?view=list" title="List View"><img alt="List" height="10" src="/assets/views/list-f3b69d30cdb1ef80b12126c5dbd3fc7a.png" width="14" /></a></span><span class="view"><a href="/?view=grid" title="Grid View"><img alt="Grid" height="10" src="/assets/views/grid-119e56c5d75467c317c16c5c6fef94da.png" width="11" /></a></span>
+    </div>
+    <div class="search_option">
+      <h2>Types</h2>
+      <ul><li><a href="/?type=free">Free Episodes</a></li><li><a href="/?type=pro">Pro Episodes</a></li><li><a href="/?type=revised">Revised Episodes</a></li></ul>
+    </div>
+    <div class="search_option">
+      <h2>Categories</h2>
+      <ul><li><a href="/?tag_id=2">Active Record</a></li><li><a href="/?tag_id=19">Active Resource</a></li><li><a href="/?tag_id=3">Active Support</a></li><li><a href="/?tag_id=9">Administration</a></li><li><a href="/?tag_id=11">Ajax</a></li><li><a href="/?tag_id=37">APIs</a></li><li><a href="/?tag_id=25">Authentication</a></li><li><a href="/?tag_id=26">Authorization</a></li><li><a href="/?tag_id=32">Background Jobs</a></li><li><a href="/?tag_id=18">Caching</a></li><li><a href="/?tag_id=39">Code Walkthrough</a></li><li><a href="/?tag_id=8">Controllers</a></li><li><a href="/?tag_id=10">Debugging</a></li><li><a href="/?tag_id=21">Deployment</a></li><li><a href="/?tag_id=23">eCommerce</a></li><li><a href="/?tag_id=15">Forms</a></li><li><a href="/?tag_id=28">Mailing</a></li><li><a href="/?tag_id=16">Models</a></li><li><a href="/?tag_id=1">Performance</a></li><li><a href="/?tag_id=13">Plugins</a></li><li><a href="/?tag_id=33">Production</a></li><li><a href="/?tag_id=35">Rack</a></li><li><a href="/?tag_id=17">Rails 2.0</a></li><li><a href="/?tag_id=20">Rails 2.1</a></li><li><a href="/?tag_id=22">Rails 2.2</a></li><li><a href="/?tag_id=24">Rails 2.3</a></li><li><a href="/?tag_id=27">Rails 3.0</a></li><li><a href="/?tag_id=31">Rails 3.1</a></li><li><a href="/?tag_id=34">Rails 3.2</a></li><li><a href="/?tag_id=38">Rails 4.0</a></li><li><a href="/?tag_id=6">Refactoring</a></li><li><a href="/?tag_id=14">Routing</a></li><li><a href="/?tag_id=30">Search</a></li><li><a href="/?tag_id=5">Security</a></li><li><a href="/?tag_id=7">Testing</a></li><li><a href="/?tag_id=12">Tools</a></li><li><a href="/?tag_id=4">Views</a></li></ul>
+    </div>
+    <div class="banner">
+      <a href="https://www.digitalocean.com/?utm_source=railscasts.com"><img alt="Digital Ocean" src="/static/sponsors/digitalocean.png" /></a>
+    </div>
+  </div>
+
+  <div class="episodes">
+      <div class="full"><div class="episode" id="episode_435">
+  <div class="screenshot"><a href="/episodes/85-yaml-configuration-revised"><img alt="YAML Configuration (revised)" height="125" src="/static/episodes/stills/085-yaml-configuration-revised.png" width="200" /></a></div>
+  <div class="main">
+    <div class="info">
+      <span class="number">Episode #85</span> &ndash;
+      <span class="published_at">Oct 14, 2012</span> &ndash;
+      <span class="comments"><a href="/episodes/85-yaml-configuration-revised?view=comments">36 comments</a></span>
+    </div>
+    <h2>
+      <a href="/episodes/85-yaml-configuration-revised">YAML Configuration (revised)</a>
+      
+    </h2>
+    <div class="description">
+      Keeping passwords and secret tokens in source control is a security risk. Here I show how to move these settings out into a YAML configuration file which can be loaded in as a hash or environment variables.
+      <span class="stats">(8 minutes)</span>
+    </div>
+    <div class="watch">
+        <a href="/pro" class="pretty_button">Subscribe to Watch Episode</a>
+    </div>
+  </div>
+  <div class="clear"></div>
+</div><div class="episode" id="episode_434">
+  <div class="screenshot"><a href="/episodes/386-authorization-from-scratch-part-2"><img alt="Authorization from Scratch Part 2" height="125" src="/static/episodes/stills/386-authorization-from-scratch-part-2.png" width="200" /></a></div>
+  <div class="main">
+    <div class="info">
+      <span class="number">Episode #386</span> &ndash;
+      <span class="published_at">Oct 11, 2012</span> &ndash;
+      <span class="comments"><a href="/episodes/386-authorization-from-scratch-part-2?view=comments">31 comments</a></span>
+    </div>
+    <h2>
+      <a href="/episodes/386-authorization-from-scratch-part-2">Authorization from Scratch Part 2</a>
+      
+    </h2>
+    <div class="description">
+      This finishes the series on building authorization from scratch by refactoring the permission logic into a DSL, restricting authorization with attributes, and combining with strong_parameters to protect params.
+      <span class="stats">(20 minutes)</span>
+    </div>
+    <div class="watch">
+        <a href="/pro" class="pretty_button">Subscribe to Watch Episode</a>
+    </div>
+  </div>
+  <div class="clear"></div>
+</div><div class="episode" id="episode_433">
+  <div class="screenshot"><a href="/episodes/385-authorization-from-scratch-part-1"><img alt="Authorization from Scratch Part 1" height="125" src="/static/episodes/stills/385-authorization-from-scratch-part-1.png" width="200" /></a></div>
+  <div class="main">
+    <div class="info">
+      <span class="number">Episode #385</span> &ndash;
+      <span class="published_at">Oct 07, 2012</span> &ndash;
+      <span class="comments"><a href="/episodes/385-authorization-from-scratch-part-1?view=comments">24 comments</a></span>
+    </div>
+    <h2>
+      <a href="/episodes/385-authorization-from-scratch-part-1">Authorization from Scratch Part 1</a>
+      
+    </h2>
+    <div class="description">
+      Authorization can be difficult to implement and test because it often involves complex logic that exists throughout the entire app. Here I demonstrate how to test and implement authorization from scratch.
+      <span class="stats">(15 minutes)</span>
+    </div>
+    <div class="watch">
+        <a href="/pro" class="pretty_button">Subscribe to Watch Episode</a>
+    </div>
+  </div>
+  <div class="clear"></div>
+</div><div class="episode" id="episode_432">
+  <div class="screenshot"><a href="/episodes/384-exploring-rubygems"><img alt="Exploring RubyGems" height="125" src="/static/episodes/stills/384-exploring-rubygems.png" width="200" /></a></div>
+  <div class="main">
+    <div class="info">
+      <span class="number">Episode #384</span> &ndash;
+      <span class="published_at">Oct 07, 2012</span> &ndash;
+      <span class="comments"><a href="/episodes/384-exploring-rubygems?view=comments">2 comments</a></span>
+    </div>
+    <h2>
+      <a href="/episodes/384-exploring-rubygems">Exploring RubyGems</a>
+      
+    </h2>
+    <div class="description">
+      RubyGems can make it easy to add a feature to a Rails application, but it can also cause headaches down the road. Here I give some tips on researching gems to decide which one to choose, or when to do it from scratch.
+      <span class="stats">(7 minutes)</span>
+    </div>
+    <div class="watch">
+        <a href="/episodes/384-exploring-rubygems?autoplay=true" class="pretty_button">Watch Episode</a>
+        <a href="/episodes/384-exploring-rubygems?view=asciicast" class="pretty_button read_button">Read Episode</a>
+    </div>
+  </div>
+  <div class="clear"></div>
+</div><div class="episode" id="episode_431">
+  <div class="screenshot"><a href="/episodes/136-jquery-ajax-revised"><img alt="jQuery &amp; Ajax (revised)" height="125" src="/static/episodes/stills/136-jquery-ajax-revised.png" width="200" /></a></div>
+  <div class="main">
+    <div class="info">
+      <span class="number">Episode #136</span> &ndash;
+      <span class="published_at">Sep 28, 2012</span> &ndash;
+      <span class="comments"><a href="/episodes/136-jquery-ajax-revised?view=comments">67 comments</a></span>
+    </div>
+    <h2>
+      <a href="/episodes/136-jquery-ajax-revised">jQuery &amp; Ajax (revised)</a>
+      
+    </h2>
+    <div class="description">
+      Here I go back to the basics and show how to turn a traditional Rails app into one that interacts through Ajax by adding &quot;remote&quot; options, JavaScript templates and a dabble of jQuery.
+      <span class="stats">(14 minutes)</span>
+    </div>
+    <div class="watch">
+        <a href="/pro" class="pretty_button">Subscribe to Watch Episode</a>
+    </div>
+  </div>
+  <div class="clear"></div>
+</div><div class="episode" id="episode_430">
+  <div class="screenshot"><a href="/episodes/383-uploading-to-amazon-s3"><img alt="Uploading to Amazon S3" height="125" src="/static/episodes/stills/383-uploading-to-amazon-s3.png" width="200" /></a></div>
+  <div class="main">
+    <div class="info">
+      <span class="number">Episode #383</span> &ndash;
+      <span class="published_at">Sep 26, 2012</span> &ndash;
+      <span class="comments"><a href="/episodes/383-uploading-to-amazon-s3?view=comments">86 comments</a></span>
+    </div>
+    <h2>
+      <a href="/episodes/383-uploading-to-amazon-s3">Uploading to Amazon S3</a>
+      
+    </h2>
+    <div class="description">
+      Here I show how to upload files directly to Amazon S3 using CarrierWave Direct and Fog. I then walk through another project which uses jQuery File Upload to handle multiple files and does not use CarrierWave.
+      <span class="stats">(14 minutes)</span>
+    </div>
+    <div class="watch">
+        <a href="/pro" class="pretty_button">Subscribe to Watch Episode</a>
+    </div>
+  </div>
+  <div class="clear"></div>
+</div><div class="episode" id="episode_429">
+  <div class="screenshot"><a href="/episodes/382-tagging"><img alt="Tagging" height="125" src="/static/episodes/stills/382-tagging.png" width="200" /></a></div>
+  <div class="main">
+    <div class="info">
+      <span class="number">Episode #382</span> &ndash;
+      <span class="published_at">Sep 22, 2012</span> &ndash;
+      <span class="comments"><a href="/episodes/382-tagging?view=comments">49 comments</a></span>
+    </div>
+    <h2>
+      <a href="/episodes/382-tagging">Tagging</a>
+      
+    </h2>
+    <div class="description">
+      There are several gems to help implement tags in a Rails app. Here I show you how to integrate acts-as-taggable-on and then show how to do it from scratch.
+      <span class="stats">(11 minutes)</span>
+    </div>
+    <div class="watch">
+        <a href="/episodes/382-tagging?autoplay=true" class="pretty_button">Watch Episode</a>
+        <a href="/episodes/382-tagging?view=asciicast" class="pretty_button read_button">Read Episode</a>
+    </div>
+  </div>
+  <div class="clear"></div>
+</div><div class="episode" id="episode_428">
+  <div class="screenshot"><a href="/episodes/381-jquery-file-upload"><img alt="jQuery File Upload" height="125" src="/static/episodes/stills/381-jquery-file-upload.png" width="200" /></a></div>
+  <div class="main">
+    <div class="info">
+      <span class="number">Episode #381</span> &ndash;
+      <span class="published_at">Sep 21, 2012</span> &ndash;
+      <span class="comments"><a href="/episodes/381-jquery-file-upload?view=comments">84 comments</a></span>
+    </div>
+    <h2>
+      <a href="/episodes/381-jquery-file-upload">jQuery File Upload</a>
+      
+    </h2>
+    <div class="description">
+      Here you will learn how to upload multiple files over ajax using jQuery File Upload. I start with the basic functionality and customize it to fit the user interface.
+      <span class="stats">(13 minutes)</span>
+    </div>
+    <div class="watch">
+        <a href="/pro" class="pretty_button">Subscribe to Watch Episode</a>
+    </div>
+  </div>
+  <div class="clear"></div>
+</div><div class="episode" id="episode_427">
+  <div class="screenshot"><a href="/episodes/223-charts-graphs-revised"><img alt="Charts &amp; Graphs (revised)" height="125" src="/static/episodes/stills/223-charts-graphs-revised.png" width="200" /></a></div>
+  <div class="main">
+    <div class="info">
+      <span class="number">Episode #223</span> &ndash;
+      <span class="published_at">Sep 15, 2012</span> &ndash;
+      <span class="comments"><a href="/episodes/223-charts-graphs-revised?view=comments">48 comments</a></span>
+    </div>
+    <h2>
+      <a href="/episodes/223-charts-graphs-revised">Charts &amp; Graphs (revised)</a>
+      
+    </h2>
+    <div class="description">
+      If you have a lot of data, consider adding a graph to provide an overview of it. Here I show how to use Morris.js to chart an Order model and visualize trends in the data.
+      <span class="stats">(12 minutes)</span>
+    </div>
+    <div class="watch">
+        <a href="/pro" class="pretty_button">Subscribe to Watch Episode</a>
+    </div>
+  </div>
+  <div class="clear"></div>
+</div><div class="episode" id="episode_426">
+  <div class="screenshot"><a href="/episodes/380-memcached-dalli"><img alt="Memcached &amp; Dalli" height="125" src="/static/episodes/stills/380-memcached-dalli.png" width="200" /></a></div>
+  <div class="main">
+    <div class="info">
+      <span class="number">Episode #380</span> &ndash;
+      <span class="published_at">Sep 12, 2012</span> &ndash;
+      <span class="comments"><a href="/episodes/380-memcached-dalli?view=comments">17 comments</a></span>
+    </div>
+    <h2>
+      <a href="/episodes/380-memcached-dalli">Memcached &amp; Dalli</a>
+      
+    </h2>
+    <div class="description">
+      Memcached is an excellent cache store, and Dalli is the best way to interact with it through Ruby. Here I show various ways to use Memcached in a Rails app including how to set it up in production.
+      <span class="stats">(12 minutes)</span>
+    </div>
+    <div class="watch">
+        <a href="/pro" class="pretty_button">Subscribe to Watch Episode</a>
+    </div>
+  </div>
+  <div class="clear"></div>
+</div></div>
+      <div class="pagination"><a class="previous_page" rel="prev" href="/?page=4">&lt; Previous Page</a> <a rel="start" href="/?page=1">1</a> <a href="/?page=2">2</a> <a href="/?page=3">3</a> <a rel="prev" href="/?page=4">4</a> <em class="current">5</em> <a rel="next" href="/?page=6">6</a> <a href="/?page=7">7</a> <a href="/?page=8">8</a> <a href="/?page=9">9</a> <span class="gap">&hellip;</span> <a href="/?page=47">47</a> <a href="/?page=48">48</a> <a class="next_page" rel="next" href="/?page=6">Next Page &gt;</a></div>
+  </div>
+</div>
+
+    </div>
+    <div id="footer">
+      <div class="inner">
+        &copy;2013 RailsCasts - <a href="/privacy">Privacy Policy</a> - Hosted by <a href="https://www.digitalocean.com/?utm_source=railscasts.com">Digital Ocean</a>
+      </div>
+    </div>
+
+      <!-- Google Analytics -->
+      <script type="text/javascript">
+        var _gaq = _gaq || [];
+        _gaq.push(['_setAccount', 'UA-7696481-1']);
+        _gaq.push(['_trackPageview']);
+
+        (function() {
+          var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+          ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+          var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+        })();
+      </script>
+  </body>
+</html>

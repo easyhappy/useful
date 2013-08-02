@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Ruby on Rails Screencasts - RailsCasts</title>
+    <meta name="description" content="Short Ruby on Rails screencasts containing tips, tricks and tutorials. Great for both novice and experienced web developers." />
+    <meta name="keywords" content="rails, ruby on rails, screencasts, railscast, railscasts, tips, tricks, tutorials, training, podcasts, programming" />
+    <link rel="alternate" type="application/rss+xml" title="Episodes RSS" href="http://feeds.feedburner.com/railscasts" />
+    <link href="/assets/application-f33052609391fcb2333fb8c560544e00.css" media="screen" rel="stylesheet" type="text/css" />
+    <script src="http://cdn.sublimevideo.net/js/3s7oes9q.js" type="text/javascript"></script>
+    <script src="/assets/application-fe460ed6c034ee8c95a2a78f52d7a5d9.js" type="text/javascript"></script>
+    <meta content="authenticity_token" name="csrf-param" />
+<meta content="sRK97qvQXFwQ1FUgeBbLgYqZpcj7cSXiX/rd3ZmXLKI=" name="csrf-token" />
+    
+  </head>
+  <body>
+    <div id="top">
+      <div class="logo"><a href="/"><img alt="RailsCasts - Ruby on Rails Screencasts" height="56" src="/assets/railscasts_logo-7101a7cd0a48292a0c07276981855edb.png" width="423" /></a></div>
+      <div class="user_nav">
+          <a href="/login?return_to=http%3A%2F%2Frailscasts.com%2F%3Fpage%3D3">Sign in through GitHub</a>
+      </div>
+      <ul class="subscribe horizontal">
+        <li>
+          <a href="http://phobos.apple.com/WebObjects/MZStore.woa/wa/viewPodcast?id=218282043"><img alt="Itunes" height="34" src="/assets/icons/itunes-ea9253b9b183d9788bef2cdfe326f38e.png" width="34" /></a>
+          <span class="name">watch on iTunes</span>
+        </li>
+        <li>
+          <a href="http://twitter.com/railscasts"><img alt="Twitter" height="34" src="/assets/icons/twitter-f0259ab802804e09139fb29f47678b2c.png" width="34" /></a>
+          <span class="name">follow on Twitter</span>
+        </li>
+        <li>
+          <a href="http://www.facebook.com/pages/railscasts/197415140659"><img alt="Facebook" height="34" src="/assets/icons/facebook-0ab869e74b54d9c58f33c1c75264d869.png" width="34" /></a>
+          <span class="name">follow on Facebook</span>
+        </li>
+        <li>
+          <a href="http://feeds.feedburner.com/railscasts"><img alt="Rss" height="34" src="/assets/icons/rss-04cb962054caa957a6fa3924c48594d8.png" width="34" /></a>
+          <span class="name">subscribe to RSS feed</span>
+        </li>
+      </ul>
+    </div>
+
+    <div id="nav_bar">
+      <ul class="nav horizontal">
+        <li>Browse Episodes</li>
+        <li><a href="/pro">RailsCasts Pro</a></li>
+        <li><a href="/notifications">Notifications</a></li>
+        <li><a href="/about">About</a></li>
+        <li><a href="/feedback">Feedback</a></li>
+      </ul>
+      <form accept-charset="UTF-8" action="http://railscasts.com/episodes" method="get"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /></div>
+        <input id="search" name="search" size="35" type="text" />
+        <input type="submit" value="Search Episodes" />
+</form>    </div>
+
+    <div id="announcement_banner">
+  <p>Please read this announcement on the status of RailsCasts:</p>
+
+  <p><a href="/announcements/11">Learn more</a> or <a href="/announcements/11/hide" data-remote="true">hide this</a></p>
+</div>
+
+
+
+    <div id="main">
+
+      
+<div class="content">
+  <div class="side">
+    <div class="episode_views">
+      View: <span class="view"><img alt="Full" height="10" src="/assets/views/full-0788b5fc76d8a1d653004ad44fbf31e5.png" width="15" /></span><span class="view"><a href="/?view=list" title="List View"><img alt="List" height="10" src="/assets/views/list-f3b69d30cdb1ef80b12126c5dbd3fc7a.png" width="14" /></a></span><span class="view"><a href="/?view=grid" title="Grid View"><img alt="Grid" height="10" src="/assets/views/grid-119e56c5d75467c317c16c5c6fef94da.png" width="11" /></a></span>
+    </div>
+    <div class="search_option">
+      <h2>Types</h2>
+      <ul><li><a href="/?type=free">Free Episodes</a></li><li><a href="/?type=pro">Pro Episodes</a></li><li><a href="/?type=revised">Revised Episodes</a></li></ul>
+    </div>
+    <div class="search_option">
+      <h2>Categories</h2>
+      <ul><li><a href="/?tag_id=2">Active Record</a></li><li><a href="/?tag_id=19">Active Resource</a></li><li><a href="/?tag_id=3">Active Support</a></li><li><a href="/?tag_id=9">Administration</a></li><li><a href="/?tag_id=11">Ajax</a></li><li><a href="/?tag_id=37">APIs</a></li><li><a href="/?tag_id=25">Authentication</a></li><li><a href="/?tag_id=26">Authorization</a></li><li><a href="/?tag_id=32">Background Jobs</a></li><li><a href="/?tag_id=18">Caching</a></li><li><a href="/?tag_id=39">Code Walkthrough</a></li><li><a href="/?tag_id=8">Controllers</a></li><li><a href="/?tag_id=10">Debugging</a></li><li><a href="/?tag_id=21">Deployment</a></li><li><a href="/?tag_id=23">eCommerce</a></li><li><a href="/?tag_id=15">Forms</a></li><li><a href="/?tag_id=28">Mailing</a></li><li><a href="/?tag_id=16">Models</a></li><li><a href="/?tag_id=1">Performance</a></li><li><a href="/?tag_id=13">Plugins</a></li><li><a href="/?tag_id=33">Production</a></li><li><a href="/?tag_id=35">Rack</a></li><li><a href="/?tag_id=17">Rails 2.0</a></li><li><a href="/?tag_id=20">Rails 2.1</a></li><li><a href="/?tag_id=22">Rails 2.2</a></li><li><a href="/?tag_id=24">Rails 2.3</a></li><li><a href="/?tag_id=27">Rails 3.0</a></li><li><a href="/?tag_id=31">Rails 3.1</a></li><li><a href="/?tag_id=34">Rails 3.2</a></li><li><a href="/?tag_id=38">Rails 4.0</a></li><li><a href="/?tag_id=6">Refactoring</a></li><li><a href="/?tag_id=14">Routing</a></li><li><a href="/?tag_id=30">Search</a></li><li><a href="/?tag_id=5">Security</a></li><li><a href="/?tag_id=7">Testing</a></li><li><a href="/?tag_id=12">Tools</a></li><li><a href="/?tag_id=4">Views</a></li></ul>
+    </div>
+    <div class="banner">
+      <a href="https://www.digitalocean.com/?utm_source=railscasts.com"><img alt="Digital Ocean" src="/static/sponsors/digitalocean.png" /></a>
+    </div>
+  </div>
+
+  <div class="episodes">
+      <div class="full"><div class="episode" id="episode_456">
+  <div class="screenshot"><a href="/episodes/401-actioncontroller-live"><img alt="ActionController::Live" height="125" src="/static/episodes/stills/401-actioncontroller-live.png" width="200" /></a></div>
+  <div class="main">
+    <div class="info">
+      <span class="number">Episode #401</span> &ndash;
+      <span class="published_at">Jan 19, 2013</span> &ndash;
+      <span class="comments"><a href="/episodes/401-actioncontroller-live?view=comments">24 comments</a></span>
+    </div>
+    <h2>
+      <a href="/episodes/401-actioncontroller-live">ActionController::Live</a>
+      
+    </h2>
+    <div class="description">
+      Server-sent events allow you to trigger events on the browser from a persistent connection to the server. This requires Rails stream data which can be done through ActionController::Live, a feature upcoming in Rails 4.
+      <span class="stats">(14 minutes)</span>
+    </div>
+    <div class="watch">
+        <a href="/pro" class="pretty_button">Subscribe to Watch Episode</a>
+    </div>
+  </div>
+  <div class="clear"></div>
+</div><div class="episode" id="episode_455">
+  <div class="screenshot"><a href="/episodes/229-polling-for-changes-revised"><img alt="Polling for Changes (revised)" height="125" src="/static/episodes/stills/229-polling-for-changes-revised.png" width="200" /></a></div>
+  <div class="main">
+    <div class="info">
+      <span class="number">Episode #229</span> &ndash;
+      <span class="published_at">Jan 14, 2013</span> &ndash;
+      <span class="comments"><a href="/episodes/229-polling-for-changes-revised?view=comments">19 comments</a></span>
+    </div>
+    <h2>
+      <a href="/episodes/229-polling-for-changes-revised">Polling for Changes (revised)</a>
+      
+    </h2>
+    <div class="description">
+      Polling may not be as common today as pushing changes over an open socket, however it is still an effective, simple solution if you do not need instantaneous updates.
+      <span class="stats">(10 minutes)</span>
+    </div>
+    <div class="watch">
+        <a href="/pro" class="pretty_button">Subscribe to Watch Episode</a>
+    </div>
+  </div>
+  <div class="clear"></div>
+</div><div class="episode" id="episode_454">
+  <div class="screenshot"><a href="/episodes/400-what-s-new-in-rails-4"><img alt="What&#x27;s New in Rails 4" height="125" src="/static/episodes/stills/400-what-s-new-in-rails-4.png" width="200" /></a></div>
+  <div class="main">
+    <div class="info">
+      <span class="number">Episode #400</span> &ndash;
+      <span class="published_at">Jan 04, 2013</span> &ndash;
+      <span class="comments"><a href="/episodes/400-what-s-new-in-rails-4?view=comments">30 comments</a></span>
+    </div>
+    <h2>
+      <a href="/episodes/400-what-s-new-in-rails-4">What&#x27;s New in Rails 4</a>
+      
+    </h2>
+    <div class="description">
+      Rails 4.0 is still unfinished, but it is shaping up to become a great release. Here I show how to setup a new Rails 4.0 (edge) application and walk through many of its new features.
+      <span class="stats">(20 minutes)</span>
+    </div>
+    <div class="watch">
+        <a href="/episodes/400-what-s-new-in-rails-4?autoplay=true" class="pretty_button">Watch Episode</a>
+        <a href="/episodes/400-what-s-new-in-rails-4?view=asciicast" class="pretty_button read_button">Read Episode</a>
+    </div>
+  </div>
+  <div class="clear"></div>
+</div><div class="episode" id="episode_453">
+  <div class="screenshot"><a href="/episodes/399-autocomplete-search-terms"><img alt="Autocomplete Search Terms" height="125" src="/static/episodes/stills/399-autocomplete-search-terms.png" width="200" /></a></div>
+  <div class="main">
+    <div class="info">
+      <span class="number">Episode #399</span> &ndash;
+      <span class="published_at">Dec 31, 2012</span> &ndash;
+      <span class="comments"><a href="/episodes/399-autocomplete-search-terms?view=comments">19 comments</a></span>
+    </div>
+    <h2>
+      <a href="/episodes/399-autocomplete-search-terms">Autocomplete Search Terms</a>
+      
+    </h2>
+    <div class="description">
+      Learn how to add autocompletion to a search form and improve performance using Rack middleware, caching and switching from SQL to Redis.
+      <span class="stats">(17 minutes)</span>
+    </div>
+    <div class="watch">
+        <a href="/pro" class="pretty_button">Subscribe to Watch Episode</a>
+    </div>
+  </div>
+  <div class="clear"></div>
+</div><div class="episode" id="episode_452">
+  <div class="screenshot"><a href="/episodes/398-service-objects"><img alt="Service Objects" height="125" src="/static/episodes/stills/398-service-objects.png" width="200" /></a></div>
+  <div class="main">
+    <div class="info">
+      <span class="number">Episode #398</span> &ndash;
+      <span class="published_at">Dec 18, 2012</span> &ndash;
+      <span class="comments"><a href="/episodes/398-service-objects?view=comments">45 comments</a></span>
+    </div>
+    <h2>
+      <a href="/episodes/398-service-objects">Service Objects</a>
+      
+    </h2>
+    <div class="description">
+      Models can quickly become a grab-bag of unrelated methods if behavior is constantly being pushed from the controller. Here I show how to refactor this using Concerns and Service Objects.
+      <span class="stats">(12 minutes)</span>
+    </div>
+    <div class="watch">
+        <a href="/pro" class="pretty_button">Subscribe to Watch Episode</a>
+    </div>
+  </div>
+  <div class="clear"></div>
+</div><div class="episode" id="episode_451">
+  <div class="screenshot"><a href="/episodes/63-model-name-in-url-revised"><img alt="Model Name in URL (revised)" height="125" src="/static/episodes/stills/063-model-name-in-url-revised.png" width="200" /></a></div>
+  <div class="main">
+    <div class="info">
+      <span class="number">Episode #63</span> &ndash;
+      <span class="published_at">Dec 16, 2012</span> &ndash;
+      <span class="comments"><a href="/episodes/63-model-name-in-url-revised?view=comments">16 comments</a></span>
+    </div>
+    <h2>
+      <a href="/episodes/63-model-name-in-url-revised">Model Name in URL (revised)</a>
+      
+    </h2>
+    <div class="description">
+      A model&#x27;s ID in the URL is not very helpful to the user. Consider adding the name which can also improve SEO. Learn how to override to_param, add a slug attribute, and make a catch all route for deep nesting.
+      <span class="stats">(9 minutes)</span>
+    </div>
+    <div class="watch">
+        <a href="/pro" class="pretty_button">Subscribe to Watch Episode</a>
+    </div>
+  </div>
+  <div class="clear"></div>
+</div><div class="episode" id="episode_450">
+  <div class="screenshot"><a href="/episodes/397-action-view-walkthrough"><img alt="Action View Walkthrough" height="125" src="/static/episodes/stills/397-action-view-walkthrough.png" width="200" /></a></div>
+  <div class="main">
+    <div class="info">
+      <span class="number">Episode #397</span> &ndash;
+      <span class="published_at">Dec 09, 2012</span> &ndash;
+      <span class="comments"><a href="/episodes/397-action-view-walkthrough?view=comments">12 comments</a></span>
+    </div>
+    <h2>
+      <a href="/episodes/397-action-view-walkthrough">Action View Walkthrough</a>
+      
+    </h2>
+    <div class="description">
+      Find out exactly what Rails is doing under the hood when it renders a view template for a response. What object context handles the template? How does the lookup process work? That and more covered in this code walkthrough.
+      <span class="stats">(15 minutes)</span>
+    </div>
+    <div class="watch">
+        <a href="/pro" class="pretty_button">Subscribe to Watch Episode</a>
+    </div>
+  </div>
+  <div class="clear"></div>
+</div><div class="episode" id="episode_449">
+  <div class="screenshot"><a href="/episodes/396-importing-csv-and-excel"><img alt="Importing CSV and Excel" height="125" src="/static/episodes/stills/396-importing-csv-and-excel.png" width="200" /></a></div>
+  <div class="main">
+    <div class="info">
+      <span class="number">Episode #396</span> &ndash;
+      <span class="published_at">Dec 08, 2012</span> &ndash;
+      <span class="comments"><a href="/episodes/396-importing-csv-and-excel?view=comments">58 comments</a></span>
+    </div>
+    <h2>
+      <a href="/episodes/396-importing-csv-and-excel">Importing CSV and Excel</a>
+      
+    </h2>
+    <div class="description">
+      Allow users to import records into the database by uploading a CSV or Excel document. Here I show how to use Roo to parse these files and present a solution for validations.
+      <span class="stats">(10 minutes)</span>
+    </div>
+    <div class="watch">
+        <a href="/episodes/396-importing-csv-and-excel?autoplay=true" class="pretty_button">Watch Episode</a>
+        <a href="/episodes/396-importing-csv-and-excel?view=asciicast" class="pretty_button read_button">Read Episode</a>
+    </div>
+  </div>
+  <div class="clear"></div>
+</div><div class="episode" id="episode_448">
+  <div class="screenshot"><a href="/episodes/395-action-controller-walkthrough"><img alt="Action Controller Walkthrough" height="125" src="/static/episodes/stills/395-action-controller-walkthrough.png" width="200" /></a></div>
+  <div class="main">
+    <div class="info">
+      <span class="number">Episode #395</span> &ndash;
+      <span class="published_at">Dec 02, 2012</span> &ndash;
+      <span class="comments"><a href="/episodes/395-action-controller-walkthrough?view=comments">5 comments</a></span>
+    </div>
+    <h2>
+      <a href="/episodes/395-action-controller-walkthrough">Action Controller Walkthrough</a>
+      
+    </h2>
+    <div class="description">
+      Do you ever wonder what goes on behind the scenes when a Rails controller handles a request? What do the &quot;render&quot; and &quot;redirect_to&quot; methods do exactly? This and more covered as we walk through the code of ActionController::Base.
+      <span class="stats">(11 minutes)</span>
+    </div>
+    <div class="watch">
+        <a href="/pro" class="pretty_button">Subscribe to Watch Episode</a>
+    </div>
+  </div>
+  <div class="clear"></div>
+</div><div class="episode" id="episode_447">
+  <div class="screenshot"><a href="/episodes/162-tree-based-navigation-revised"><img alt="Tree-Based Navigation (revised)" height="125" src="/static/episodes/stills/162-tree-based-navigation-revised.png" width="200" /></a></div>
+  <div class="main">
+    <div class="info">
+      <span class="number">Episode #162</span> &ndash;
+      <span class="published_at">Dec 01, 2012</span> &ndash;
+      <span class="comments"><a href="/episodes/162-tree-based-navigation-revised?view=comments">12 comments</a></span>
+    </div>
+    <h2>
+      <a href="/episodes/162-tree-based-navigation-revised">Tree-Based Navigation (revised)</a>
+      
+    </h2>
+    <div class="description">
+      If your Rails app is content-heavy, consider organizing it in a tree menu structure. Here I show how to add top-level tabs, nested links in a side bar, and breadcrumbs to go up the hierarchy.
+      <span class="stats">(10 minutes)</span>
+    </div>
+    <div class="watch">
+        <a href="/pro" class="pretty_button">Subscribe to Watch Episode</a>
+    </div>
+  </div>
+  <div class="clear"></div>
+</div></div>
+      <div class="pagination"><a class="previous_page" rel="prev" href="/?page=2">&lt; Previous Page</a> <a rel="start" href="/?page=1">1</a> <a rel="prev" href="/?page=2">2</a> <em class="current">3</em> <a rel="next" href="/?page=4">4</a> <a href="/?page=5">5</a> <a href="/?page=6">6</a> <a href="/?page=7">7</a> <a href="/?page=8">8</a> <a href="/?page=9">9</a> <span class="gap">&hellip;</span> <a href="/?page=47">47</a> <a href="/?page=48">48</a> <a class="next_page" rel="next" href="/?page=4">Next Page &gt;</a></div>
+  </div>
+</div>
+
+    </div>
+    <div id="footer">
+      <div class="inner">
+        &copy;2013 RailsCasts - <a href="/privacy">Privacy Policy</a> - Hosted by <a href="https://www.digitalocean.com/?utm_source=railscasts.com">Digital Ocean</a>
+      </div>
+    </div>
+
+      <!-- Google Analytics -->
+      <script type="text/javascript">
+        var _gaq = _gaq || [];
+        _gaq.push(['_setAccount', 'UA-7696481-1']);
+        _gaq.push(['_trackPageview']);
+
+        (function() {
+          var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+          ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+          var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+        })();
+      </script>
+  </body>
+</html>

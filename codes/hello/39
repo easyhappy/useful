@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Ruby on Rails Screencasts - RailsCasts</title>
+    <meta name="description" content="Short Ruby on Rails screencasts containing tips, tricks and tutorials. Great for both novice and experienced web developers." />
+    <meta name="keywords" content="rails, ruby on rails, screencasts, railscast, railscasts, tips, tricks, tutorials, training, podcasts, programming" />
+    <link rel="alternate" type="application/rss+xml" title="Episodes RSS" href="http://feeds.feedburner.com/railscasts" />
+    <link href="/assets/application-f33052609391fcb2333fb8c560544e00.css" media="screen" rel="stylesheet" type="text/css" />
+    <script src="http://cdn.sublimevideo.net/js/3s7oes9q.js" type="text/javascript"></script>
+    <script src="/assets/application-fe460ed6c034ee8c95a2a78f52d7a5d9.js" type="text/javascript"></script>
+    <meta content="authenticity_token" name="csrf-param" />
+<meta content="FPehiDAyUJ4EvYcZ2S4HwUlwtCNaYBU5Y7a4xFHPe6w=" name="csrf-token" />
+    
+  </head>
+  <body>
+    <div id="top">
+      <div class="logo"><a href="/"><img alt="RailsCasts - Ruby on Rails Screencasts" height="56" src="/assets/railscasts_logo-7101a7cd0a48292a0c07276981855edb.png" width="423" /></a></div>
+      <div class="user_nav">
+          <a href="/login?return_to=http%3A%2F%2Frailscasts.com%2F%3Fpage%3D39">Sign in through GitHub</a>
+      </div>
+      <ul class="subscribe horizontal">
+        <li>
+          <a href="http://phobos.apple.com/WebObjects/MZStore.woa/wa/viewPodcast?id=218282043"><img alt="Itunes" height="34" src="/assets/icons/itunes-ea9253b9b183d9788bef2cdfe326f38e.png" width="34" /></a>
+          <span class="name">watch on iTunes</span>
+        </li>
+        <li>
+          <a href="http://twitter.com/railscasts"><img alt="Twitter" height="34" src="/assets/icons/twitter-f0259ab802804e09139fb29f47678b2c.png" width="34" /></a>
+          <span class="name">follow on Twitter</span>
+        </li>
+        <li>
+          <a href="http://www.facebook.com/pages/railscasts/197415140659"><img alt="Facebook" height="34" src="/assets/icons/facebook-0ab869e74b54d9c58f33c1c75264d869.png" width="34" /></a>
+          <span class="name">follow on Facebook</span>
+        </li>
+        <li>
+          <a href="http://feeds.feedburner.com/railscasts"><img alt="Rss" height="34" src="/assets/icons/rss-04cb962054caa957a6fa3924c48594d8.png" width="34" /></a>
+          <span class="name">subscribe to RSS feed</span>
+        </li>
+      </ul>
+    </div>
+
+    <div id="nav_bar">
+      <ul class="nav horizontal">
+        <li>Browse Episodes</li>
+        <li><a href="/pro">RailsCasts Pro</a></li>
+        <li><a href="/notifications">Notifications</a></li>
+        <li><a href="/about">About</a></li>
+        <li><a href="/feedback">Feedback</a></li>
+      </ul>
+      <form accept-charset="UTF-8" action="http://railscasts.com/episodes" method="get"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /></div>
+        <input id="search" name="search" size="35" type="text" />
+        <input type="submit" value="Search Episodes" />
+</form>    </div>
+
+    <div id="announcement_banner">
+  <p>Please read this announcement on the status of RailsCasts:</p>
+
+  <p><a href="/announcements/11">Learn more</a> or <a href="/announcements/11/hide" data-remote="true">hide this</a></p>
+</div>
+
+
+
+    <div id="main">
+
+      
+<div class="content">
+  <div class="side">
+    <div class="episode_views">
+      View: <span class="view"><img alt="Full" height="10" src="/assets/views/full-0788b5fc76d8a1d653004ad44fbf31e5.png" width="15" /></span><span class="view"><a href="/?view=list" title="List View"><img alt="List" height="10" src="/assets/views/list-f3b69d30cdb1ef80b12126c5dbd3fc7a.png" width="14" /></a></span><span class="view"><a href="/?view=grid" title="Grid View"><img alt="Grid" height="10" src="/assets/views/grid-119e56c5d75467c317c16c5c6fef94da.png" width="11" /></a></span>
+    </div>
+    <div class="search_option">
+      <h2>Types</h2>
+      <ul><li><a href="/?type=free">Free Episodes</a></li><li><a href="/?type=pro">Pro Episodes</a></li><li><a href="/?type=revised">Revised Episodes</a></li></ul>
+    </div>
+    <div class="search_option">
+      <h2>Categories</h2>
+      <ul><li><a href="/?tag_id=2">Active Record</a></li><li><a href="/?tag_id=19">Active Resource</a></li><li><a href="/?tag_id=3">Active Support</a></li><li><a href="/?tag_id=9">Administration</a></li><li><a href="/?tag_id=11">Ajax</a></li><li><a href="/?tag_id=37">APIs</a></li><li><a href="/?tag_id=25">Authentication</a></li><li><a href="/?tag_id=26">Authorization</a></li><li><a href="/?tag_id=32">Background Jobs</a></li><li><a href="/?tag_id=18">Caching</a></li><li><a href="/?tag_id=39">Code Walkthrough</a></li><li><a href="/?tag_id=8">Controllers</a></li><li><a href="/?tag_id=10">Debugging</a></li><li><a href="/?tag_id=21">Deployment</a></li><li><a href="/?tag_id=23">eCommerce</a></li><li><a href="/?tag_id=15">Forms</a></li><li><a href="/?tag_id=28">Mailing</a></li><li><a href="/?tag_id=16">Models</a></li><li><a href="/?tag_id=1">Performance</a></li><li><a href="/?tag_id=13">Plugins</a></li><li><a href="/?tag_id=33">Production</a></li><li><a href="/?tag_id=35">Rack</a></li><li><a href="/?tag_id=17">Rails 2.0</a></li><li><a href="/?tag_id=20">Rails 2.1</a></li><li><a href="/?tag_id=22">Rails 2.2</a></li><li><a href="/?tag_id=24">Rails 2.3</a></li><li><a href="/?tag_id=27">Rails 3.0</a></li><li><a href="/?tag_id=31">Rails 3.1</a></li><li><a href="/?tag_id=34">Rails 3.2</a></li><li><a href="/?tag_id=38">Rails 4.0</a></li><li><a href="/?tag_id=6">Refactoring</a></li><li><a href="/?tag_id=14">Routing</a></li><li><a href="/?tag_id=30">Search</a></li><li><a href="/?tag_id=5">Security</a></li><li><a href="/?tag_id=7">Testing</a></li><li><a href="/?tag_id=12">Tools</a></li><li><a href="/?tag_id=4">Views</a></li></ul>
+    </div>
+    <div class="banner">
+      <a href="https://www.digitalocean.com/?utm_source=railscasts.com"><img alt="Digital Ocean" src="/static/sponsors/digitalocean.png" /></a>
+    </div>
+  </div>
+
+  <div class="episodes">
+      <div class="full"><div class="episode" id="episode_95">
+  <div class="screenshot"><a href="/episodes/95-more-on-activeresource"><img alt="More on ActiveResource" height="125" src="/static/episodes/stills/095-more-on-activeresource.png" width="200" /></a></div>
+  <div class="main">
+    <div class="info">
+      <span class="number">Episode #95</span> &ndash;
+      <span class="published_at">Mar 02, 2008</span> &ndash;
+      <span class="comments"><a href="/episodes/95-more-on-activeresource?view=comments">35 comments</a></span>
+    </div>
+    <h2>
+      <a href="/episodes/95-more-on-activeresource">More on ActiveResource</a>
+      
+    </h2>
+    <div class="description">
+      See how to handle authentication and custom actions using ActiveResource in this episode.
+      <span class="stats">(8 minutes)</span>
+    </div>
+    <div class="watch">
+        <a href="/episodes/95-more-on-activeresource?autoplay=true" class="pretty_button">Watch Episode</a>
+        
+    </div>
+  </div>
+  <div class="clear"></div>
+</div><div class="episode" id="episode_94">
+  <div class="screenshot"><a href="/episodes/94-activeresource-basics"><img alt="ActiveResource Basics" height="125" src="/static/episodes/stills/094-activeresource-basics.png" width="200" /></a></div>
+  <div class="main">
+    <div class="info">
+      <span class="number">Episode #94</span> &ndash;
+      <span class="published_at">Feb 24, 2008</span> &ndash;
+      <span class="comments"><a href="/episodes/94-activeresource-basics?view=comments">29 comments</a></span>
+    </div>
+    <h2>
+      <a href="/episodes/94-activeresource-basics">ActiveResource Basics</a>
+      
+    </h2>
+    <div class="description">
+      ActiveResource allows you to easily communicate between multiple Rails applications. See how in this episode.
+      <span class="stats">(7 minutes)</span>
+    </div>
+    <div class="watch">
+        <a href="/episodes/94-activeresource-basics?autoplay=true" class="pretty_button">Watch Episode</a>
+        
+    </div>
+  </div>
+  <div class="clear"></div>
+</div><div class="episode" id="episode_93">
+  <div class="screenshot"><a href="/episodes/93-action-caching"><img alt="Action Caching" height="125" src="/static/episodes/stills/093-action-caching.png" width="200" /></a></div>
+  <div class="main">
+    <div class="info">
+      <span class="number">Episode #93</span> &ndash;
+      <span class="published_at">Feb 17, 2008</span> &ndash;
+      <span class="comments"><a href="/episodes/93-action-caching?view=comments">19 comments</a></span>
+    </div>
+    <h2>
+      <a href="/episodes/93-action-caching">Action Caching</a>
+      
+    </h2>
+    <div class="description">
+      Action caching behaves much like page caching except it processes the controller filters. You can also make it conditional as seen in this episode.
+      <span class="stats">(7 minutes)</span>
+    </div>
+    <div class="watch">
+        <a href="/episodes/93-action-caching?autoplay=true" class="pretty_button">Watch Episode</a>
+        
+    </div>
+  </div>
+  <div class="clear"></div>
+</div><div class="episode" id="episode_92">
+  <div class="screenshot"><a href="/episodes/92-make-resourceful"><img alt="make_resourceful" height="125" src="/static/episodes/stills/092-make-resourceful.png" width="200" /></a></div>
+  <div class="main">
+    <div class="info">
+      <span class="number">Episode #92</span> &ndash;
+      <span class="published_at">Feb 10, 2008</span> &ndash;
+      <span class="comments"><a href="/episodes/92-make-resourceful?view=comments">19 comments</a></span>
+    </div>
+    <h2>
+      <a href="/episodes/92-make-resourceful">make_resourceful</a>
+      
+    </h2>
+    <div class="description">
+      The make_resourceful plugin is a great way to DRY up the 7 RESTful actions common in most controllers. Learn how to use it in this episode.
+      <span class="stats">(6 minutes)</span>
+    </div>
+    <div class="watch">
+        <a href="/episodes/92-make-resourceful?autoplay=true" class="pretty_button">Watch Episode</a>
+        
+    </div>
+  </div>
+  <div class="clear"></div>
+</div><div class="episode" id="episode_91">
+  <div class="screenshot"><a href="/episodes/91-refactoring-long-methods"><img alt="Refactoring Long Methods" height="125" src="/static/episodes/stills/091-refactoring-long-methods.png" width="200" /></a></div>
+  <div class="main">
+    <div class="info">
+      <span class="number">Episode #91</span> &ndash;
+      <span class="published_at">Feb 03, 2008</span> &ndash;
+      <span class="comments"><a href="/episodes/91-refactoring-long-methods?view=comments">32 comments</a></span>
+    </div>
+    <h2>
+      <a href="/episodes/91-refactoring-long-methods">Refactoring Long Methods</a>
+      
+    </h2>
+    <div class="description">
+      In this episode I walk you through an exercise in refactoring by taking a long method and making it more concise.
+      <span class="stats">(7 minutes)</span>
+    </div>
+    <div class="watch">
+        <a href="/episodes/91-refactoring-long-methods?autoplay=true" class="pretty_button">Watch Episode</a>
+        
+    </div>
+  </div>
+  <div class="clear"></div>
+</div><div class="episode" id="episode_90">
+  <div class="screenshot"><a href="/episodes/90-fragment-caching"><img alt="Fragment Caching" height="125" src="/static/episodes/stills/090-fragment-caching.png" width="200" /></a></div>
+  <div class="main">
+    <div class="info">
+      <span class="number">Episode #90</span> &ndash;
+      <span class="published_at">Jan 27, 2008</span> &ndash;
+      <span class="comments"><a href="/episodes/90-fragment-caching?view=comments">23 comments</a></span>
+    </div>
+    <h2>
+      <a href="/episodes/90-fragment-caching">Fragment Caching</a>
+      
+    </h2>
+    <div class="description">
+      Sometimes you only want to cache a section of a page instead of the entire page. Fragment caching is the answer as shown in this episode.
+      <span class="stats">(6 minutes)</span>
+    </div>
+    <div class="watch">
+        <a href="/episodes/90-fragment-caching?autoplay=true" class="pretty_button">Watch Episode</a>
+        
+    </div>
+  </div>
+  <div class="clear"></div>
+</div><div class="episode" id="episode_89">
+  <div class="screenshot"><a href="/episodes/89-page-caching"><img alt="Page Caching" height="125" src="/static/episodes/stills/089-page-caching.png" width="200" /></a></div>
+  <div class="main">
+    <div class="info">
+      <span class="number">Episode #89</span> &ndash;
+      <span class="published_at">Jan 20, 2008</span> &ndash;
+      <span class="comments"><a href="/episodes/89-page-caching?view=comments">19 comments</a></span>
+    </div>
+    <h2>
+      <a href="/episodes/89-page-caching">Page Caching</a>
+      
+    </h2>
+    <div class="description">
+      Page caching is an efficient way to cache stateless content. In this episode I will show you how to cache the dynamic javascript we created last week.
+      <span class="stats">(6 minutes)</span>
+    </div>
+    <div class="watch">
+        <a href="/episodes/89-page-caching?autoplay=true" class="pretty_button">Watch Episode</a>
+        
+    </div>
+  </div>
+  <div class="clear"></div>
+</div><div class="episode" id="episode_88">
+  <div class="screenshot"><a href="/episodes/88-dynamic-select-menus"><img alt="Dynamic Select Menus" height="125" src="/static/episodes/stills/088-dynamic-select-menus.png" width="200" /></a></div>
+  <div class="main">
+    <div class="info">
+      <span class="number">Episode #88</span> &ndash;
+      <span class="published_at">Jan 13, 2008</span> &ndash;
+      <span class="comments"><a href="/episodes/88-dynamic-select-menus?view=comments">174 comments</a></span>
+    </div>
+    <h2>
+      <a href="/episodes/88-dynamic-select-menus">Dynamic Select Menus</a>
+      
+    </h2>
+    <div class="description">
+      See how to dynamically change a select menu based on another select menu using Javascript. In this episode everything is kept client side which leads to a more responsive user interface.
+      <span class="stats">(7 minutes)</span>
+    </div>
+    <div class="watch">
+        <a href="/episodes/88-dynamic-select-menus?autoplay=true" class="pretty_button">Watch Episode</a>
+        
+    </div>
+  </div>
+  <div class="clear"></div>
+</div><div class="episode" id="episode_87">
+  <div class="screenshot"><a href="/episodes/87-generating-rss-feeds"><img alt="Generating RSS Feeds" height="125" src="/static/episodes/stills/087-generating-rss-feeds.png" width="200" /></a></div>
+  <div class="main">
+    <div class="info">
+      <span class="number">Episode #87</span> &ndash;
+      <span class="published_at">Jan 06, 2008</span> &ndash;
+      <span class="comments"><a href="/episodes/87-generating-rss-feeds?view=comments">50 comments</a></span>
+    </div>
+    <h2>
+      <a href="/episodes/87-generating-rss-feeds">Generating RSS Feeds</a>
+      
+    </h2>
+    <div class="description">
+      See how to easily generate and link to an RSS feed using new features in Rails 2.0. Watch this episode or details.
+      <span class="stats">(6 minutes)</span>
+    </div>
+    <div class="watch">
+        <a href="/episodes/87-generating-rss-feeds?autoplay=true" class="pretty_button">Watch Episode</a>
+        
+    </div>
+  </div>
+  <div class="clear"></div>
+</div><div class="episode" id="episode_86">
+  <div class="screenshot"><a href="/episodes/86-logging-variables"><img alt="Logging Variables" height="125" src="/static/episodes/stills/086-logging-variables.png" width="200" /></a></div>
+  <div class="main">
+    <div class="info">
+      <span class="number">Episode #86</span> &ndash;
+      <span class="published_at">Dec 30, 2007</span> &ndash;
+      <span class="comments"><a href="/episodes/86-logging-variables?view=comments">12 comments</a></span>
+    </div>
+    <h2>
+      <a href="/episodes/86-logging-variables">Logging Variables</a>
+      
+    </h2>
+    <div class="description">
+      Have you ever wanted to easily log all variables? Now you can by using some advanced Ruby concepts as shown in this episode.
+      <span class="stats">(6 minutes)</span>
+    </div>
+    <div class="watch">
+        <a href="/episodes/86-logging-variables?autoplay=true" class="pretty_button">Watch Episode</a>
+        
+    </div>
+  </div>
+  <div class="clear"></div>
+</div></div>
+      <div class="pagination"><a class="previous_page" rel="prev" href="/?page=38">&lt; Previous Page</a> <a rel="start" href="/?page=1">1</a> <a href="/?page=2">2</a> <span class="gap">&hellip;</span> <a href="/?page=35">35</a> <a href="/?page=36">36</a> <a href="/?page=37">37</a> <a rel="prev" href="/?page=38">38</a> <em class="current">39</em> <a rel="next" href="/?page=40">40</a> <a href="/?page=41">41</a> <a href="/?page=42">42</a> <a href="/?page=43">43</a> <span class="gap">&hellip;</span> <a href="/?page=47">47</a> <a href="/?page=48">48</a> <a class="next_page" rel="next" href="/?page=40">Next Page &gt;</a></div>
+  </div>
+</div>
+
+    </div>
+    <div id="footer">
+      <div class="inner">
+        &copy;2013 RailsCasts - <a href="/privacy">Privacy Policy</a> - Hosted by <a href="https://www.digitalocean.com/?utm_source=railscasts.com">Digital Ocean</a>
+      </div>
+    </div>
+
+      <!-- Google Analytics -->
+      <script type="text/javascript">
+        var _gaq = _gaq || [];
+        _gaq.push(['_setAccount', 'UA-7696481-1']);
+        _gaq.push(['_trackPageview']);
+
+        (function() {
+          var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+          ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+          var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+        })();
+      </script>
+  </body>
+</html>

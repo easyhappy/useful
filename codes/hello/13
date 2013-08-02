@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Ruby on Rails Screencasts - RailsCasts</title>
+    <meta name="description" content="Short Ruby on Rails screencasts containing tips, tricks and tutorials. Great for both novice and experienced web developers." />
+    <meta name="keywords" content="rails, ruby on rails, screencasts, railscast, railscasts, tips, tricks, tutorials, training, podcasts, programming" />
+    <link rel="alternate" type="application/rss+xml" title="Episodes RSS" href="http://feeds.feedburner.com/railscasts" />
+    <link href="/assets/application-f33052609391fcb2333fb8c560544e00.css" media="screen" rel="stylesheet" type="text/css" />
+    <script src="http://cdn.sublimevideo.net/js/3s7oes9q.js" type="text/javascript"></script>
+    <script src="/assets/application-fe460ed6c034ee8c95a2a78f52d7a5d9.js" type="text/javascript"></script>
+    <meta content="authenticity_token" name="csrf-param" />
+<meta content="ByofjKPM+dqM8J8Z836HWSY8xasEamjqQDGnJPP1YyU=" name="csrf-token" />
+    
+  </head>
+  <body>
+    <div id="top">
+      <div class="logo"><a href="/"><img alt="RailsCasts - Ruby on Rails Screencasts" height="56" src="/assets/railscasts_logo-7101a7cd0a48292a0c07276981855edb.png" width="423" /></a></div>
+      <div class="user_nav">
+          <a href="/login?return_to=http%3A%2F%2Frailscasts.com%2F%3Fpage%3D13">Sign in through GitHub</a>
+      </div>
+      <ul class="subscribe horizontal">
+        <li>
+          <a href="http://phobos.apple.com/WebObjects/MZStore.woa/wa/viewPodcast?id=218282043"><img alt="Itunes" height="34" src="/assets/icons/itunes-ea9253b9b183d9788bef2cdfe326f38e.png" width="34" /></a>
+          <span class="name">watch on iTunes</span>
+        </li>
+        <li>
+          <a href="http://twitter.com/railscasts"><img alt="Twitter" height="34" src="/assets/icons/twitter-f0259ab802804e09139fb29f47678b2c.png" width="34" /></a>
+          <span class="name">follow on Twitter</span>
+        </li>
+        <li>
+          <a href="http://www.facebook.com/pages/railscasts/197415140659"><img alt="Facebook" height="34" src="/assets/icons/facebook-0ab869e74b54d9c58f33c1c75264d869.png" width="34" /></a>
+          <span class="name">follow on Facebook</span>
+        </li>
+        <li>
+          <a href="http://feeds.feedburner.com/railscasts"><img alt="Rss" height="34" src="/assets/icons/rss-04cb962054caa957a6fa3924c48594d8.png" width="34" /></a>
+          <span class="name">subscribe to RSS feed</span>
+        </li>
+      </ul>
+    </div>
+
+    <div id="nav_bar">
+      <ul class="nav horizontal">
+        <li>Browse Episodes</li>
+        <li><a href="/pro">RailsCasts Pro</a></li>
+        <li><a href="/notifications">Notifications</a></li>
+        <li><a href="/about">About</a></li>
+        <li><a href="/feedback">Feedback</a></li>
+      </ul>
+      <form accept-charset="UTF-8" action="http://railscasts.com/episodes" method="get"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /></div>
+        <input id="search" name="search" size="35" type="text" />
+        <input type="submit" value="Search Episodes" />
+</form>    </div>
+
+    <div id="announcement_banner">
+  <p>Please read this announcement on the status of RailsCasts:</p>
+
+  <p><a href="/announcements/11">Learn more</a> or <a href="/announcements/11/hide" data-remote="true">hide this</a></p>
+</div>
+
+
+
+    <div id="main">
+
+      
+<div class="content">
+  <div class="side">
+    <div class="episode_views">
+      View: <span class="view"><img alt="Full" height="10" src="/assets/views/full-0788b5fc76d8a1d653004ad44fbf31e5.png" width="15" /></span><span class="view"><a href="/?view=list" title="List View"><img alt="List" height="10" src="/assets/views/list-f3b69d30cdb1ef80b12126c5dbd3fc7a.png" width="14" /></a></span><span class="view"><a href="/?view=grid" title="Grid View"><img alt="Grid" height="10" src="/assets/views/grid-119e56c5d75467c317c16c5c6fef94da.png" width="11" /></a></span>
+    </div>
+    <div class="search_option">
+      <h2>Types</h2>
+      <ul><li><a href="/?type=free">Free Episodes</a></li><li><a href="/?type=pro">Pro Episodes</a></li><li><a href="/?type=revised">Revised Episodes</a></li></ul>
+    </div>
+    <div class="search_option">
+      <h2>Categories</h2>
+      <ul><li><a href="/?tag_id=2">Active Record</a></li><li><a href="/?tag_id=19">Active Resource</a></li><li><a href="/?tag_id=3">Active Support</a></li><li><a href="/?tag_id=9">Administration</a></li><li><a href="/?tag_id=11">Ajax</a></li><li><a href="/?tag_id=37">APIs</a></li><li><a href="/?tag_id=25">Authentication</a></li><li><a href="/?tag_id=26">Authorization</a></li><li><a href="/?tag_id=32">Background Jobs</a></li><li><a href="/?tag_id=18">Caching</a></li><li><a href="/?tag_id=39">Code Walkthrough</a></li><li><a href="/?tag_id=8">Controllers</a></li><li><a href="/?tag_id=10">Debugging</a></li><li><a href="/?tag_id=21">Deployment</a></li><li><a href="/?tag_id=23">eCommerce</a></li><li><a href="/?tag_id=15">Forms</a></li><li><a href="/?tag_id=28">Mailing</a></li><li><a href="/?tag_id=16">Models</a></li><li><a href="/?tag_id=1">Performance</a></li><li><a href="/?tag_id=13">Plugins</a></li><li><a href="/?tag_id=33">Production</a></li><li><a href="/?tag_id=35">Rack</a></li><li><a href="/?tag_id=17">Rails 2.0</a></li><li><a href="/?tag_id=20">Rails 2.1</a></li><li><a href="/?tag_id=22">Rails 2.2</a></li><li><a href="/?tag_id=24">Rails 2.3</a></li><li><a href="/?tag_id=27">Rails 3.0</a></li><li><a href="/?tag_id=31">Rails 3.1</a></li><li><a href="/?tag_id=34">Rails 3.2</a></li><li><a href="/?tag_id=38">Rails 4.0</a></li><li><a href="/?tag_id=6">Refactoring</a></li><li><a href="/?tag_id=14">Routing</a></li><li><a href="/?tag_id=30">Search</a></li><li><a href="/?tag_id=5">Security</a></li><li><a href="/?tag_id=7">Testing</a></li><li><a href="/?tag_id=12">Tools</a></li><li><a href="/?tag_id=4">Views</a></li></ul>
+    </div>
+    <div class="banner">
+      <a href="https://www.digitalocean.com/?utm_source=railscasts.com"><img alt="Digital Ocean" src="/static/sponsors/digitalocean.png" /></a>
+    </div>
+  </div>
+
+  <div class="episodes">
+      <div class="full"><div class="episode" id="episode_355">
+  <div class="screenshot"><a href="/episodes/332-refinery-cms-basics"><img alt="Refinery CMS Basics" height="125" src="/static/episodes/stills/332-refinery-cms-basics.png" width="200" /></a></div>
+  <div class="main">
+    <div class="info">
+      <span class="number">Episode #332</span> &ndash;
+      <span class="published_at">Mar 14, 2012</span> &ndash;
+      <span class="comments"><a href="/episodes/332-refinery-cms-basics?view=comments">34 comments</a></span>
+    </div>
+    <h2>
+      <a href="/episodes/332-refinery-cms-basics">Refinery CMS Basics</a>
+      
+    </h2>
+    <div class="description">
+      If you need to quickly create an informational site that can be easily edited, consider using a content management system. Here I show how to build a site using Refinery CMS.
+      <span class="stats">(11 minutes)</span>
+    </div>
+    <div class="watch">
+        <a href="/episodes/332-refinery-cms-basics?autoplay=true" class="pretty_button">Watch Episode</a>
+        <a href="/episodes/332-refinery-cms-basics?view=asciicast" class="pretty_button read_button">Read Episode</a>
+    </div>
+  </div>
+  <div class="clear"></div>
+</div><div class="episode" id="episode_354">
+  <div class="screenshot"><a href="/episodes/26-hackers-love-mass-assignment-revised"><img alt="Hackers Love Mass Assignment (revised)" height="125" src="/static/episodes/stills/026-hackers-love-mass-assignment-revised.png" width="200" /></a></div>
+  <div class="main">
+    <div class="info">
+      <span class="number">Episode #26</span> &ndash;
+      <span class="published_at">Mar 08, 2012</span> &ndash;
+      <span class="comments"><a href="/episodes/26-hackers-love-mass-assignment-revised?view=comments">23 comments</a></span>
+    </div>
+    <h2>
+      <a href="/episodes/26-hackers-love-mass-assignment-revised">Hackers Love Mass Assignment (revised)</a>
+      
+    </h2>
+    <div class="description">
+      One of the most common security issues in a Rails application is the mass-assignment vulnerability which allows a user to set any attribute on the model. Learn how to prevent it in this episode.
+      <span class="stats">(6 minutes)</span>
+    </div>
+    <div class="watch">
+        <a href="/pro" class="pretty_button">Subscribe to Watch Episode</a>
+    </div>
+  </div>
+  <div class="clear"></div>
+</div><div class="episode" id="episode_353">
+  <div class="screenshot"><a href="/episodes/331-a-b-testing-with-split"><img alt="A/B Testing with Split" height="125" src="/static/episodes/stills/331-a-b-testing-with-split.png" width="200" /></a></div>
+  <div class="main">
+    <div class="info">
+      <span class="number">Episode #331</span> &ndash;
+      <span class="published_at">Mar 07, 2012</span> &ndash;
+      <span class="comments"><a href="/episodes/331-a-b-testing-with-split?view=comments">17 comments</a></span>
+    </div>
+    <h2>
+      <a href="/episodes/331-a-b-testing-with-split">A/B Testing with Split</a>
+      
+    </h2>
+    <div class="description">
+      Split testing allows you to experiment with different designs and track conversions to determine which one is the most effective. Learn how to do A/B testing using Split in this episode.
+      <span class="stats">(10 minutes)</span>
+    </div>
+    <div class="watch">
+        <a href="/pro" class="pretty_button">Subscribe to Watch Episode</a>
+    </div>
+  </div>
+  <div class="clear"></div>
+</div><div class="episode" id="episode_352">
+  <div class="screenshot"><a href="/episodes/330-better-sass-with-bourbon"><img alt="Better Sass with Bourbon" height="125" src="/static/episodes/stills/330-better-sass-with-bourbon.png" width="200" /></a></div>
+  <div class="main">
+    <div class="info">
+      <span class="number">Episode #330</span> &ndash;
+      <span class="published_at">Mar 07, 2012</span> &ndash;
+      <span class="comments"><a href="/episodes/330-better-sass-with-bourbon?view=comments">26 comments</a></span>
+    </div>
+    <h2>
+      <a href="/episodes/330-better-sass-with-bourbon">Better Sass with Bourbon</a>
+      
+    </h2>
+    <div class="description">
+      If you are tired of the browser vendor prefixes in CSS, check out Bourbon. It provides Sass mixins and functions to make CSS more convenient.
+      <span class="stats">(7 minutes)</span>
+    </div>
+    <div class="watch">
+        <a href="/episodes/330-better-sass-with-bourbon?autoplay=true" class="pretty_button">Watch Episode</a>
+        <a href="/episodes/330-better-sass-with-bourbon?view=asciicast" class="pretty_button read_button">Read Episode</a>
+    </div>
+  </div>
+  <div class="clear"></div>
+</div><div class="episode" id="episode_351">
+  <div class="screenshot"><a href="/episodes/234-simple-form-revised"><img alt="SimpleForm (revised)" height="125" src="/static/episodes/stills/234-simple-form-revised.png" width="200" /></a></div>
+  <div class="main">
+    <div class="info">
+      <span class="number">Episode #234</span> &ndash;
+      <span class="published_at">Mar 03, 2012</span> &ndash;
+      <span class="comments"><a href="/episodes/234-simple-form-revised?view=comments">19 comments</a></span>
+    </div>
+    <h2>
+      <a href="/episodes/234-simple-form-revised">SimpleForm (revised)</a>
+      
+    </h2>
+    <div class="description">
+      Easily generate complex forms with SimpleForm. Here I show how to convert bulky markup into a concise list of fields, customize it by passing options, and add error handling.
+      <span class="stats">(9 minutes)</span>
+    </div>
+    <div class="watch">
+        <a href="/pro" class="pretty_button">Subscribe to Watch Episode</a>
+    </div>
+  </div>
+  <div class="clear"></div>
+</div><div class="episode" id="episode_350">
+  <div class="screenshot"><a href="/episodes/329-more-on-twitter-bootstrap"><img alt="More on Twitter Bootstrap" height="125" src="/static/episodes/stills/329-more-on-twitter-bootstrap.png" width="200" /></a></div>
+  <div class="main">
+    <div class="info">
+      <span class="number">Episode #329</span> &ndash;
+      <span class="published_at">Feb 28, 2012</span> &ndash;
+      <span class="comments"><a href="/episodes/329-more-on-twitter-bootstrap?view=comments">75 comments</a></span>
+    </div>
+    <h2>
+      <a href="/episodes/329-more-on-twitter-bootstrap">More on Twitter Bootstrap</a>
+      
+    </h2>
+    <div class="description">
+      This episode continues on the Twitter Bootstrap project showing how to display flash messages, add form validations with SimpleForm, customize layout with variables, and switch to using Sass.
+      <span class="stats">(12 minutes)</span>
+    </div>
+    <div class="watch">
+        <a href="/pro" class="pretty_button">Subscribe to Watch Episode</a>
+    </div>
+  </div>
+  <div class="clear"></div>
+</div><div class="episode" id="episode_349">
+  <div class="screenshot"><a href="/episodes/328-twitter-bootstrap-basics"><img alt="Twitter Bootstrap Basics" height="125" src="/static/episodes/stills/328-twitter-bootstrap-basics.png" width="200" /></a></div>
+  <div class="main">
+    <div class="info">
+      <span class="number">Episode #328</span> &ndash;
+      <span class="published_at">Feb 28, 2012</span> &ndash;
+      <span class="comments"><a href="/episodes/328-twitter-bootstrap-basics?view=comments">97 comments</a></span>
+    </div>
+    <h2>
+      <a href="/episodes/328-twitter-bootstrap-basics">Twitter Bootstrap Basics</a>
+      
+    </h2>
+    <div class="description">
+      Twitter Bootstrap can help make beautiful web apps quickly by providing you with useful CSS and JavaScript. Here you will learn how to include it into Rails with the twitter-bootstrap-rails gem.
+      <span class="stats">(10 minutes)</span>
+    </div>
+    <div class="watch">
+        <a href="/episodes/328-twitter-bootstrap-basics?autoplay=true" class="pretty_button">Watch Episode</a>
+        <a href="/episodes/328-twitter-bootstrap-basics?view=asciicast" class="pretty_button read_button">Read Episode</a>
+    </div>
+  </div>
+  <div class="clear"></div>
+</div><div class="episode" id="episode_348">
+  <div class="screenshot"><a href="/episodes/250-authentication-from-scratch-revised"><img alt="Authentication from Scratch (revised)" height="125" src="/static/episodes/stills/250-authentication-from-scratch-revised.png" width="200" /></a></div>
+  <div class="main">
+    <div class="info">
+      <span class="number">Episode #250</span> &ndash;
+      <span class="published_at">Feb 25, 2012</span> &ndash;
+      <span class="comments"><a href="/episodes/250-authentication-from-scratch-revised?view=comments">50 comments</a></span>
+    </div>
+    <h2>
+      <a href="/episodes/250-authentication-from-scratch-revised">Authentication from Scratch (revised)</a>
+      
+    </h2>
+    <div class="description">
+      Simple password authentication is easy to do with has_secure_password. Here you will learn how to make a complete Sign Up, Log In, and Log Out process as well as restrict access to certain actions.
+      <span class="stats">(13 minutes)</span>
+    </div>
+    <div class="watch">
+        <a href="/pro" class="pretty_button">Subscribe to Watch Episode</a>
+    </div>
+  </div>
+  <div class="clear"></div>
+</div><div class="episode" id="episode_347">
+  <div class="screenshot"><a href="/episodes/327-minitest-with-rails"><img alt="MiniTest with Rails" height="125" src="/static/episodes/stills/327-minitest-with-rails.png" width="200" /></a></div>
+  <div class="main">
+    <div class="info">
+      <span class="number">Episode #327</span> &ndash;
+      <span class="published_at">Feb 21, 2012</span> &ndash;
+      <span class="comments"><a href="/episodes/327-minitest-with-rails?view=comments">37 comments</a></span>
+    </div>
+    <h2>
+      <a href="/episodes/327-minitest-with-rails">MiniTest with Rails</a>
+      
+    </h2>
+    <div class="description">
+      MiniTest is a fast and lightweight testing library. Here you will learn how to use it in a Rails app for model, helper, and integration testing. The Turn gem is also demonstrated for prettier test output.
+      <span class="stats">(15 minutes)</span>
+    </div>
+    <div class="watch">
+        <a href="/pro" class="pretty_button">Subscribe to Watch Episode</a>
+    </div>
+  </div>
+  <div class="clear"></div>
+</div><div class="episode" id="episode_346">
+  <div class="screenshot"><a href="/episodes/326-activeattr"><img alt="ActiveAttr" height="125" src="/static/episodes/stills/326-activeattr.png" width="200" /></a></div>
+  <div class="main">
+    <div class="info">
+      <span class="number">Episode #326</span> &ndash;
+      <span class="published_at">Feb 21, 2012</span> &ndash;
+      <span class="comments"><a href="/episodes/326-activeattr?view=comments">10 comments</a></span>
+    </div>
+    <h2>
+      <a href="/episodes/326-activeattr">ActiveAttr</a>
+      
+    </h2>
+    <div class="description">
+      ActiveAttr provides what Active Model left out. If you need to create a table-less model with features similar to Active Record, watch this episode.
+      <span class="stats">(5 minutes)</span>
+    </div>
+    <div class="watch">
+        <a href="/episodes/326-activeattr?autoplay=true" class="pretty_button">Watch Episode</a>
+        <a href="/episodes/326-activeattr?view=asciicast" class="pretty_button read_button">Read Episode</a>
+    </div>
+  </div>
+  <div class="clear"></div>
+</div></div>
+      <div class="pagination"><a class="previous_page" rel="prev" href="/?page=12">&lt; Previous Page</a> <a rel="start" href="/?page=1">1</a> <a href="/?page=2">2</a> <span class="gap">&hellip;</span> <a href="/?page=9">9</a> <a href="/?page=10">10</a> <a href="/?page=11">11</a> <a rel="prev" href="/?page=12">12</a> <em class="current">13</em> <a rel="next" href="/?page=14">14</a> <a href="/?page=15">15</a> <a href="/?page=16">16</a> <a href="/?page=17">17</a> <span class="gap">&hellip;</span> <a href="/?page=47">47</a> <a href="/?page=48">48</a> <a class="next_page" rel="next" href="/?page=14">Next Page &gt;</a></div>
+  </div>
+</div>
+
+    </div>
+    <div id="footer">
+      <div class="inner">
+        &copy;2013 RailsCasts - <a href="/privacy">Privacy Policy</a> - Hosted by <a href="https://www.digitalocean.com/?utm_source=railscasts.com">Digital Ocean</a>
+      </div>
+    </div>
+
+      <!-- Google Analytics -->
+      <script type="text/javascript">
+        var _gaq = _gaq || [];
+        _gaq.push(['_setAccount', 'UA-7696481-1']);
+        _gaq.push(['_trackPageview']);
+
+        (function() {
+          var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+          ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+          var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+        })();
+      </script>
+  </body>
+</html>

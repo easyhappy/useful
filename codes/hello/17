@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Ruby on Rails Screencasts - RailsCasts</title>
+    <meta name="description" content="Short Ruby on Rails screencasts containing tips, tricks and tutorials. Great for both novice and experienced web developers." />
+    <meta name="keywords" content="rails, ruby on rails, screencasts, railscast, railscasts, tips, tricks, tutorials, training, podcasts, programming" />
+    <link rel="alternate" type="application/rss+xml" title="Episodes RSS" href="http://feeds.feedburner.com/railscasts" />
+    <link href="/assets/application-f33052609391fcb2333fb8c560544e00.css" media="screen" rel="stylesheet" type="text/css" />
+    <script src="http://cdn.sublimevideo.net/js/3s7oes9q.js" type="text/javascript"></script>
+    <script src="/assets/application-fe460ed6c034ee8c95a2a78f52d7a5d9.js" type="text/javascript"></script>
+    <meta content="authenticity_token" name="csrf-param" />
+<meta content="6kvh+gw3M6kqAoj8QsM9oz4g7tRiP7ULDO3awvaf+gI=" name="csrf-token" />
+    
+  </head>
+  <body>
+    <div id="top">
+      <div class="logo"><a href="/"><img alt="RailsCasts - Ruby on Rails Screencasts" height="56" src="/assets/railscasts_logo-7101a7cd0a48292a0c07276981855edb.png" width="423" /></a></div>
+      <div class="user_nav">
+          <a href="/login?return_to=http%3A%2F%2Frailscasts.com%2F%3Fpage%3D17">Sign in through GitHub</a>
+      </div>
+      <ul class="subscribe horizontal">
+        <li>
+          <a href="http://phobos.apple.com/WebObjects/MZStore.woa/wa/viewPodcast?id=218282043"><img alt="Itunes" height="34" src="/assets/icons/itunes-ea9253b9b183d9788bef2cdfe326f38e.png" width="34" /></a>
+          <span class="name">watch on iTunes</span>
+        </li>
+        <li>
+          <a href="http://twitter.com/railscasts"><img alt="Twitter" height="34" src="/assets/icons/twitter-f0259ab802804e09139fb29f47678b2c.png" width="34" /></a>
+          <span class="name">follow on Twitter</span>
+        </li>
+        <li>
+          <a href="http://www.facebook.com/pages/railscasts/197415140659"><img alt="Facebook" height="34" src="/assets/icons/facebook-0ab869e74b54d9c58f33c1c75264d869.png" width="34" /></a>
+          <span class="name">follow on Facebook</span>
+        </li>
+        <li>
+          <a href="http://feeds.feedburner.com/railscasts"><img alt="Rss" height="34" src="/assets/icons/rss-04cb962054caa957a6fa3924c48594d8.png" width="34" /></a>
+          <span class="name">subscribe to RSS feed</span>
+        </li>
+      </ul>
+    </div>
+
+    <div id="nav_bar">
+      <ul class="nav horizontal">
+        <li>Browse Episodes</li>
+        <li><a href="/pro">RailsCasts Pro</a></li>
+        <li><a href="/notifications">Notifications</a></li>
+        <li><a href="/about">About</a></li>
+        <li><a href="/feedback">Feedback</a></li>
+      </ul>
+      <form accept-charset="UTF-8" action="http://railscasts.com/episodes" method="get"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /></div>
+        <input id="search" name="search" size="35" type="text" />
+        <input type="submit" value="Search Episodes" />
+</form>    </div>
+
+    <div id="announcement_banner">
+  <p>Please read this announcement on the status of RailsCasts:</p>
+
+  <p><a href="/announcements/11">Learn more</a> or <a href="/announcements/11/hide" data-remote="true">hide this</a></p>
+</div>
+
+
+
+    <div id="main">
+
+      
+<div class="content">
+  <div class="side">
+    <div class="episode_views">
+      View: <span class="view"><img alt="Full" height="10" src="/assets/views/full-0788b5fc76d8a1d653004ad44fbf31e5.png" width="15" /></span><span class="view"><a href="/?view=list" title="List View"><img alt="List" height="10" src="/assets/views/list-f3b69d30cdb1ef80b12126c5dbd3fc7a.png" width="14" /></a></span><span class="view"><a href="/?view=grid" title="Grid View"><img alt="Grid" height="10" src="/assets/views/grid-119e56c5d75467c317c16c5c6fef94da.png" width="11" /></a></span>
+    </div>
+    <div class="search_option">
+      <h2>Types</h2>
+      <ul><li><a href="/?type=free">Free Episodes</a></li><li><a href="/?type=pro">Pro Episodes</a></li><li><a href="/?type=revised">Revised Episodes</a></li></ul>
+    </div>
+    <div class="search_option">
+      <h2>Categories</h2>
+      <ul><li><a href="/?tag_id=2">Active Record</a></li><li><a href="/?tag_id=19">Active Resource</a></li><li><a href="/?tag_id=3">Active Support</a></li><li><a href="/?tag_id=9">Administration</a></li><li><a href="/?tag_id=11">Ajax</a></li><li><a href="/?tag_id=37">APIs</a></li><li><a href="/?tag_id=25">Authentication</a></li><li><a href="/?tag_id=26">Authorization</a></li><li><a href="/?tag_id=32">Background Jobs</a></li><li><a href="/?tag_id=18">Caching</a></li><li><a href="/?tag_id=39">Code Walkthrough</a></li><li><a href="/?tag_id=8">Controllers</a></li><li><a href="/?tag_id=10">Debugging</a></li><li><a href="/?tag_id=21">Deployment</a></li><li><a href="/?tag_id=23">eCommerce</a></li><li><a href="/?tag_id=15">Forms</a></li><li><a href="/?tag_id=28">Mailing</a></li><li><a href="/?tag_id=16">Models</a></li><li><a href="/?tag_id=1">Performance</a></li><li><a href="/?tag_id=13">Plugins</a></li><li><a href="/?tag_id=33">Production</a></li><li><a href="/?tag_id=35">Rack</a></li><li><a href="/?tag_id=17">Rails 2.0</a></li><li><a href="/?tag_id=20">Rails 2.1</a></li><li><a href="/?tag_id=22">Rails 2.2</a></li><li><a href="/?tag_id=24">Rails 2.3</a></li><li><a href="/?tag_id=27">Rails 3.0</a></li><li><a href="/?tag_id=31">Rails 3.1</a></li><li><a href="/?tag_id=34">Rails 3.2</a></li><li><a href="/?tag_id=38">Rails 4.0</a></li><li><a href="/?tag_id=6">Refactoring</a></li><li><a href="/?tag_id=14">Routing</a></li><li><a href="/?tag_id=30">Search</a></li><li><a href="/?tag_id=5">Security</a></li><li><a href="/?tag_id=7">Testing</a></li><li><a href="/?tag_id=12">Tools</a></li><li><a href="/?tag_id=4">Views</a></li></ul>
+    </div>
+    <div class="banner">
+      <a href="https://www.digitalocean.com/?utm_source=railscasts.com"><img alt="Digital Ocean" src="/static/sponsors/digitalocean.png" /></a>
+    </div>
+  </div>
+
+  <div class="episodes">
+      <div class="full"><div class="episode" id="episode_315">
+  <div class="screenshot"><a href="/episodes/120-thinking-sphinx-revised"><img alt="Thinking Sphinx (revised)" height="125" src="/static/episodes/stills/120-thinking-sphinx-revised.png" width="200" /></a></div>
+  <div class="main">
+    <div class="info">
+      <span class="number">Episode #120</span> &ndash;
+      <span class="published_at">Dec 09, 2011</span> &ndash;
+      <span class="comments"><a href="/episodes/120-thinking-sphinx-revised?view=comments">12 comments</a></span>
+    </div>
+    <h2>
+      <a href="/episodes/120-thinking-sphinx-revised">Thinking Sphinx (revised)</a>
+      
+    </h2>
+    <div class="description">
+      Sphinx is a full-text search engine for use with MySQL or PostgreSQL. Learn how to add Thinking Sphinx by defining an index on your model and searching with various options.
+      <span class="stats">(10 minutes)</span>
+    </div>
+    <div class="watch">
+        <a href="/pro" class="pretty_button">Subscribe to Watch Episode</a>
+    </div>
+  </div>
+  <div class="clear"></div>
+</div><div class="episode" id="episode_314">
+  <div class="screenshot"><a href="/episodes/305-authentication-with-warden"><img alt="Authentication with Warden" height="125" src="/static/episodes/stills/305-authentication-with-warden.png" width="200" /></a></div>
+  <div class="main">
+    <div class="info">
+      <span class="number">Episode #305</span> &ndash;
+      <span class="published_at">Dec 05, 2011</span> &ndash;
+      <span class="comments"><a href="/episodes/305-authentication-with-warden?view=comments">19 comments</a></span>
+    </div>
+    <h2>
+      <a href="/episodes/305-authentication-with-warden">Authentication with Warden</a>
+      
+    </h2>
+    <div class="description">
+      Warden makes it easy to move authentication up into Rack middleware.  This means authentication can be accessed outside of a Rails controller such as in routes or in a mountable engine.
+      <span class="stats">(12 minutes)</span>
+    </div>
+    <div class="watch">
+        <a href="/pro" class="pretty_button">Subscribe to Watch Episode</a>
+    </div>
+  </div>
+  <div class="clear"></div>
+</div><div class="episode" id="episode_313">
+  <div class="screenshot"><a href="/episodes/304-omniauth-identity"><img alt="OmniAuth Identity" height="125" src="/static/episodes/stills/304-omniauth-identity.png" width="200" /></a></div>
+  <div class="main">
+    <div class="info">
+      <span class="number">Episode #304</span> &ndash;
+      <span class="published_at">Dec 05, 2011</span> &ndash;
+      <span class="comments"><a href="/episodes/304-omniauth-identity?view=comments">52 comments</a></span>
+    </div>
+    <h2>
+      <a href="/episodes/304-omniauth-identity">OmniAuth Identity</a>
+      
+    </h2>
+    <div class="description">
+      With the release of OmniAuth 1.0 there is a new Identity strategy which allows users to register/login with a password if they don&#x27;t want to use an external provider.
+      <span class="stats">(11 minutes)</span>
+    </div>
+    <div class="watch">
+        <a href="/episodes/304-omniauth-identity?autoplay=true" class="pretty_button">Watch Episode</a>
+        <a href="/episodes/304-omniauth-identity?view=asciicast" class="pretty_button read_button">Read Episode</a>
+    </div>
+  </div>
+  <div class="clear"></div>
+</div><div class="episode" id="episode_312">
+  <div class="screenshot"><a href="/episodes/182-cropping-images-revised"><img alt="Cropping Images (revised)" height="125" src="/static/episodes/stills/182-cropping-images-revised.png" width="200" /></a></div>
+  <div class="main">
+    <div class="info">
+      <span class="number">Episode #182</span> &ndash;
+      <span class="published_at">Dec 02, 2011</span> &ndash;
+      <span class="comments"><a href="/episodes/182-cropping-images-revised?view=comments">41 comments</a></span>
+    </div>
+    <h2>
+      <a href="/episodes/182-cropping-images-revised">Cropping Images (revised)</a>
+      
+    </h2>
+    <div class="description">
+      Allow users to interactively crop uploaded images using Jcrop and Carrierwave. Includes a live preview that shows the resulting image.
+      <span class="stats">(11 minutes)</span>
+    </div>
+    <div class="watch">
+        <a href="/pro" class="pretty_button">Subscribe to Watch Episode</a>
+    </div>
+  </div>
+  <div class="clear"></div>
+</div><div class="episode" id="episode_311">
+  <div class="screenshot"><a href="/episodes/303-publishing-a-gem"><img alt="Publishing a Gem" height="125" src="/static/episodes/stills/303-publishing-a-gem.png" width="200" /></a></div>
+  <div class="main">
+    <div class="info">
+      <span class="number">Episode #303</span> &ndash;
+      <span class="published_at">Nov 28, 2011</span> &ndash;
+      <span class="comments"><a href="/episodes/303-publishing-a-gem?view=comments">6 comments</a></span>
+    </div>
+    <h2>
+      <a href="/episodes/303-publishing-a-gem">Publishing a Gem</a>
+      
+    </h2>
+    <div class="description">
+      In this second part on making a gem, you will learn how to publish a gem by releasing it to rubygems.org, testing it through Travis CI, documenting it on RubyDoc.info, and advertising it on various sites.
+      <span class="stats">(11 minutes)</span>
+    </div>
+    <div class="watch">
+        <a href="/pro" class="pretty_button">Subscribe to Watch Episode</a>
+    </div>
+  </div>
+  <div class="clear"></div>
+</div><div class="episode" id="episode_310">
+  <div class="screenshot"><a href="/episodes/302-in-place-editing"><img alt="In-Place Editing" height="125" src="/static/episodes/stills/302-in-place-editing.png" width="200" /></a></div>
+  <div class="main">
+    <div class="info">
+      <span class="number">Episode #302</span> &ndash;
+      <span class="published_at">Nov 28, 2011</span> &ndash;
+      <span class="comments"><a href="/episodes/302-in-place-editing?view=comments">58 comments</a></span>
+    </div>
+    <h2>
+      <a href="/episodes/302-in-place-editing">In-Place Editing</a>
+      
+    </h2>
+    <div class="description">
+      Edit an attribute in-place without leaving a page using the Best In Place gem. Learn how to add validations and support for various field types.
+      <span class="stats">(8 minutes)</span>
+    </div>
+    <div class="watch">
+        <a href="/episodes/302-in-place-editing?autoplay=true" class="pretty_button">Watch Episode</a>
+        <a href="/episodes/302-in-place-editing?view=asciicast" class="pretty_button read_button">Read Episode</a>
+    </div>
+  </div>
+  <div class="clear"></div>
+</div><div class="episode" id="episode_309">
+  <div class="screenshot"><a href="/episodes/88-dynamic-select-menus-revised"><img alt="Dynamic Select Menus (revised)" height="125" src="/static/episodes/stills/088-dynamic-select-menus-revised.png" width="200" /></a></div>
+  <div class="main">
+    <div class="info">
+      <span class="number">Episode #88</span> &ndash;
+      <span class="published_at">Nov 25, 2011</span> &ndash;
+      <span class="comments"><a href="/episodes/88-dynamic-select-menus-revised?view=comments">55 comments</a></span>
+    </div>
+    <h2>
+      <a href="/episodes/88-dynamic-select-menus-revised">Dynamic Select Menus (revised)</a>
+      
+    </h2>
+    <div class="description">
+      Do you need to dynamically change one select menu based on the value of another? Here I show how to filter states/provinces by a selected country using grouped options and a dab of CoffeeScript.
+      <span class="stats">(7 minutes)</span>
+    </div>
+    <div class="watch">
+        <a href="/pro" class="pretty_button">Subscribe to Watch Episode</a>
+    </div>
+  </div>
+  <div class="clear"></div>
+</div><div class="episode" id="episode_308">
+  <div class="screenshot"><a href="/episodes/301-extracting-a-ruby-gem"><img alt="Extracting a Ruby Gem" height="125" src="/static/episodes/stills/301-extracting-a-ruby-gem.png" width="200" /></a></div>
+  <div class="main">
+    <div class="info">
+      <span class="number">Episode #301</span> &ndash;
+      <span class="published_at">Nov 21, 2011</span> &ndash;
+      <span class="comments"><a href="/episodes/301-extracting-a-ruby-gem?view=comments">7 comments</a></span>
+    </div>
+    <h2>
+      <a href="/episodes/301-extracting-a-ruby-gem">Extracting a Ruby Gem</a>
+      
+    </h2>
+    <div class="description">
+      In this episode I show how to extract a Ruby Gem from an existing Rails application, test it with RSpec and Supermodel, and add a Railtie.
+      <span class="stats">(16 minutes)</span>
+    </div>
+    <div class="watch">
+        <a href="/pro" class="pretty_button">Subscribe to Watch Episode</a>
+    </div>
+  </div>
+  <div class="clear"></div>
+</div><div class="episode" id="episode_307">
+  <div class="screenshot"><a href="/episodes/300-contributing-to-open-source"><img alt="Contributing to Open Source" height="125" src="/static/episodes/stills/300-contributing-to-open-source.png" width="200" /></a></div>
+  <div class="main">
+    <div class="info">
+      <span class="number">Episode #300</span> &ndash;
+      <span class="published_at">Nov 21, 2011</span> &ndash;
+      <span class="comments"><a href="/episodes/300-contributing-to-open-source?view=comments">12 comments</a></span>
+    </div>
+    <h2>
+      <a href="/episodes/300-contributing-to-open-source">Contributing to Open Source</a>
+      
+    </h2>
+    <div class="description">
+      GitHub makes it easier than ever to contribute to open source with pull requests. Here I show how to submit a pull request to the VCR project.
+      <span class="stats">(9 minutes)</span>
+    </div>
+    <div class="watch">
+        <a href="/episodes/300-contributing-to-open-source?autoplay=true" class="pretty_button">Watch Episode</a>
+        <a href="/episodes/300-contributing-to-open-source?view=asciicast" class="pretty_button read_button">Read Episode</a>
+    </div>
+  </div>
+  <div class="clear"></div>
+</div><div class="episode" id="episode_306">
+  <div class="screenshot"><a href="/episodes/111-advanced-search-form-revised"><img alt="Advanced Search Form (revised)" height="125" src="/static/episodes/stills/111-advanced-search-form-revised.png" width="200" /></a></div>
+  <div class="main">
+    <div class="info">
+      <span class="number">Episode #111</span> &ndash;
+      <span class="published_at">Nov 17, 2011</span> &ndash;
+      <span class="comments"><a href="/episodes/111-advanced-search-form-revised?view=comments">24 comments</a></span>
+    </div>
+    <h2>
+      <a href="/episodes/111-advanced-search-form-revised">Advanced Search Form (revised)</a>
+      
+    </h2>
+    <div class="description">
+      It is often best to use a GET request when submitting a search form, however if it is an advanced search form with a lot of fields then this may not be ideal. Here I show how to create a search resource to handle this.
+      <span class="stats">(6 minutes)</span>
+    </div>
+    <div class="watch">
+        <a href="/pro" class="pretty_button">Subscribe to Watch Episode</a>
+    </div>
+  </div>
+  <div class="clear"></div>
+</div></div>
+      <div class="pagination"><a class="previous_page" rel="prev" href="/?page=16">&lt; Previous Page</a> <a rel="start" href="/?page=1">1</a> <a href="/?page=2">2</a> <span class="gap">&hellip;</span> <a href="/?page=13">13</a> <a href="/?page=14">14</a> <a href="/?page=15">15</a> <a rel="prev" href="/?page=16">16</a> <em class="current">17</em> <a rel="next" href="/?page=18">18</a> <a href="/?page=19">19</a> <a href="/?page=20">20</a> <a href="/?page=21">21</a> <span class="gap">&hellip;</span> <a href="/?page=47">47</a> <a href="/?page=48">48</a> <a class="next_page" rel="next" href="/?page=18">Next Page &gt;</a></div>
+  </div>
+</div>
+
+    </div>
+    <div id="footer">
+      <div class="inner">
+        &copy;2013 RailsCasts - <a href="/privacy">Privacy Policy</a> - Hosted by <a href="https://www.digitalocean.com/?utm_source=railscasts.com">Digital Ocean</a>
+      </div>
+    </div>
+
+      <!-- Google Analytics -->
+      <script type="text/javascript">
+        var _gaq = _gaq || [];
+        _gaq.push(['_setAccount', 'UA-7696481-1']);
+        _gaq.push(['_trackPageview']);
+
+        (function() {
+          var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+          ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+          var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+        })();
+      </script>
+  </body>
+</html>

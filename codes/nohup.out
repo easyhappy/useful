@@ -1,0 +1,155 @@
+fetch_vedio_from_railscasts.rb:81:in `join': Interrupt
+	from fetch_vedio_from_railscasts.rb:81:in `block (2 levels) in <main>'
+	from fetch_vedio_from_railscasts.rb:81:in `each'
+	from fetch_vedio_from_railscasts.rb:81:in `block in <main>'
+	from fetch_vedio_from_railscasts.rb:72:in `each'
+	from fetch_vedio_from_railscasts.rb:72:in `<main>'
+fetch_vedio_from_railscasts.rb:86:in `join': Interrupt
+	from fetch_vedio_from_railscasts.rb:86:in `block (2 levels) in <main>'
+	from fetch_vedio_from_railscasts.rb:86:in `each'
+	from fetch_vedio_from_railscasts.rb:86:in `block in <main>'
+	from fetch_vedio_from_railscasts.rb:77:in `each'
+	from fetch_vedio_from_railscasts.rb:77:in `<main>'
+fetch_vedio_from_railscasts.rb:63:in `fetch_vedio_and_codes': undefined method `lenght' for "417":String (NoMethodError)
+	from fetch_vedio_from_railscasts.rb:92:in `block (3 levels) in <main>'
+fetch_vedio_from_railscasts.rb:94:in `join': Interrupt
+	from fetch_vedio_from_railscasts.rb:94:in `block (2 levels) in <main>'
+	from fetch_vedio_from_railscasts.rb:94:in `each'
+	from fetch_vedio_from_railscasts.rb:94:in `block in <main>'
+	from fetch_vedio_from_railscasts.rb:85:in `each'
+	from fetch_vedio_from_railscasts.rb:85:in `<main>'
+fetch_vedio_from_railscasts.rb:94:in `join': Interrupt
+	from fetch_vedio_from_railscasts.rb:94:in `block (2 levels) in <main>'
+	from fetch_vedio_from_railscasts.rb:94:in `each'
+	from fetch_vedio_from_railscasts.rb:94:in `block in <main>'
+	from fetch_vedio_from_railscasts.rb:85:in `each'
+	from fetch_vedio_from_railscasts.rb:85:in `<main>'
+cat: http://media.railscasts.com/assets/episodes/sources/412-fast-rails-commands.zip: No such file or directory
+cat: http://media.railscasts.com/assets/subscriptions/naTPo0xldxskaKS5YlofHg/videos/412-fast-rails-commands.mp4: No such file or directory
+cat: http://media.railscasts.com/assets/episodes/sources/415-upgrading-to-rails-4.zip: No such file or directory
+cat: http://media.railscasts.com/assets/subscriptions/naTPo0xldxskaKS5YlofHg/videos/415-upgrading-to-rails-4.mp4: No such file or directory
+cat: http://media.railscasts.com/assets/episodes/sources/417-foundation.zip: No such file or directory
+cat: http://media.railscasts.com/assets/subscriptions/naTPo0xldxskaKS5YlofHg/videos/417-foundation.mp4: No such file or directory
+cat: http://media.railscasts.com/assets/episodes/videos/417-foundation.mp4: No such file or directory
+fetch_vedio_from_railscasts.rb:97:in `join': Interrupt
+	from fetch_vedio_from_railscasts.rb:97:in `block (2 levels) in <main>'
+	from fetch_vedio_from_railscasts.rb:97:in `each'
+	from fetch_vedio_from_railscasts.rb:97:in `block in <main>'
+	from fetch_vedio_from_railscasts.rb:88:in `each'
+	from fetch_vedio_from_railscasts.rb:88:in `<main>'
+cat: http://media.railscasts.com/assets/episodes/sources/416-form-objects.zip: No such file or directory
+cat: http://media.railscasts.com/assets/episodes/sources/417-foundation.zip: No such file or directory
+cat: http://media.railscasts.com/assets/episodes/sources/115-model-caching-revised.zip: No such file or directory
+cat: http://media.railscasts.com/assets/subscriptions/naTPo0xldxskaKS5YlofHg/videos/417-foundation.mp4: No such file or directory
+cat: http://media.railscasts.com/assets/subscriptions/naTPo0xldxskaKS5YlofHg/videos/416-form-objects.mp4: No such file or directory
+cat: http://media.railscasts.com/assets/subscriptions/naTPo0xldxskaKS5YlofHg/videos/115-model-caching-revised.mp4: No such file or directory
+cat: http://media.railscasts.com/assets/episodes/sources/411-performance-testing.zip: No such file or directory
+cat: http://media.railscasts.com/assets/episodes/sources/053-handling-exceptions-revised.zip: No such file or directory
+cat: http://media.railscasts.com/assets/episodes/sources/412-fast-rails-commands.zip: No such file or directory
+cat: http://media.railscasts.com/assets/episodes/sources/413-fast-tests.zip: No such file or directory
+cat: http://media.railscasts.com/assets/episodes/sources/414-batch-api-requests.zip: No such file or directory
+cat: http://media.railscasts.com/assets/episodes/sources/415-upgrading-to-rails-4.zip: No such file or directory
+cat: http://media.railscasts.com/assets/episodes/sources/022-eager-loading-revised.zip: No such file or directory
+cat: http://media.railscasts.com/assets/subscriptions/naTPo0xldxskaKS5YlofHg/videos/415-upgrading-to-rails-4.mp4: No such file or directory
+cat: http://media.railscasts.com/assets/subscriptions/naTPo0xldxskaKS5YlofHg/videos/411-performance-testing.mp4: No such file or directory
+cat: http://media.railscasts.com/assets/subscriptions/naTPo0xldxskaKS5YlofHg/videos/412-fast-rails-commands.mp4: No such file or directory
+cat: http://media.railscasts.com/assets/subscriptions/naTPo0xldxskaKS5YlofHg/videos/053-handling-exceptions-revised.mp4: No such file or directory
+cat: http://media.railscasts.com/assets/subscriptions/naTPo0xldxskaKS5YlofHg/videos/413-fast-tests.mp4: No such file or directory
+cat: http://media.railscasts.com/assets/subscriptions/naTPo0xldxskaKS5YlofHg/videos/414-batch-api-requests.mp4: No such file or directory
+cat: http://media.railscasts.com/assets/subscriptions/naTPo0xldxskaKS5YlofHg/videos/022-eager-loading-revised.mp4: No such file or directory
+cat: http://media.railscasts.com/assets/episodes/videos/412-fast-rails-commands.mp4: No such file or directory
+cat: http://media.railscasts.com/assets/episodes/videos/415-upgrading-to-rails-4.mp4: No such file or directory
+cat: http://media.railscasts.com/assets/episodes/videos/417-foundation.mp4: No such file or directory
+fetch_vedio_from_railscasts.rb:98:in `join': Interrupt
+	from fetch_vedio_from_railscasts.rb:98:in `block (2 levels) in <main>'
+	from fetch_vedio_from_railscasts.rb:98:in `each'
+	from fetch_vedio_from_railscasts.rb:98:in `block in <main>'
+	from fetch_vedio_from_railscasts.rb:89:in `each'
+	from fetch_vedio_from_railscasts.rb:89:in `<main>'
+fetch_vedio_from_railscasts.rb:99:in `join': Interrupt
+	from fetch_vedio_from_railscasts.rb:99:in `block (2 levels) in <main>'
+	from fetch_vedio_from_railscasts.rb:99:in `each'
+	from fetch_vedio_from_railscasts.rb:99:in `block in <main>'
+	from fetch_vedio_from_railscasts.rb:90:in `each'
+	from fetch_vedio_from_railscasts.rb:90:in `<main>'
+files count of 1 is 30
+files count of 2 is 30
+files count of 3 is 30
+files count of 4 is 30
+files count of 5 is 30
+files count of 6 is 30
+files count of 7 is 30
+files count of 8 is 30
+files count of 9 is 30
+files count of 10 is 30
+files count of 11 is 30
+files count of 12 is 30
+files count of 13 is 30
+files count of 14 is 30
+files count of 15 is 30
+files count of 16 is 30
+files count of 17 is 30
+files count of 18 is 30
+files count of 19 is 30
+files count of 20 is 30
+files count of 21 is 30
+files count of 22 is 30
+files count of 23 is 30
+files count of 24 is 30
+files count of 25 is 30
+files count of 26 is 30
+files count of 27 is 30
+files count of 28 is 30
+files count of 29 is 30
+files count of 30 is 30
+files count of 31 is 30
+files count of 32 is 30
+files count of 33 is 30
+files count of 34 is 30
+files count of 35 is 30
+files count of 36 is 30
+files count of 37 is 30
+files count of 38 is 30
+files count of 39 is 30
+files count of 40 is 30
+files count of 41 is 30
+files count of 42 is 30
+files count of 43 is 30
+files count of 44 is 30
+files count of 45 is 30
+files count of 46 is 30
+files count of 47 is 30
+fetch_vedio_from_railscasts.rb:30:in `analyze_url': undefined method `[]' for nil:NilClass (NoMethodError)
+	from fetch_vedio_from_railscasts.rb:93:in `block in <main>'
+	from fetch_vedio_from_railscasts.rb:90:in `each'
+	from fetch_vedio_from_railscasts.rb:90:in `<main>'
+files count of 47 is 30
+files count of 48 is 15
+files count of 47 is 30
+files count of 48 is 15
+fetch_vedio_from_railscasts.rb:102:in `join': Interrupt
+	from fetch_vedio_from_railscasts.rb:102:in `block (2 levels) in <main>'
+	from fetch_vedio_from_railscasts.rb:102:in `each'
+	from fetch_vedio_from_railscasts.rb:102:in `block in <main>'
+	from fetch_vedio_from_railscasts.rb:93:in `each'
+	from fetch_vedio_from_railscasts.rb:93:in `<main>'
+fetch_vedio_from_railscasts.rb:99:in `join': Interrupt
+	from fetch_vedio_from_railscasts.rb:99:in `block (2 levels) in <main>'
+	from fetch_vedio_from_railscasts.rb:99:in `each'
+	from fetch_vedio_from_railscasts.rb:99:in `block in <main>'
+	from fetch_vedio_from_railscasts.rb:90:in `each'
+	from fetch_vedio_from_railscasts.rb:90:in `<main>'
+fetch_vedio_from_railscasts.rb:102:in `join': Interrupt
+	from fetch_vedio_from_railscasts.rb:102:in `block (2 levels) in <main>'
+	from fetch_vedio_from_railscasts.rb:102:in `each'
+	from fetch_vedio_from_railscasts.rb:102:in `block in <main>'
+	from fetch_vedio_from_railscasts.rb:93:in `each'
+	from fetch_vedio_from_railscasts.rb:93:in `<main>'
+fetch_vedio_from_railscasts.rb:102:in `join': Interrupt
+	from fetch_vedio_from_railscasts.rb:102:in `block (2 levels) in <main>'
+	from fetch_vedio_from_railscasts.rb:102:in `each'
+	from fetch_vedio_from_railscasts.rb:102:in `block in <main>'
+	from fetch_vedio_from_railscasts.rb:93:in `each'
+	from fetch_vedio_from_railscasts.rb:93:in `<main>'
+files count of 47 is 30
+files count of 48 is 15
