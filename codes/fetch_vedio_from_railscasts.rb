@@ -75,12 +75,13 @@ def fetch_vedio_and_codes(url, page_number)
 
   code_url = "http://media.railscasts.com/assets/episodes/sources/#{resource_name}.zip"
   mp4_url = "http://media.railscasts.com/assets/subscriptions/naTPo0xldxskaKS5YlofHg/videos/#{resource_name}.mp4"
+  page_url = "http://railscasts.com/episodes/#{resource_name}"
 
-  system("echo #{code_url} >> #{target_dir}/#{resource_name}")
-  system("echo #{mp4_url} >> #{target_dir}/#{resource_name}")
+  #system("echo #{code_url} >> #{target_dir}/#{resource_name}")
+  #system("echo #{mp4_url} >> #{target_dir}/#{resource_name}")
 
-
-  system("wget --tries=10 #{code_url} -O #{target_dir}/#{resource_name}.zip -o logs/#{resource_name}")
+  #system("wget --tries=10 #{code_url} -O #{target_dir}/#{resource_name}.zip -o logs/#{resource_name}")
+  system("wget --tries=10 #{page_url} -O #{target_dir}/#{resource_name}.html -o logs/#{resource_name}")
 
   #system("wget --tries=10 #{mp4_url} -O #{target_dir}/#{resource_name}.mp4 -o logs/#{resource_name}")
   #if File.new("#{target_dir}/#{resource_name}.mp4").stat.size == 0
@@ -90,7 +91,7 @@ def fetch_vedio_and_codes(url, page_number)
   #end
 end
 
-(47...49).each do |i|
+(1...49).each do |i|
   fetch_url = FetchUrl.new
   fetch_url.fetch(i)
   urls = fetch_url.analyze_url()
@@ -108,12 +109,13 @@ def check_file_count(page_number)
   count = 0
   Dir.glob("#{base_dir}/*").each do |dir|
     Dir.glob("#{dir}/*") do |file|
+			puts file if File.new(file).stat.size == 0
       count += 1
     end
   end
   puts "files count of #{page_number} is #{count}"
 end
 
-(47...49).each do |i|
+(1...49).each do |i|
   check_file_count(i)
 end
