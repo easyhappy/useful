@@ -1,0 +1,4 @@
+#!/bin/sh
+result=`ps aux | grep $1 | awk '{print $0}'`
+
+echo $result

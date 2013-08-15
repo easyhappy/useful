@@ -1,0 +1,2 @@
+andy     21126  0.0  0.2  84956 18840 pts/8    Sl+  13:23   0:00 ruby webrick.rb
+andy     21544  0.0  0.0  13584   904 pts/7    S+   13:34   0:00 grep webrick
