@@ -24,9 +24,9 @@ class Book
 end
 
 class FetchHandler
-  def initialize(urls)
-    @urls = urls
-    @csv_file = CSV.open("/home/andy/Documents/tianjicom/book.csv", 'wb:UTF-8', {:col_sep => "|||"})
+  def initialize(url)
+    @url = url
+    @csv_file = CSV.open("/home/andy/backup/book_3.csv", 'wb:UTF-8', {:col_sep => "|||"})
   end
 
   def dump_to_file(book)
@@ -76,8 +76,11 @@ class FetchHandler
     category = new_body.at_css("#content h1").text.to_s.split(":")[-1].strip
     book_urls.each do |url|
       request = generate_request(url) do |response|
-        book = analyze_book_detail(category, response)
-        dump_to_file(book)
+        begin
+          book = analyze_book_detail(category, response)
+          dump_to_file(book)
+        rescue
+        end
       end
       Typhoeus::Hydra.hydra.queue request
       Typhoeus::Hydra.hydra.run
@@ -98,11 +101,40 @@ class FetchHandler
     request
   end
 
+  def analyze_tag_list(response)
+    @urls = []
+    flag = true
+    body = Nokogiri::HTML(response.body)
+    tag_items = body.css(".tagCol td a")
+    tag_items.each do |item|
+      if item.text.strip == '互联网'
+        flag = false
+      end
+
+      if flag
+        next
+      end
+      @urls << "http://book.douban.com/tag/%s" % item.text.strip if item and item.text
+    end
+  end
+
+  def generate_urls_list
+    request = generate_request(@url) do |response|
+      analyze_tag_list(response)
+    end
+    Typhoeus::Hydra.hydra.queue request
+    Typhoeus::Hydra.hydra.run
+  end
+
   def run
+    generate_urls_list
     hydra = Typhoeus::Hydra.new(max_concurrency: 1)
     @urls.each do  |url|
-      request = generate_request(url) do |response|
-        analyze_book_list(response)
+      request = generate_request(URI.escape(url)) do |response|
+        begin
+          analyze_book_list(response)
+        rescue
+        end
       end
       hydra.queue request
     end
