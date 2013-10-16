@@ -1,0 +1,13 @@
+class A
+  def initialize(&block)
+    instance_eval(&block) if block_given?
+  end
+  def write
+    puts 'aa'
+  end
+end
+
+A.new do |a|
+  puts a
+  a.write
+end
