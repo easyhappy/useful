@@ -140,12 +140,20 @@ class FetchHandler
     end
     hydra.run
   end
+
+  def test_run
+    url = 'http://www.ranwen.net/info_30012.html'
+    request = Typhoeus::Request.new(url)
+    Typhoeus::Hydra.hydra.queue request
+    Typhoeus::Hydra.hydra.run
+    binding.pry
+  end
 end
 
 def main
   url = 'http://book.douban.com/tag/?view=type'
   fetch_handler = FetchHandler.new(url)
-  fetch_handler.run
+  fetch_handler.test_run
 end
 
 main
