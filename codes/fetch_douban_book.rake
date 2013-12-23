@@ -26,7 +26,7 @@ end
 class FetchHandler
   def initialize(url)
     @url = url
-    @csv_file = CSV.open("/home/andy/backup/book_3.csv", 'wb:UTF-8', {:col_sep => "|||"})
+    @csv_file = CSV.open("/home/andy/backup/book_check.csv", 'wb:UTF-8', {:col_sep => "|||"})
   end
 
   def dump_to_file(book)
@@ -51,6 +51,7 @@ class FetchHandler
     book.author = get_text(new_body, "#info span a")
     book.mpic = new_body.at_css("#mainpic a img")[:src]
     book.lpic = new_body.at_css("#mainpic a")[:href]
+    binding.pry
     book.weight = get_text(new_body, ".font_normal span a span")
     book
   end
@@ -88,6 +89,22 @@ class FetchHandler
 
     next_page = new_body.at_css(".next a")[:href]
     analyze_next_page(next_page)
+  end
+
+  def check_url(url)
+    book_urls = [url]
+    book_urls.each do |url|
+      request = generate_request(url) do |response|
+        begin
+          category = '创业'
+          book = analyze_book_detail(category, response)
+          dump_to_file(book)
+        rescue
+        end
+      end
+      Typhoeus::Hydra.hydra.queue request
+      Typhoeus::Hydra.hydra.run
+    end
   end
 
   def generate_request(url, &block)
@@ -146,6 +163,8 @@ def main
   url = 'http://book.douban.com/tag/?view=type'
   fetch_handler = FetchHandler.new(url)
   fetch_handler.run
+  #url = 'http://book.douban.com/subject/3374734/'
+  #fetch_handler.check_url(url)
 end
 
 main

@@ -10,6 +10,7 @@ ActiveRecord::Base.establish_connection(
 class Book < ActiveRecord::Base
 end
 
+count = 0
 File.new("/home/andy/backup/book.csv").each do |line|
   splits = line.split("|||")
   h = {}
@@ -19,5 +20,10 @@ File.new("/home/andy/backup/book.csv").each do |line|
   h[:lpic_url] = splits[5]
   h[:mpic_url] = splits[6]
   Book.create(h)
+
+  count += 1
+  if count > 10
+    break
+  end
 end
 
