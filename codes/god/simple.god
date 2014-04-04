@@ -1,5 +1,5 @@
 God.watch do |w|
   w.name = "simple"
-  w.start = "ruby /home/andy/Documents/useful/codes/god/simple.rb"
+  w.start = "rake scraper:content"
   w.keepalive
 end

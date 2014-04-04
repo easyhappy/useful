@@ -9,7 +9,7 @@ echo '------------------------'
 number=1
 for i in $result
 do
- echo $number $i 
+ echo $number $i
  number=`expr $number + 1`
 done
 
