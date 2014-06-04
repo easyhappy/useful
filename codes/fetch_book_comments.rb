@@ -10,19 +10,19 @@ class Request < Typhoeus::Request
   def original_on_complete=(proc)
     @original_on_complete = proc
   end
-    
+
   def original_on_complete
     @original_on_complete
   end
-    
+
   def get_on_complete
     @on_complete
   end
-    
+
   def retries=(retries)
     @retries = retries
   end
-  
+
   def retries
     @retries ||= 0
   end
@@ -32,7 +32,7 @@ class FetchHandler
   def initialize()
     @logger = Logger.new(STDOUT)
     @success_file = File.open("/home/andy/backup/success_file", 'a')
-    @output_base_url = '/home/andy/backup/douban_book_comments'
+    @output_base_url = '/home/andy/backup/douban/douban_book_comments'
   end
 
   def dump_to_file(url)
@@ -157,6 +157,7 @@ class FetchHandler
     @urls = url_file.map do |line|
       line.strip
     end
+    @urls.uniq!
   end
 
   def generate_success_urls
@@ -165,7 +166,7 @@ class FetchHandler
       line.strip
     end
     url_file.close
-  end  
+  end
 
   def run
     generate_urls_list
